@@ -1,0 +1,1 @@
+C:\Users\ayusha\source\repos\TryApp\TryApp\TryApp.UWP\TryApp.UWP.csproj;x86

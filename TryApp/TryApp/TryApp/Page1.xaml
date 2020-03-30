@@ -7,8 +7,8 @@
              x:Class="TryApp.Page1">
     <ContentPage.Content>
         <AbsoluteLayout>
-            <Label Text="I'm centered on iPhone 4 but no other device"
-                AbsoluteLayout.LayoutBounds="115,150,100,100" LineBreakMode="WordWrap"  />
+            <Label Text="I'm centered on every device"
+                AbsoluteLayout.LayoutBounds=".5,.5,.5,.1" LineBreakMode="WordWrap"  AbsoluteLayout.LayoutFlags="All" />
             <Label Text="I'm bottom center on every device."
                 AbsoluteLayout.LayoutBounds=".5,1,.5,.1" AbsoluteLayout.LayoutFlags="All"
                 LineBreakMode="WordWrap"  />

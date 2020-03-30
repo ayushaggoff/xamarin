@@ -30,13 +30,13 @@
     <AppXManifest Include="C:\Users\ayusha\Documents\New folder\Xamarin\TryApp\TryApp\TryApp.UWP\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-03-30T04:50:44.640</Modified>
+      <Modified>2020-03-30T05:05:49.942</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\ayusha\Documents\New folder\Xamarin\TryApp\TryApp\TryApp.UWP\bin\x86\Debug\TryApp.UWP.exe">
       <PackagePath>entrypoint\TryApp.UWP.exe</PackagePath>
-      <Modified>2020-03-30T04:50:38.827</Modified>
+      <Modified>2020-03-30T05:05:48.043</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ayusha\.nuget\packages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.1.9\runtimes\win10-x86\nativeassets\uap10.0.15138\clrcompression.dll">
       <PackagePath>clrcompression.dll</PackagePath>
@@ -720,7 +720,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ayusha\Documents\New folder\Xamarin\TryApp\TryApp\TryApp\bin\Debug\netstandard2.0\TryApp.dll">
       <PackagePath>TryApp.dll</PackagePath>
-      <Modified>2020-03-30T04:55:31.819</Modified>
+      <Modified>2020-03-30T05:54:42.213</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Microsoft\Xamarin\NuGet\win2d.uwp\1.20.0\lib\uap10.0\Microsoft.Graphics.Canvas.winmd">
       <PackagePath>Microsoft.Graphics.Canvas.winmd</PackagePath>
@@ -879,15 +879,15 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ayusha\Documents\New folder\Xamarin\TryApp\TryApp\TryApp.UWP\bin\x86\Debug\Microsoft.UI.Xaml\DensityStyles\Compact.xbf">
       <PackagePath>Microsoft.UI.Xaml\DensityStyles\Compact.xbf</PackagePath>
-      <Modified>2020-03-30T04:50:38.622</Modified>
+      <Modified>2020-03-30T05:05:47.687</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ayusha\Documents\New folder\Xamarin\TryApp\TryApp\TryApp.UWP\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2020-03-30T04:50:38.622</Modified>
+      <Modified>2020-03-30T05:05:47.687</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ayusha\Documents\New folder\Xamarin\TryApp\TryApp\TryApp.UWP\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2020-03-30T04:50:38.622</Modified>
+      <Modified>2020-03-30T05:05:47.688</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.UniversalCRT.Debug\10.0.18362.0\\redist\Debug\x86\ucrtbased.dll">
       <PackagePath>ucrtbased.dll</PackagePath>
@@ -907,7 +907,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ayusha\Documents\New folder\Xamarin\TryApp\TryApp\TryApp.UWP\bin\x86\Debug\Core\TryApp.UWP.exe">
       <PackagePath>TryApp.UWP.exe</PackagePath>
-      <Modified>2020-03-30T04:50:44.622</Modified>
+      <Modified>2020-03-30T05:05:49.909</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

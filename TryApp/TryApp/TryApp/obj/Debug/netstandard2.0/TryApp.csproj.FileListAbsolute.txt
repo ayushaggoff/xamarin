@@ -26,3 +26,4 @@ C:\Users\ayusha\Documents\New folder\Xamarin\TryApp\TryApp\TryApp\obj\Debug\nets
 C:\Users\ayusha\Documents\New folder\Xamarin\TryApp\TryApp\TryApp\obj\Debug\netstandard2.0\ref\TryApp.dll
 C:\Users\ayusha\Documents\New folder\Xamarin\TryApp\TryApp\TryApp\obj\Debug\netstandard2.0\TryApp.pdb
 C:\Users\ayusha\Documents\New folder\Xamarin\TryApp\TryApp\TryApp\obj\Debug\netstandard2.0\TryApp.csprojAssemblyReference.cache
+C:\Users\ayusha\Documents\New folder\Xamarin\TryApp\TryApp\TryApp\obj\Debug\netstandard2.0\Page1.xaml.g.cs

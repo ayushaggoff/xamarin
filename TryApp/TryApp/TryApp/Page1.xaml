@@ -5,19 +5,19 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
              x:Class="TryApp.Page1">
-    <ContentPage.Content>
-        <AbsoluteLayout>
-            <Label Text="I'm centered on every device"
-                AbsoluteLayout.LayoutBounds=".5,.5,.5,.1" LineBreakMode="WordWrap"  AbsoluteLayout.LayoutFlags="All" />
-            <Label Text="I'm bottom center on every device."
-                AbsoluteLayout.LayoutBounds=".5,1,.5,.1" AbsoluteLayout.LayoutFlags="All"
-                LineBreakMode="WordWrap"  />
-            <BoxView Color="Olive"  AbsoluteLayout.LayoutBounds="1,.5, 25, 100"
-                AbsoluteLayout.LayoutFlags="PositionProportional" />
-            <BoxView Color="Red" AbsoluteLayout.LayoutBounds="0,.5,25,100"
-                AbsoluteLayout.LayoutFlags="PositionProportional" />
-            <BoxView Color="Blue" AbsoluteLayout.LayoutBounds=".5,0,100,25"
-                AbsoluteLayout.LayoutFlags="PositionProportional" />
-        </AbsoluteLayout>
-    </ContentPage.Content>
+   
+        <FlexLayout Direction="Column"
+                AlignItems="Center"
+                JustifyContent="SpaceEvenly">
+
+            <Label Text="FlexLayout in Action"
+               FontSize="Large" />
+
+        <Image Source="https://img.icons8.com/nolan/64/admin-settings-male.png" />
+
+            <Button Text="Do-Nothing Button" />
+
+            <Label Text="Another Label" />
+        </FlexLayout>
+   
 </ContentPage>

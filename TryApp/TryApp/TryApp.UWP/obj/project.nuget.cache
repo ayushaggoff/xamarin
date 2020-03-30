@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "jJXC/xK2WJezJ+0mCWte8rESZWCYv0oSFNZQtrbbHxhKqxIneq712Cn5aCQtA2GyUA5AgMBFW3IrG+ZoERpo2A==",
+  "dgSpecHash": "dwLXrGhUBtItTLLtavRGzdyUhSk1Gmyz80e0lY7//b+5bPJ7kdGnLnuJ8sM3SiuZqORWtq2XvP7KZi2b4Wx1yA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ayusha\\source\\repos\\TryApp\\TryApp\\TryApp.UWP\\TryApp.UWP.csproj",
+  "projectFilePath": "C:\\Users\\ayusha\\Documents\\New folder\\Xamarin\\TryApp\\TryApp\\TryApp.UWP\\TryApp.UWP.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ayusha\\.nuget\\packages\\microsoft.net.native.compiler\\2.1.8\\microsoft.net.native.compiler.2.1.8.nupkg.sha512",
     "C:\\Users\\ayusha\\.nuget\\packages\\microsoft.net.uwpcoreruntimesdk\\2.1.2\\microsoft.net.uwpcoreruntimesdk.2.1.2.nupkg.sha512",

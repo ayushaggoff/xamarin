@@ -12,3 +12,17 @@ C:\Users\ayusha\source\repos\TryApp\TryApp\TryApp\obj\Debug\netstandard2.0\TryAp
 C:\Users\ayusha\source\repos\TryApp\TryApp\TryApp\obj\Debug\netstandard2.0\ref\TryApp.dll
 C:\Users\ayusha\source\repos\TryApp\TryApp\TryApp\obj\Debug\netstandard2.0\TryApp.pdb
 C:\Users\ayusha\source\repos\TryApp\TryApp\TryApp\obj\Debug\netstandard2.0\TryApp.csproj.CoreCompileInputs.cache
+C:\Users\ayusha\Documents\New folder\Xamarin\TryApp\TryApp\TryApp\bin\Debug\netstandard2.0\TryApp.deps.json
+C:\Users\ayusha\Documents\New folder\Xamarin\TryApp\TryApp\TryApp\bin\Debug\netstandard2.0\TryApp.dll
+C:\Users\ayusha\Documents\New folder\Xamarin\TryApp\TryApp\TryApp\bin\Debug\netstandard2.0\ref\TryApp.dll
+C:\Users\ayusha\Documents\New folder\Xamarin\TryApp\TryApp\TryApp\bin\Debug\netstandard2.0\TryApp.pdb
+C:\Users\ayusha\Documents\New folder\Xamarin\TryApp\TryApp\TryApp\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\ayusha\Documents\New folder\Xamarin\TryApp\TryApp\TryApp\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\ayusha\Documents\New folder\Xamarin\TryApp\TryApp\TryApp\obj\Debug\netstandard2.0\TryApp.csproj.CoreCompileInputs.cache
+C:\Users\ayusha\Documents\New folder\Xamarin\TryApp\TryApp\TryApp\obj\Debug\netstandard2.0\TryApp.AssemblyInfoInputs.cache
+C:\Users\ayusha\Documents\New folder\Xamarin\TryApp\TryApp\TryApp\obj\Debug\netstandard2.0\TryApp.AssemblyInfo.cs
+C:\Users\ayusha\Documents\New folder\Xamarin\TryApp\TryApp\TryApp\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\ayusha\Documents\New folder\Xamarin\TryApp\TryApp\TryApp\obj\Debug\netstandard2.0\TryApp.dll
+C:\Users\ayusha\Documents\New folder\Xamarin\TryApp\TryApp\TryApp\obj\Debug\netstandard2.0\ref\TryApp.dll
+C:\Users\ayusha\Documents\New folder\Xamarin\TryApp\TryApp\TryApp\obj\Debug\netstandard2.0\TryApp.pdb
+C:\Users\ayusha\Documents\New folder\Xamarin\TryApp\TryApp\TryApp\obj\Debug\netstandard2.0\TryApp.csprojAssemblyReference.cache

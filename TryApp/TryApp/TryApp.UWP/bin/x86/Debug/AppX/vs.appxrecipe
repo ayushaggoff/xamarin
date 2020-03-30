@@ -10,7 +10,7 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>ec0cc741-fd3e-485c-81be-68815c480690</PackageIdentityName>
     <PackageIdentityPublisher>CN=032dbccc-8617-4b7a-95f1-576c6606d5db</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\ayusha\source\repos\TryApp\TryApp\TryApp.UWP\obj\x86\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\ayusha\Documents\New folder\Xamarin\TryApp\TryApp\TryApp.UWP\obj\x86\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType>
     </RemoteDeploymentType>
     <PackageRegistrationPath>
@@ -18,7 +18,7 @@
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>C:\Users\ayusha\source\repos\TryApp\TryApp\TryApp.UWP\bin\x86\Debug\AppX</LayoutDir>
+    <LayoutDir>C:\Users\ayusha\Documents\New folder\Xamarin\TryApp\TryApp\TryApp.UWP\bin\x86\Debug\AppX</LayoutDir>
     <RegisteredManifestChecksum>0ABFE05BDEF300141BCA2C942D21C467E9DACFC15D198005F04F71E8D91397E5</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>e88d78f6-d94c-40d9-8319-7ef67f17fc3b_1.0.0.0_x86__e5sgse03q1hcp</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>e88d78f6-d94c-40d9-8319-7ef67f17fc3b_e5sgse03q1hcp!App</RegisteredUserModeAppID>
@@ -27,16 +27,16 @@
     <RegisteredVersion>1.0.0.0</RegisteredVersion>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\ayusha\source\repos\TryApp\TryApp\TryApp.UWP\bin\x86\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\ayusha\Documents\New folder\Xamarin\TryApp\TryApp\TryApp.UWP\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-03-26T13:45:55.523</Modified>
+      <Modified>2020-03-30T04:50:44.640</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\ayusha\source\repos\TryApp\TryApp\TryApp.UWP\bin\x86\Debug\TryApp.UWP.exe">
+    <AppxPackagedFile Include="C:\Users\ayusha\Documents\New folder\Xamarin\TryApp\TryApp\TryApp.UWP\bin\x86\Debug\TryApp.UWP.exe">
       <PackagePath>entrypoint\TryApp.UWP.exe</PackagePath>
-      <Modified>2020-03-26T13:41:16.898</Modified>
+      <Modified>2020-03-30T04:50:38.827</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ayusha\.nuget\packages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.1.9\runtimes\win10-x86\nativeassets\uap10.0.15138\clrcompression.dll">
       <PackagePath>clrcompression.dll</PackagePath>
@@ -718,9 +718,9 @@
       <PackagePath>Xamarin.Forms.Xaml.dll</PackagePath>
       <Modified>2019-10-17T01:46:44.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ayusha\source\repos\TryApp\TryApp\TryApp\bin\Debug\netstandard2.0\TryApp.dll">
+    <AppxPackagedFile Include="C:\Users\ayusha\Documents\New folder\Xamarin\TryApp\TryApp\TryApp\bin\Debug\netstandard2.0\TryApp.dll">
       <PackagePath>TryApp.dll</PackagePath>
-      <Modified>2020-03-26T13:45:43.209</Modified>
+      <Modified>2020-03-30T04:55:31.819</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Microsoft\Xamarin\NuGet\win2d.uwp\1.20.0\lib\uap10.0\Microsoft.Graphics.Canvas.winmd">
       <PackagePath>Microsoft.Graphics.Canvas.winmd</PackagePath>
@@ -734,160 +734,160 @@
       <PackagePath>Xamarin.Forms.Platform.UAP\Xamarin.Forms.Platform.UAP.xr.xml</PackagePath>
       <Modified>2019-10-17T01:46:38.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ayusha\source\repos\TryApp\TryApp\TryApp.UWP\Assets\LargeTile.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\ayusha\Documents\New folder\Xamarin\TryApp\TryApp\TryApp.UWP\Assets\LargeTile.scale-100.png">
       <PackagePath>Assets\LargeTile.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2020-03-26T07:15:58.242</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ayusha\source\repos\TryApp\TryApp\TryApp.UWP\Assets\LargeTile.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\ayusha\Documents\New folder\Xamarin\TryApp\TryApp\TryApp.UWP\Assets\LargeTile.scale-200.png">
       <PackagePath>Assets\LargeTile.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2020-03-26T07:15:58.245</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ayusha\source\repos\TryApp\TryApp\TryApp.UWP\Assets\LargeTile.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\ayusha\Documents\New folder\Xamarin\TryApp\TryApp\TryApp.UWP\Assets\LargeTile.scale-400.png">
       <PackagePath>Assets\LargeTile.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2020-03-26T07:15:58.248</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ayusha\source\repos\TryApp\TryApp\TryApp.UWP\Assets\SmallTile.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\ayusha\Documents\New folder\Xamarin\TryApp\TryApp\TryApp.UWP\Assets\SmallTile.scale-100.png">
       <PackagePath>Assets\SmallTile.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2020-03-26T07:15:58.251</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ayusha\source\repos\TryApp\TryApp\TryApp.UWP\Assets\SmallTile.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\ayusha\Documents\New folder\Xamarin\TryApp\TryApp\TryApp.UWP\Assets\SmallTile.scale-200.png">
       <PackagePath>Assets\SmallTile.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2020-03-26T07:15:58.253</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ayusha\source\repos\TryApp\TryApp\TryApp.UWP\Assets\SmallTile.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\ayusha\Documents\New folder\Xamarin\TryApp\TryApp\TryApp.UWP\Assets\SmallTile.scale-400.png">
       <PackagePath>Assets\SmallTile.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2020-03-26T07:15:58.256</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ayusha\source\repos\TryApp\TryApp\TryApp.UWP\Assets\SplashScreen.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\ayusha\Documents\New folder\Xamarin\TryApp\TryApp\TryApp.UWP\Assets\SplashScreen.scale-100.png">
       <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2020-03-26T07:15:58.436</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ayusha\source\repos\TryApp\TryApp\TryApp.UWP\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\ayusha\Documents\New folder\Xamarin\TryApp\TryApp\TryApp.UWP\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2020-03-26T07:15:58.439</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ayusha\source\repos\TryApp\TryApp\TryApp.UWP\Assets\SplashScreen.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\ayusha\Documents\New folder\Xamarin\TryApp\TryApp\TryApp.UWP\Assets\SplashScreen.scale-400.png">
       <PackagePath>Assets\SplashScreen.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2020-03-26T07:15:58.443</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ayusha\source\repos\TryApp\TryApp\TryApp.UWP\Assets\Square150x150Logo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\ayusha\Documents\New folder\Xamarin\TryApp\TryApp\TryApp.UWP\Assets\Square150x150Logo.scale-100.png">
       <PackagePath>Assets\Square150x150Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2020-03-26T07:15:58.450</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ayusha\source\repos\TryApp\TryApp\TryApp.UWP\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\ayusha\Documents\New folder\Xamarin\TryApp\TryApp\TryApp.UWP\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2020-03-26T07:15:58.452</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ayusha\source\repos\TryApp\TryApp\TryApp.UWP\Assets\Square150x150Logo.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\ayusha\Documents\New folder\Xamarin\TryApp\TryApp\TryApp.UWP\Assets\Square150x150Logo.scale-400.png">
       <PackagePath>Assets\Square150x150Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2020-03-26T07:15:58.455</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ayusha\source\repos\TryApp\TryApp\TryApp.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-16.png">
+    <AppxPackagedFile Include="C:\Users\ayusha\Documents\New folder\Xamarin\TryApp\TryApp\TryApp.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-16.png">
       <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-16.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2020-03-26T07:15:58.457</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ayusha\source\repos\TryApp\TryApp\TryApp.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-256.png">
+    <AppxPackagedFile Include="C:\Users\ayusha\Documents\New folder\Xamarin\TryApp\TryApp\TryApp.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-256.png">
       <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-256.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2020-03-26T07:15:58.460</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ayusha\source\repos\TryApp\TryApp\TryApp.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-48.png">
+    <AppxPackagedFile Include="C:\Users\ayusha\Documents\New folder\Xamarin\TryApp\TryApp\TryApp.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-48.png">
       <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-48.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2020-03-26T07:15:58.463</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ayusha\source\repos\TryApp\TryApp\TryApp.UWP\Assets\Square44x44Logo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\ayusha\Documents\New folder\Xamarin\TryApp\TryApp\TryApp.UWP\Assets\Square44x44Logo.scale-100.png">
       <PackagePath>Assets\Square44x44Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2020-03-26T07:15:58.466</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ayusha\source\repos\TryApp\TryApp\TryApp.UWP\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\ayusha\Documents\New folder\Xamarin\TryApp\TryApp\TryApp.UWP\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2020-03-26T07:15:58.650</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ayusha\source\repos\TryApp\TryApp\TryApp.UWP\Assets\Square44x44Logo.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\ayusha\Documents\New folder\Xamarin\TryApp\TryApp\TryApp.UWP\Assets\Square44x44Logo.scale-400.png">
       <PackagePath>Assets\Square44x44Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2020-03-26T07:15:58.653</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ayusha\source\repos\TryApp\TryApp\TryApp.UWP\Assets\Square44x44Logo.targetsize-16.png">
+    <AppxPackagedFile Include="C:\Users\ayusha\Documents\New folder\Xamarin\TryApp\TryApp\TryApp.UWP\Assets\Square44x44Logo.targetsize-16.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-16.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2020-03-26T07:15:58.656</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ayusha\source\repos\TryApp\TryApp\TryApp.UWP\Assets\Square44x44Logo.targetsize-256.png">
+    <AppxPackagedFile Include="C:\Users\ayusha\Documents\New folder\Xamarin\TryApp\TryApp\TryApp.UWP\Assets\Square44x44Logo.targetsize-256.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-256.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2020-03-26T07:15:58.659</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ayusha\source\repos\TryApp\TryApp\TryApp.UWP\Assets\Square44x44Logo.targetsize-48.png">
+    <AppxPackagedFile Include="C:\Users\ayusha\Documents\New folder\Xamarin\TryApp\TryApp\TryApp.UWP\Assets\Square44x44Logo.targetsize-48.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-48.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2020-03-26T07:15:58.665</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ayusha\source\repos\TryApp\TryApp\TryApp.UWP\Assets\StoreLogo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\ayusha\Documents\New folder\Xamarin\TryApp\TryApp\TryApp.UWP\Assets\StoreLogo.scale-100.png">
       <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2020-03-26T07:15:58.671</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ayusha\source\repos\TryApp\TryApp\TryApp.UWP\Assets\StoreLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\ayusha\Documents\New folder\Xamarin\TryApp\TryApp\TryApp.UWP\Assets\StoreLogo.scale-200.png">
       <PackagePath>Assets\StoreLogo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2020-03-26T07:15:58.676</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ayusha\source\repos\TryApp\TryApp\TryApp.UWP\Assets\StoreLogo.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\ayusha\Documents\New folder\Xamarin\TryApp\TryApp\TryApp.UWP\Assets\StoreLogo.scale-400.png">
       <PackagePath>Assets\StoreLogo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2020-03-26T07:15:58.679</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ayusha\source\repos\TryApp\TryApp\TryApp.UWP\Assets\Wide310x150Logo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\ayusha\Documents\New folder\Xamarin\TryApp\TryApp\TryApp.UWP\Assets\Wide310x150Logo.scale-100.png">
       <PackagePath>Assets\Wide310x150Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2020-03-26T07:15:58.682</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ayusha\source\repos\TryApp\TryApp\TryApp.UWP\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\ayusha\Documents\New folder\Xamarin\TryApp\TryApp\TryApp.UWP\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2020-03-26T07:15:58.873</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ayusha\source\repos\TryApp\TryApp\TryApp.UWP\Assets\Wide310x150Logo.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\ayusha\Documents\New folder\Xamarin\TryApp\TryApp\TryApp.UWP\Assets\Wide310x150Logo.scale-400.png">
       <PackagePath>Assets\Wide310x150Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2020-03-26T07:15:58.876</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ayusha\source\repos\TryApp\TryApp\TryApp.UWP\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="C:\Users\ayusha\Documents\New folder\Xamarin\TryApp\TryApp\TryApp.UWP\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
       <Modified>2020-03-26T07:15:58.880</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ayusha\source\repos\TryApp\TryApp\TryApp.UWP\bin\x86\Debug\TryApp.UWP.xr.xml">
+    <AppxPackagedFile Include="C:\Users\ayusha\Documents\New folder\Xamarin\TryApp\TryApp\TryApp.UWP\bin\x86\Debug\TryApp.UWP.xr.xml">
       <PackagePath>TryApp.UWP.xr.xml</PackagePath>
       <Modified>2020-03-26T07:16:31.702</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ayusha\source\repos\TryApp\TryApp\TryApp.UWP\bin\x86\Debug\Microsoft.UI.Xaml\DensityStyles\Compact.xbf">
+    <AppxPackagedFile Include="C:\Users\ayusha\Documents\New folder\Xamarin\TryApp\TryApp\TryApp.UWP\bin\x86\Debug\Microsoft.UI.Xaml\DensityStyles\Compact.xbf">
       <PackagePath>Microsoft.UI.Xaml\DensityStyles\Compact.xbf</PackagePath>
-      <Modified>2020-03-26T13:45:53.563</Modified>
+      <Modified>2020-03-30T04:50:38.622</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ayusha\source\repos\TryApp\TryApp\TryApp.UWP\bin\x86\Debug\App.xbf">
+    <AppxPackagedFile Include="C:\Users\ayusha\Documents\New folder\Xamarin\TryApp\TryApp\TryApp.UWP\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2020-03-26T13:45:53.563</Modified>
+      <Modified>2020-03-30T04:50:38.622</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ayusha\source\repos\TryApp\TryApp\TryApp.UWP\bin\x86\Debug\MainPage.xbf">
+    <AppxPackagedFile Include="C:\Users\ayusha\Documents\New folder\Xamarin\TryApp\TryApp\TryApp.UWP\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2020-03-26T13:45:53.563</Modified>
+      <Modified>2020-03-30T04:50:38.622</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.UniversalCRT.Debug\10.0.18362.0\\redist\Debug\x86\ucrtbased.dll">
       <PackagePath>ucrtbased.dll</PackagePath>
@@ -901,13 +901,13 @@
       <PackagePath>WinMetadata\Microsoft.UI.Xaml.winmd</PackagePath>
       <Modified>2019-06-07T06:29:06.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ayusha\source\repos\TryApp\TryApp\TryApp.UWP\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\ayusha\Documents\New folder\Xamarin\TryApp\TryApp\TryApp.UWP\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2020-03-26T13:41:19.848</Modified>
+      <Modified>2020-03-30T04:50:41.247</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ayusha\source\repos\TryApp\TryApp\TryApp.UWP\bin\x86\Debug\Core\TryApp.UWP.exe">
+    <AppxPackagedFile Include="C:\Users\ayusha\Documents\New folder\Xamarin\TryApp\TryApp\TryApp.UWP\bin\x86\Debug\Core\TryApp.UWP.exe">
       <PackagePath>TryApp.UWP.exe</PackagePath>
-      <Modified>2020-03-26T13:45:55.513</Modified>
+      <Modified>2020-03-30T04:50:44.622</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

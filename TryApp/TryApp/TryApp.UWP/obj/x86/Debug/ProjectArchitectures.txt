@@ -1,1 +1,1 @@
-C:\Users\ayusha\source\repos\TryApp\TryApp\TryApp.UWP\TryApp.UWP.csproj;x86
+C:\Users\ayusha\Documents\New folder\Xamarin\TryApp\TryApp\TryApp.UWP\TryApp.UWP.csproj;x86

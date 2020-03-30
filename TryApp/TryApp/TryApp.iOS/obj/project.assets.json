@@ -1022,11 +1022,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ayusha\\source\\repos\\TryApp\\TryApp\\TryApp.iOS\\TryApp.iOS.csproj",
+      "projectUniqueName": "C:\\Users\\ayusha\\Documents\\New folder\\Xamarin\\TryApp\\TryApp\\TryApp.iOS\\TryApp.iOS.csproj",
       "projectName": "TryApp.iOS",
-      "projectPath": "C:\\Users\\ayusha\\source\\repos\\TryApp\\TryApp\\TryApp.iOS\\TryApp.iOS.csproj",
+      "projectPath": "C:\\Users\\ayusha\\Documents\\New folder\\Xamarin\\TryApp\\TryApp\\TryApp.iOS\\TryApp.iOS.csproj",
       "packagesPath": "C:\\Users\\ayusha\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ayusha\\source\\repos\\TryApp\\TryApp\\TryApp.iOS\\obj\\",
+      "outputPath": "C:\\Users\\ayusha\\Documents\\New folder\\Xamarin\\TryApp\\TryApp\\TryApp.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -1047,8 +1047,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "C:\\Users\\ayusha\\source\\repos\\TryApp\\TryApp\\TryApp\\TryApp.csproj": {
-              "projectPath": "C:\\Users\\ayusha\\source\\repos\\TryApp\\TryApp\\TryApp\\TryApp.csproj"
+            "C:\\Users\\ayusha\\Documents\\New folder\\Xamarin\\TryApp\\TryApp\\TryApp\\TryApp.csproj": {
+              "projectPath": "C:\\Users\\ayusha\\Documents\\New folder\\Xamarin\\TryApp\\TryApp\\TryApp\\TryApp.csproj"
             }
           }
         }

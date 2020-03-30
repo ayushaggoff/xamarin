@@ -1938,11 +1938,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ayusha\\source\\repos\\TryApp\\TryApp\\TryApp.Android\\TryApp.Android.csproj",
+      "projectUniqueName": "C:\\Users\\ayusha\\Documents\\New folder\\Xamarin\\TryApp\\TryApp\\TryApp.Android\\TryApp.Android.csproj",
       "projectName": "TryApp.Android",
-      "projectPath": "C:\\Users\\ayusha\\source\\repos\\TryApp\\TryApp\\TryApp.Android\\TryApp.Android.csproj",
+      "projectPath": "C:\\Users\\ayusha\\Documents\\New folder\\Xamarin\\TryApp\\TryApp\\TryApp.Android\\TryApp.Android.csproj",
       "packagesPath": "C:\\Users\\ayusha\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ayusha\\source\\repos\\TryApp\\TryApp\\TryApp.Android\\obj\\",
+      "outputPath": "C:\\Users\\ayusha\\Documents\\New folder\\Xamarin\\TryApp\\TryApp\\TryApp.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -1963,8 +1963,8 @@
       "frameworks": {
         "monoandroid90": {
           "projectReferences": {
-            "C:\\Users\\ayusha\\source\\repos\\TryApp\\TryApp\\TryApp\\TryApp.csproj": {
-              "projectPath": "C:\\Users\\ayusha\\source\\repos\\TryApp\\TryApp\\TryApp\\TryApp.csproj"
+            "C:\\Users\\ayusha\\Documents\\New folder\\Xamarin\\TryApp\\TryApp\\TryApp\\TryApp.csproj": {
+              "projectPath": "C:\\Users\\ayusha\\Documents\\New folder\\Xamarin\\TryApp\\TryApp\\TryApp\\TryApp.csproj"
             }
           }
         }

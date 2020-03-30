@@ -573,11 +573,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ayusha\\source\\repos\\TryApp\\TryApp\\TryApp\\TryApp.csproj",
+      "projectUniqueName": "C:\\Users\\ayusha\\Documents\\New folder\\Xamarin\\TryApp\\TryApp\\TryApp\\TryApp.csproj",
       "projectName": "TryApp",
-      "projectPath": "C:\\Users\\ayusha\\source\\repos\\TryApp\\TryApp\\TryApp\\TryApp.csproj",
+      "projectPath": "C:\\Users\\ayusha\\Documents\\New folder\\Xamarin\\TryApp\\TryApp\\TryApp\\TryApp.csproj",
       "packagesPath": "C:\\Users\\ayusha\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ayusha\\source\\repos\\TryApp\\TryApp\\TryApp\\obj\\",
+      "outputPath": "C:\\Users\\ayusha\\Documents\\New folder\\Xamarin\\TryApp\\TryApp\\TryApp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"

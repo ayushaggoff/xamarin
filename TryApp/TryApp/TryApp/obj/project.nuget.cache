@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "+cZXPX9iQnppoj5u9gxGmIj0LNioJz+onciyrXKgfp7ASr2nY2pMm6d6vA1qQn8YaCpSHkVRbJTL9c7MhhUrog==",
+  "dgSpecHash": "McX03pHMqce7RsuHT72n6QiUcTB3QNlGHV+AVU/jhA59SK7t+2wiCGkIrCPv4KRAYMq+1w0RY2Fa+MyJDQq+vA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ayusha\\source\\repos\\TryApp\\TryApp\\TryApp\\TryApp.csproj",
+  "projectFilePath": "C:\\Users\\ayusha\\Documents\\New folder\\Xamarin\\TryApp\\TryApp\\TryApp\\TryApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ayusha\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\ayusha\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",

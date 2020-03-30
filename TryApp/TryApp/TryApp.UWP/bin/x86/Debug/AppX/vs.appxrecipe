@@ -720,7 +720,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ayusha\Documents\New folder\Xamarin\TryApp\TryApp\TryApp\bin\Debug\netstandard2.0\TryApp.dll">
       <PackagePath>TryApp.dll</PackagePath>
-      <Modified>2020-03-30T06:06:35.616</Modified>
+      <Modified>2020-03-30T06:40:46.706</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Microsoft\Xamarin\NuGet\win2d.uwp\1.20.0\lib\uap10.0\Microsoft.Graphics.Canvas.winmd">
       <PackagePath>Microsoft.Graphics.Canvas.winmd</PackagePath>

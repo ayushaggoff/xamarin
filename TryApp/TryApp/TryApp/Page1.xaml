@@ -10,15 +10,17 @@
             <Grid.RowDefinitions>
                 <RowDefinition Height="*" />
                 <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
             </Grid.RowDefinitions>
             <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
                 <ColumnDefinition Width="*" />
                 <ColumnDefinition Width="*" />
             </Grid.ColumnDefinitions>
             <Label Text="Top Left" Grid.Row="0" Grid.Column="0" Grid.RowSpan="2" BackgroundColor="Yellow"/>
             <Label Text="Top Right" Grid.Row="0" Grid.Column="1" BackgroundColor="Green" />
-            <!--<Label Text="Bottom Left" Grid.Row="1" Grid.Column="0" BackgroundColor="Red"/>
-            <Label Text="Bottom Right" Grid.Row="1" Grid.Column="1" />--> 
+            <!--<Label Text="Bottom Left" Grid.Row="1" Grid.Column="0" BackgroundColor="Red"/>-->
+            <Label Text="Bottom Right" Grid.Row="2" Grid.Column="2" Grid.ColumnSpan="10" BackgroundColor="Aqua" />
         </Grid>
     </ContentPage.Content>
 </ContentPage>

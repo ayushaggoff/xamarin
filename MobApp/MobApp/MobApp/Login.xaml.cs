@@ -13,7 +13,7 @@ namespace MobApp
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class Login : ContentPage
     {
-        const string UserName ="ayush@gmail.com";
+        const string Email ="ayush@gmail.com";
         const string Password ="123";
         public Login()
         {
@@ -21,19 +21,23 @@ namespace MobApp
         }
         void OnButtonClicked(object sender, EventArgs args)
         {
-            var inputUsername = username.Text;
+            var inputEmail = email.Text;
             var inputPassword = password.Text;
-            if (inputUsername != UserName||inputPassword!=Password)
+            if ((""+email.Text).Length == 0 || (""+password.Text).Length == 0)
             {
-                DisplayAlert("Error","Provide the correct input ","ok");
+                DisplayAlert("Error", "Please fill all the fields ", "ok");
             }
-            else if (inputUsername == UserName && inputPassword == Password)
+            else if (inputEmail != Email || inputPassword != Password)
+            {
+                DisplayAlert("Error", "Provide the correct input ", "ok");
+            }
+            else if (inputEmail == Email && inputPassword == Password)
             {
                 DisplayAlert("Login", "Success", "ok");
             }
         }
 
-        private void Username_TextChanged(object sender, TextChangedEventArgs e)
+        private void Email_TextChanged(object sender, TextChangedEventArgs e)
         {
             var oldText =""+e.OldTextValue;
             var newText = e.NewTextValue;
@@ -51,14 +55,14 @@ namespace MobApp
             }
         }
 
-        private void Username_Completed(object sender, EventArgs e)
+        private void Email_Completed(object sender, EventArgs e)
         {
-            var inputUsername = ""+username.Text;
+            var inputEmail = ""+email.Text;
             Regex regex = new Regex(@"^([\w-\.]+)@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.)|(([\w-]+\.)+))([a-zA-Z]{2,4}|[0-9]{1,3})(\]?)$");
-            bool isValid = regex.IsMatch((inputUsername.ToString()).Trim());
+            bool isValid = regex.IsMatch((inputEmail.ToString()).Trim());
             if (!isValid)
             {
-                DisplayAlert("Error", "Invalid Username", "ok");
+                DisplayAlert("Error", "Please enter the valid email", "ok");
             }
             else 
             {
@@ -71,7 +75,7 @@ namespace MobApp
         
             if (inputPassword.Length==0)
             {
-                DisplayAlert("Error", "Invalid Password", "ok");
+                DisplayAlert("Error", "Please provide the password", "ok");
             }
             else
             {

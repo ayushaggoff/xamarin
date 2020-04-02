@@ -1,0 +1,15 @@
+C:\Users\ayusha\Documents\New folder\Xamarin\MobApp\MobApp\MobApp\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\ayusha\Documents\New folder\Xamarin\MobApp\MobApp\MobApp\obj\Debug\netstandard2.0\Login.xaml.g.cs
+C:\Users\ayusha\Documents\New folder\Xamarin\MobApp\MobApp\MobApp\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\ayusha\Documents\New folder\Xamarin\MobApp\MobApp\MobApp\obj\Debug\netstandard2.0\Try.xaml.g.cs
+C:\Users\ayusha\Documents\New folder\Xamarin\MobApp\MobApp\MobApp\obj\Debug\netstandard2.0\MobApp.csproj.CoreCompileInputs.cache
+C:\Users\ayusha\Documents\New folder\Xamarin\MobApp\MobApp\MobApp\obj\Debug\netstandard2.0\MobApp.AssemblyInfoInputs.cache
+C:\Users\ayusha\Documents\New folder\Xamarin\MobApp\MobApp\MobApp\obj\Debug\netstandard2.0\MobApp.AssemblyInfo.cs
+C:\Users\ayusha\Documents\New folder\Xamarin\MobApp\MobApp\MobApp\bin\Debug\netstandard2.0\MobApp.deps.json
+C:\Users\ayusha\Documents\New folder\Xamarin\MobApp\MobApp\MobApp\bin\Debug\netstandard2.0\MobApp.dll
+C:\Users\ayusha\Documents\New folder\Xamarin\MobApp\MobApp\MobApp\bin\Debug\netstandard2.0\ref\MobApp.dll
+C:\Users\ayusha\Documents\New folder\Xamarin\MobApp\MobApp\MobApp\bin\Debug\netstandard2.0\MobApp.pdb
+C:\Users\ayusha\Documents\New folder\Xamarin\MobApp\MobApp\MobApp\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\ayusha\Documents\New folder\Xamarin\MobApp\MobApp\MobApp\obj\Debug\netstandard2.0\MobApp.dll
+C:\Users\ayusha\Documents\New folder\Xamarin\MobApp\MobApp\MobApp\obj\Debug\netstandard2.0\ref\MobApp.dll
+C:\Users\ayusha\Documents\New folder\Xamarin\MobApp\MobApp\MobApp\obj\Debug\netstandard2.0\MobApp.pdb

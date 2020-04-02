@@ -17,7 +17,10 @@ namespace MobApp
             const string Email = "ayush@gmail.com";
             const string Password = "123";
 
-            AbsoluteLayout layout = new AbsoluteLayout();
+            AbsoluteLayout layout = new AbsoluteLayout
+            {
+                BackgroundColor = Color.FromHex("#B3F2DD")
+            };
             Button login = new Button
             {
                 Text = "Log In",
@@ -42,11 +45,13 @@ namespace MobApp
             };
             Image usernameImg = new Image
             {
-                Source = "tie.png"
+                Source = "tie.png",
+                BackgroundColor = Color.White
             };
             Image passwordImg = new Image
             {
-                Source = "lock1.png"
+                Source = "lock1.png",
+                BackgroundColor = Color.White
             };
             login.Clicked += (OnButtonClicked);
             email.TextChanged += (Email_TextChanged);
@@ -54,13 +59,13 @@ namespace MobApp
             password.Completed += (Password_Completed);
             AbsoluteLayout.SetLayoutBounds(userImg, new Rectangle(.5, .15, .8, .3));
             AbsoluteLayout.SetLayoutFlags(userImg, AbsoluteLayoutFlags.All);
-            AbsoluteLayout.SetLayoutBounds(usernameImg, new Rectangle(.06, .5, .05, .09));
+            AbsoluteLayout.SetLayoutBounds(usernameImg, new Rectangle(.1, .5, .06, .09));
             AbsoluteLayout.SetLayoutFlags(usernameImg, AbsoluteLayoutFlags.All);
-            AbsoluteLayout.SetLayoutBounds(passwordImg, new Rectangle(.06, .62, .05, .09));
+            AbsoluteLayout.SetLayoutBounds(passwordImg, new Rectangle(.1, .62, .06, .09));
             AbsoluteLayout.SetLayoutFlags(passwordImg, AbsoluteLayoutFlags.All);
-            AbsoluteLayout.SetLayoutBounds(email, new Rectangle(.5, .5, .8, .09));
+            AbsoluteLayout.SetLayoutBounds(email, new Rectangle(.59, .5, .74, .09));
             AbsoluteLayout.SetLayoutFlags(email, AbsoluteLayoutFlags.All);
-            AbsoluteLayout.SetLayoutBounds(password, new Rectangle(.5, .62, .8, .09));
+            AbsoluteLayout.SetLayoutBounds(password, new Rectangle(.59, .62, .74, .09));
             AbsoluteLayout.SetLayoutFlags(password, AbsoluteLayoutFlags.All);
             AbsoluteLayout.SetLayoutBounds(login, new Rectangle(.5, .74, .8, .1));
             AbsoluteLayout.SetLayoutFlags(login, AbsoluteLayoutFlags.All);

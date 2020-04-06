@@ -20,11 +20,11 @@ namespace MobApplication.View
         public Login()
         {
             InitializeComponent();
-            model.EmailCompleted += Email_Completed;
+            model.Show += Model_Show;
             BindingContext = model; 
         }
 
-        private void Email_Completed(object sender, EventArgs e)
+        private void Model_Show(object sender, EventArgs e)
         {
             var ob = (string)sender;
             App.Current.MainPage.DisplayAlert("Error",ob, "ok");

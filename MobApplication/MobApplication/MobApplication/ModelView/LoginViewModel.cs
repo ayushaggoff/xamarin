@@ -14,7 +14,7 @@ namespace MobApplication.ModelView
         private string _password;
 
         public event PropertyChangedEventHandler PropertyChanged;
-        public event EventHandler EmailCompleted;
+        public event EventHandler Show;
         public string Email
         {
             get
@@ -46,7 +46,6 @@ namespace MobApplication.ModelView
         public LoginViewModel()
         {
             OnLogin = new Command(OnButtonClicked);
-            EmailCompleted?.Invoke("Please fill all the fields", null);
         }
 
         public void OnButtonClicked()
@@ -56,20 +55,19 @@ namespace MobApplication.ModelView
 
             if (string.IsNullOrEmpty(Email) || string.IsNullOrEmpty(Password))
             {
-               // EmailCompleted?.Invoke("Please fill all the fields", null);
-                // App.Current.MainPage.DisplayAlert("Error", "Please fill all the fields", "OK");  
+                Show?.Invoke("Please fill all the fields", null);
             }
             else if (!isValid)
             {
-                App.Current.MainPage.DisplayAlert("Error", "please enter the valid email", "ok");
+                Show?.Invoke("please enter the valid email", null);
             }
             else if (ConstEmail == Email && ConstPassword == Password)
             {
-                App.Current.MainPage.DisplayAlert("Login", "Successfully logged in", "ok");
+                Show?.Invoke("Successfully logged in", null);
             }
             else
             {
-                App.Current.MainPage.DisplayAlert("Error", "Try again", "ok");
+                Show?.Invoke("Try again",null);
             }
 
         }

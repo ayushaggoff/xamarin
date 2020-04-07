@@ -23,13 +23,15 @@ namespace MobApplication.View
             model.Show += Model_Show;
             BindingContext = model; 
         }
-
         private void Model_Show(object sender, EventArgs e)
         {
             var ob = (string)sender;
-            App.Current.MainPage.DisplayAlert("Error",ob, "ok");
+            App.Current.MainPage.DisplayAlert("Error", ob, "ok");
         }
- 
+        private void Email_Completed(object sender, EventArgs e)
+        { 
+           model.EmailCheck();
+        }
     }
 }
    

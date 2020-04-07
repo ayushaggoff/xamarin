@@ -12,8 +12,10 @@ namespace MobApplication.ModelView
         const string ConstPassword = "123";
         private string _email;
         private string _password;
+        private bool _isFocus;
 
         public event PropertyChangedEventHandler PropertyChanged;
+        public event EventHandler EmailCompleted;
         public event EventHandler Show;
         public string Email
         {
@@ -23,7 +25,7 @@ namespace MobApplication.ModelView
             }
             set
             {
-               _email=value;
+                _email = value;
             }
         }
         public string Password
@@ -34,10 +36,21 @@ namespace MobApplication.ModelView
             }
             set
             {
-                 _password = value;
+                _password = value;
             }
         }
-        public ICommand OnLogin 
+        public bool IsFocus
+        {
+            get
+            {
+                return _isFocus;
+            }
+            set
+            {
+                _isFocus = value;
+            }
+        }
+        public ICommand OnLogin
         {
             get;
             set;
@@ -46,6 +59,16 @@ namespace MobApplication.ModelView
         public LoginViewModel()
         {
             OnLogin = new Command(OnButtonClicked);
+        }
+
+        public void EmailCheck()
+        {
+            Regex regex = new Regex(@"^([\w-\.]+)@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.)|(([\w-]+\.)+))([a-zA-Z]{2,4}|[0-9]{1,3})(\]?)$");
+            bool isValid = regex.IsMatch(("" + Email).Trim());
+            if (!isValid)
+            {
+                Show?.Invoke("please enter the valid email", null);
+            }
         }
 
         public void OnButtonClicked()
@@ -67,9 +90,8 @@ namespace MobApplication.ModelView
             }
             else
             {
-                Show?.Invoke("Try again",null);
+                Show?.Invoke("Try again", null);
             }
-
         }
     }
 }

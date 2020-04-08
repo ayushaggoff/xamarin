@@ -17,6 +17,7 @@ namespace MobApplication.View
         LoginViewModel model = new LoginViewModel();
         //const string Email = "ayush@gmail.com";
         //const string Password = "123";
+        string check;
         public Login()
         {
             InitializeComponent();
@@ -30,7 +31,12 @@ namespace MobApplication.View
         }
         private void Email_Completed(object sender, EventArgs e)
         { 
-           model.EmailCheck();
+           model.EmailCheck(password);  
+        }
+
+        private void Password_Completed(object sender, EventArgs e)
+        {
+            model.PasswordCheck(login);
         }
     }
 }

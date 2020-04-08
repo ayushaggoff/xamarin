@@ -39,17 +39,6 @@ namespace MobApplication.ModelView
                 _password = value;
             }
         }
-        public bool IsFocus
-        {
-            get
-            {
-                return _isFocus;
-            }
-            set
-            {
-                _isFocus = value;
-            }
-        }
         public ICommand OnLogin
         {
             get;
@@ -60,8 +49,7 @@ namespace MobApplication.ModelView
         {
             OnLogin = new Command(OnButtonClicked);
         }
-
-        public void EmailCheck()
+        public void EmailCheck(Entry sender)
         {
             Regex regex = new Regex(@"^([\w-\.]+)@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.)|(([\w-]+\.)+))([a-zA-Z]{2,4}|[0-9]{1,3})(\]?)$");
             bool isValid = regex.IsMatch(("" + Email).Trim());
@@ -69,8 +57,22 @@ namespace MobApplication.ModelView
             {
                 Show?.Invoke("please enter the valid email", null);
             }
+            else 
+            {
+                sender.Focus();
+            }
         }
-
+        public void PasswordCheck(object sender)
+        {
+            if (string.IsNullOrEmpty(Password))
+            {
+                Show?.Invoke("Please enter the Password", null);
+            }
+            else
+            {
+                ((Button)sender).Focus();
+            }
+        }
         public void OnButtonClicked()
         {
             Regex regex = new Regex(@"^([\w-\.]+)@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.)|(([\w-]+\.)+))([a-zA-Z]{2,4}|[0-9]{1,3})(\]?)$");
@@ -82,7 +84,7 @@ namespace MobApplication.ModelView
             }
             else if (!isValid)
             {
-                Show?.Invoke("please enter the valid email", null);
+                Show?.Invoke("Please enter the valid email", null);
             }
             else if (ConstEmail == Email && ConstPassword == Password)
             {

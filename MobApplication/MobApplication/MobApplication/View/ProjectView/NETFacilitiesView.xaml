@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentView xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="MobApplication.View.ProjectView.NETFacilitiesView">
+
+    <ContentView.Content>
+        <StackLayout HorizontalOptions="Center">
+            <Label Text="NETFacilities" FontSize="Medium" HorizontalOptions="CenterAndExpand"/>
+            <Image Source="https://lh3.googleusercontent.com/Cd5jbIpYZ7sfy9_0x-crWLvFlg1YVuHT38fq5Vg6h3o1M-WH3m7tPtPPKaSULAKLkmBHBA=s98" HorizontalOptions="Center"/>
+            <Label Text="NET Facilities is a cloud based industry agnostic CMMS software which companies of all shapes and size use to manage their facilities, assets, service routines, maintenance routines etc." FontSize="Small"/>
+        </StackLayout>
+    </ContentView.Content>
+</ContentView>

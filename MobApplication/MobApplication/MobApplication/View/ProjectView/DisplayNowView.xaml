@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentView xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="MobApplication.View.ProjectView.DisplayNowView">
+    <ContentView.Content>
+        <StackLayout HorizontalOptions="Center">
+            <Label Text="Display Now" FontSize="Medium" HorizontalOptions="CenterAndExpand"/>
+            <Image Source="https://lh3.googleusercontent.com/NjRv5ZPWNzxkBlTpYOjf3LKRyofyQFYYY1tmWlSjz3IeJfcbFsjjtwgSkECcNCycNcrnnG4=s85" HorizontalOptions="Center"/>
+            <Label Text="Display Now app allows businesses to manage, control and operate their display devices for meetings, advertisements, entertainment etc remotely from a single admin app." FontSize="Small"/>
+        </StackLayout>
+    </ContentView.Content>
+</ContentView>

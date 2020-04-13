@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentView xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="MobApplication.View.ProjectView.Meeting_HubView">
+    <ContentView.Content>
+        <StackLayout HorizontalOptions="Center">
+            <Label Text="Meeting Hub" FontSize="Medium" HorizontalOptions="CenterAndExpand"/>
+            <Image Source="https://lh3.googleusercontent.com/m-kKupBgCKuBWIZs7FmrUPN8W6PEb7xfmTLOxEc5d_nsxiHsqWxUGuJdnPfHzlhvqU78Ug=s85" HorizontalOptions="Center"/>
+            <Label Text="Meeting Hub is a SaaS-based platform that automates meeting room booking processes and related billings from a single comprehensive dashboard allowing you to manage all aspects of your bookings, from refunds or cancellations to rescheduling and inventory handling." FontSize="Small"/>
+        </StackLayout>
+    </ContentView.Content>
+</ContentView>

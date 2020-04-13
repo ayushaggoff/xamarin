@@ -28,15 +28,44 @@ namespace MobApplication.View
             App.Current.MainPage = new Login();
         }
 
+
         private void ContactUs_Clicked(object sender, EventArgs e)
         {
+            //tried crash analytics
+            //var n = 0;
+            //int a = n / 0;
             contentview.Content = new View.contactus();
         }
-
+        private void Project_Clicked(object sender, EventArgs e)
+        {
+            //contentview.Content = new View.ProjectView.Meeting_HubView();
+            contentview.Content = new View.ProjectView.NETFacilitiesView();
+            TabBtnGrid.IsVisible = false;
+            ProjectBtnGrid.IsVisible = true;
+        }
         private void AboutUs_Clicked(object sender, EventArgs e)
         {
             contentview.Content = new View.AboutUs();
-
+        }
+        private void Home_Clicked(object sender, EventArgs e)
+        {
+            App.Current.MainPage = new MainPage1();
+        }
+        private void BIM_Clicked(object sender, EventArgs e)
+        {
+            contentview.Content = new View.ProjectView.BIMNetworksView();
+        }
+        private void Display_Clicked(object sender, EventArgs e)
+        {
+            contentview.Content = new View.ProjectView.DisplayNowView();
+        }
+        private void Meeting_Clicked(object sender, EventArgs e)
+        {
+            contentview.Content = new View.ProjectView.Meeting_HubView();
+        }
+        private void NET_Clicked(object sender, EventArgs e)
+        {
+            contentview.Content = new View.ProjectView.NETFacilitiesView();
         }
     }
 }

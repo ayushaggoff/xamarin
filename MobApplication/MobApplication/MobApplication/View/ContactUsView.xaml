@@ -6,9 +6,43 @@
              mc:Ignorable="d"
              x:Class="MobApplication.View.contactus">
   <ContentView.Content>
-      <StackLayout HorizontalOptions="Center">
-            <Label Text="E-29, Sector-11, Noida, 201301" VerticalOptions="Center"/>
-            <Label Text="+91-120-426-9272" VerticalOptions="Center"/>
+        <StackLayout HorizontalOptions="Center"  BackgroundColor="LightGray">
+            <Label Text="Our Office Locations" FontSize="Medium" HorizontalOptions="Center"/>
+            <Grid Padding="10">
+                <StackLayout Grid.Row="0" Grid.Column="0" BackgroundColor="White" >
+                    <Image Source="https://lh3.googleusercontent.com/4G8tldtQurutG8flw5anktBBnyC2eeA3E8NydiXfRV65LLgLl2jggOIa-rhVused6t3_qIA=s59" HorizontalOptions="Start"/>
+                    <Label Text="United States (Raleigh)" FontSize="Small"/>
+                    <Label Text="Centennial Campus, Partners 1," />
+                    <Label Text="1017 Main Campus, Dr" />
+                    <Label Text="Raleigh NC, 27606" />
+                    <Label Text="+1-716-903-4126" />
+                </StackLayout>
+                <StackLayout Grid.Row="0" Grid.Column="1" BackgroundColor="White" >
+                    <Image Source="https://lh3.googleusercontent.com/4G8tldtQurutG8flw5anktBBnyC2eeA3E8NydiXfRV65LLgLl2jggOIa-rhVused6t3_qIA=s59" HorizontalOptions="Start"/>
+                    <Label Text="United States (DFW)" FontSize="Small"/>
+                    <Label Text="106, N Denton, Tap Road," />
+                    <Label Text="Ste 210-313," />
+                    <Label Text="Coppell, Texas 75019" />
+                    <Label Text="+1-214-642-8027" />
+                </StackLayout>
+                <StackLayout Grid.Row="1" Grid.Column="0" BackgroundColor="White" >
+                    <Image Source="https://lh3.googleusercontent.com/nh2ygXhPLH9I3IG3Xddv-nB_KZvr_p8IDDmpIAuaPLirZ0WGagZnOsJx9gMAQrmMPqRW=s60" HorizontalOptions="Start"/>
+                    <Label Text="South Africa" FontSize="Small"/>
+                    <Label Text="Johannesburg, 2193," />
+                    <Label Text="South Africa" />
+                    <Label Text="+27-0-79-699-1180" />
+                </StackLayout>
+                <StackLayout Grid.Row="1" Grid.Column="1" BackgroundColor="White" >
+                    <Image Source="https://lh3.googleusercontent.com/-IGly4yyJqD7VbNQvLFoIEhiUdHSoIhF32NMOHtMPXg7pPJZ6Y0kxEPQRiUNG66BPDpp4g=s58" HorizontalOptions="Start"/>
+                    <Label Text="India" FontSize="Small"/>
+                    <Label Text="E-29, Sector-11, Noida, 201301," />
+                    <Label Text="+91-120-426-9272" />
+                    <Label Text="Sky Loft, Creaticity Mall, Shastrinagar," />
+                    <Label Text="Yerawada, Pune, Maharashtra 411006" />
+                    <Label Text="+91-986-065-0546" />
+                </StackLayout>
+                
+            </Grid>
         </StackLayout>
   </ContentView.Content>
 </ContentView>

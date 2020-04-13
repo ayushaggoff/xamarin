@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentView xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="MobApplication.View.ProjectView.BIMNetworksView">
+    <ContentView.Content>
+        <StackLayout HorizontalOptions="Center" >
+            <Label  Text="BIM Networks"  FontSize="Medium" HorizontalOptions="CenterAndExpand"/>
+            <Image Source="https://lh3.googleusercontent.com/Au1upX5r7Zv6lsgZHmPXJvD5Oq9rOG_KuNpom5d5XTqlfsalt7-LwldxeR_lEaVCZYGW60E=s85" HorizontalOptions="Center"/>
+            <Label   Text="BIM is a premier payment and customer engagement platform that powers in-store, mobile, and web commerce payments. It is a merchant branded payment platform. It also drives customer engagement and increases efficiency of payment related processes and schemes while also improving reporting and analytics." FontSize="Small"/>
+        </StackLayout>
+    </ContentView.Content>
+</ContentView>

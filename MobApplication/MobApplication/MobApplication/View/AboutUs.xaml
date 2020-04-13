@@ -7,7 +7,7 @@
              x:Class="MobApplication.View.AboutUs">
   <ContentView.Content>
         <StackLayout>
-            <Label Text="About Us"  HorizontalOptions="CenterAndExpand"/>
+            <Label Text="About Us" FontSize="Medium" HorizontalOptions="CenterAndExpand"/>
             <Label Padding="10" Text="Successive delivers targeted domain solutions and comprehensive services, from strategy and business consulting to technology and operations, using off-shore resources and global project management tools, methods and standards. Successive makes technology more intelligent by embedding it with processes, data insights, and analytics to its solutions and services.
 
 With more than a decade of domain expertise, Successive is one of the leading technology services providers for various industry segments including the government and public sector. Today Successive is a fast-growing young leader in business process management and technology services, which leverages the power of intelligent processes, in-depth analytics and innovative technology to help its clients drive efficiency across their enterprise." VerticalOptions="FillAndExpand"/>

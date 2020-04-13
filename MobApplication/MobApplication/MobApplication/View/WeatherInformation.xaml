@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="MobApplication.View.WeatherInformation"
+             Title="Weather Information">
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="DarkGray" Padding="0,10,0,0">
+            <Label Text="Weather Information" TextColor="White"/>
+            <ListView x:Name="listView" SeparatorColor="BlueViolet" SeparatorVisibility="Default">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <StackLayout  Orientation="Horizontal" VerticalOptions="Center" Padding="10" BackgroundColor="#DFDFDF">
+                                <Image Source="{Binding ImageUrl}"></Image>
+                                <StackLayout HorizontalOptions="StartAndExpand">
+                                    <Label Text="{Binding State}" FontSize="Medium"/>
+                                    <Label Text="{Binding WeatherCond}" TextColor="Gray"/>
+                                </StackLayout>
+                                <Label Text="{Binding Temprature}" FontSize="Large"  VerticalOptions="Center"></Label>
+                                <Image Source="https://img.icons8.com/material/24/000000/forward--v1.png"></Image>
+                            </StackLayout>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

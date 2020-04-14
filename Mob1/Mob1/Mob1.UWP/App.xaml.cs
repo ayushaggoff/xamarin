@@ -28,6 +28,8 @@ namespace Mob1.UWP
         /// </summary>
         public App()
         {
+           
+
             this.InitializeComponent();
             this.Suspending += OnSuspending;
         }
@@ -51,7 +53,6 @@ namespace Mob1.UWP
                 rootFrame = new Frame();
 
                 rootFrame.NavigationFailed += OnNavigationFailed;
-
                 Xamarin.Forms.Forms.Init(e);
 
                 if (e.PreviousExecutionState == ApplicationExecutionState.Terminated)

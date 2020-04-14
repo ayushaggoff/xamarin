@@ -1,0 +1,15 @@
+C:\Users\ayusha\Documents\New folder\Xamarin\Mob1\Mob1\Mob1\bin\Debug\netstandard2.0\Mob1.deps.json
+C:\Users\ayusha\Documents\New folder\Xamarin\Mob1\Mob1\Mob1\bin\Debug\netstandard2.0\Mob1.dll
+C:\Users\ayusha\Documents\New folder\Xamarin\Mob1\Mob1\Mob1\bin\Debug\netstandard2.0\ref\Mob1.dll
+C:\Users\ayusha\Documents\New folder\Xamarin\Mob1\Mob1\Mob1\bin\Debug\netstandard2.0\Mob1.pdb
+C:\Users\ayusha\Documents\New folder\Xamarin\Mob1\Mob1\Mob1\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\ayusha\Documents\New folder\Xamarin\Mob1\Mob1\Mob1\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\ayusha\Documents\New folder\Xamarin\Mob1\Mob1\Mob1\obj\Debug\netstandard2.0\Mob1.csproj.CoreCompileInputs.cache
+C:\Users\ayusha\Documents\New folder\Xamarin\Mob1\Mob1\Mob1\obj\Debug\netstandard2.0\Mob1.AssemblyInfoInputs.cache
+C:\Users\ayusha\Documents\New folder\Xamarin\Mob1\Mob1\Mob1\obj\Debug\netstandard2.0\Mob1.AssemblyInfo.cs
+C:\Users\ayusha\Documents\New folder\Xamarin\Mob1\Mob1\Mob1\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\ayusha\Documents\New folder\Xamarin\Mob1\Mob1\Mob1\obj\Debug\netstandard2.0\Mob1.dll
+C:\Users\ayusha\Documents\New folder\Xamarin\Mob1\Mob1\Mob1\obj\Debug\netstandard2.0\ref\Mob1.dll
+C:\Users\ayusha\Documents\New folder\Xamarin\Mob1\Mob1\Mob1\obj\Debug\netstandard2.0\Mob1.pdb
+C:\Users\ayusha\Documents\New folder\Xamarin\Mob1\Mob1\Mob1\obj\Debug\netstandard2.0\View\GalleryPage.xaml.g.cs
+C:\Users\ayusha\Documents\New folder\Xamarin\Mob1\Mob1\Mob1\obj\Debug\netstandard2.0\Mob1.csprojAssemblyReference.cache

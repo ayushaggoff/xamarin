@@ -8273,11 +8273,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ayusha\\source\\repos\\Mob1\\Mob1\\Mob1.UWP\\Mob1.UWP.csproj",
+      "projectUniqueName": "C:\\Users\\ayusha\\Documents\\New folder\\Xamarin\\Mob1\\Mob1\\Mob1.UWP\\Mob1.UWP.csproj",
       "projectName": "Mob1.UWP",
-      "projectPath": "C:\\Users\\ayusha\\source\\repos\\Mob1\\Mob1\\Mob1.UWP\\Mob1.UWP.csproj",
+      "projectPath": "C:\\Users\\ayusha\\Documents\\New folder\\Xamarin\\Mob1\\Mob1\\Mob1.UWP\\Mob1.UWP.csproj",
       "packagesPath": "C:\\Users\\ayusha\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ayusha\\source\\repos\\Mob1\\Mob1\\Mob1.UWP\\obj\\",
+      "outputPath": "C:\\Users\\ayusha\\Documents\\New folder\\Xamarin\\Mob1\\Mob1\\Mob1.UWP\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -8299,8 +8299,8 @@
       "frameworks": {
         "uap10.0.16299": {
           "projectReferences": {
-            "C:\\Users\\ayusha\\source\\repos\\Mob1\\Mob1\\Mob1\\Mob1.csproj": {
-              "projectPath": "C:\\Users\\ayusha\\source\\repos\\Mob1\\Mob1\\Mob1\\Mob1.csproj"
+            "C:\\Users\\ayusha\\Documents\\New folder\\Xamarin\\Mob1\\Mob1\\Mob1\\Mob1.csproj": {
+              "projectPath": "C:\\Users\\ayusha\\Documents\\New folder\\Xamarin\\Mob1\\Mob1\\Mob1\\Mob1.csproj"
             }
           }
         }

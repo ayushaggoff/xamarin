@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ayusha\\source\\repos\\Mob1\\Mob1\\Mob1\\Mob1.csproj": {}
+    "C:\\Users\\ayusha\\Documents\\New folder\\Xamarin\\Mob1\\Mob1\\Mob1\\Mob1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ayusha\\source\\repos\\Mob1\\Mob1\\Mob1\\Mob1.csproj": {
+    "C:\\Users\\ayusha\\Documents\\New folder\\Xamarin\\Mob1\\Mob1\\Mob1\\Mob1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ayusha\\source\\repos\\Mob1\\Mob1\\Mob1\\Mob1.csproj",
+        "projectUniqueName": "C:\\Users\\ayusha\\Documents\\New folder\\Xamarin\\Mob1\\Mob1\\Mob1\\Mob1.csproj",
         "projectName": "Mob1",
-        "projectPath": "C:\\Users\\ayusha\\source\\repos\\Mob1\\Mob1\\Mob1\\Mob1.csproj",
+        "projectPath": "C:\\Users\\ayusha\\Documents\\New folder\\Xamarin\\Mob1\\Mob1\\Mob1\\Mob1.csproj",
         "packagesPath": "C:\\Users\\ayusha\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ayusha\\source\\repos\\Mob1\\Mob1\\Mob1\\obj\\",
+        "outputPath": "C:\\Users\\ayusha\\Documents\\New folder\\Xamarin\\Mob1\\Mob1\\Mob1\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"

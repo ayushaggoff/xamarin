@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Mob1.View;
+using System;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -8,9 +9,10 @@ namespace Mob1
     {
         public App()
         {
+
             InitializeComponent();
 
-            MainPage = new MainPage();
+            MainPage = new GalleryPage();
         }
 
         protected override void OnStart()

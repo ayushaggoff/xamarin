@@ -1940,11 +1940,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ayusha\\source\\repos\\Mob1\\Mob1\\Mob1.Android\\Mob1.Android.csproj",
+      "projectUniqueName": "C:\\Users\\ayusha\\Documents\\New folder\\Xamarin\\Mob1\\Mob1\\Mob1.Android\\Mob1.Android.csproj",
       "projectName": "Mob1.Android",
-      "projectPath": "C:\\Users\\ayusha\\source\\repos\\Mob1\\Mob1\\Mob1.Android\\Mob1.Android.csproj",
+      "projectPath": "C:\\Users\\ayusha\\Documents\\New folder\\Xamarin\\Mob1\\Mob1\\Mob1.Android\\Mob1.Android.csproj",
       "packagesPath": "C:\\Users\\ayusha\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ayusha\\source\\repos\\Mob1\\Mob1\\Mob1.Android\\obj\\",
+      "outputPath": "C:\\Users\\ayusha\\Documents\\New folder\\Xamarin\\Mob1\\Mob1\\Mob1.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -1965,8 +1965,8 @@
       "frameworks": {
         "monoandroid90": {
           "projectReferences": {
-            "C:\\Users\\ayusha\\source\\repos\\Mob1\\Mob1\\Mob1\\Mob1.csproj": {
-              "projectPath": "C:\\Users\\ayusha\\source\\repos\\Mob1\\Mob1\\Mob1\\Mob1.csproj"
+            "C:\\Users\\ayusha\\Documents\\New folder\\Xamarin\\Mob1\\Mob1\\Mob1\\Mob1.csproj": {
+              "projectPath": "C:\\Users\\ayusha\\Documents\\New folder\\Xamarin\\Mob1\\Mob1\\Mob1\\Mob1.csproj"
             }
           }
         }

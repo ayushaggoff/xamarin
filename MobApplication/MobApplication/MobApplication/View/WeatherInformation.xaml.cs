@@ -24,5 +24,15 @@ namespace MobApplication.View
             new Weather { State="Sydney", WeatherCond="Sunny",Temprature="6\u2103" ,ImageUrl="https://img.icons8.com/offices/40/000000/sun.png"}
             };
         }
+
+        private void listView_ItemSelected(object sender, SelectedItemChangedEventArgs e)
+        {
+            DisplayAlert("","select","ok");
+        }
+
+        private void listView_ItemTapped(object sender, ItemTappedEventArgs e)
+        {
+            DisplayAlert("", "tab", "ok");
+        }
     }
 }

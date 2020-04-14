@@ -21,6 +21,7 @@ namespace MobApplication.View
         public Login()
         {
             InitializeComponent();
+
             model.Show += Model_Show;
             BindingContext = model; 
         }

@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="Mob1.View.GalleryPage">
+    <ContentPage.Content>
+        <StackLayout>
+
+            <CollectionView x:Name="collectionList" SelectionMode="Multiple" SelectionChanged="CollectionList_SelectionChanged">
+                <CollectionView.ItemsLayout>
+                    <GridItemsLayout Orientation="Vertical" Span="2" VerticalItemSpacing="0"/>
+                </CollectionView.ItemsLayout>
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+
+                        <Frame HasShadow="True">
+                            <Grid Padding="6" >
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="4*"/>
+
+                                    <RowDefinition Height="*"/>
+                                </Grid.RowDefinitions>
+                                <Image Source="{Binding ImageUrl}" Grid.Row="0" />
+                                <Label Text="{Binding Title}" Padding="10" VerticalOptions="Start" Grid.Row="1"/>
+                                <CheckBox  Grid.Row="1" HorizontalOptions="End"/>
+
+
+                            </Grid>
+                        </Frame>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

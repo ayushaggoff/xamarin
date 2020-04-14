@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ayusha\\source\\repos\\MobApplication\\MobApplication\\MobApplication\\MobApplication.csproj": {}
+    "C:\\Users\\ayusha\\Documents\\New folder\\Xamarin\\MobApplication\\MobApplication\\MobApplication\\MobApplication.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ayusha\\source\\repos\\MobApplication\\MobApplication\\MobApplication\\MobApplication.csproj": {
+    "C:\\Users\\ayusha\\Documents\\New folder\\Xamarin\\MobApplication\\MobApplication\\MobApplication\\MobApplication.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ayusha\\source\\repos\\MobApplication\\MobApplication\\MobApplication\\MobApplication.csproj",
+        "projectUniqueName": "C:\\Users\\ayusha\\Documents\\New folder\\Xamarin\\MobApplication\\MobApplication\\MobApplication\\MobApplication.csproj",
         "projectName": "MobApplication",
-        "projectPath": "C:\\Users\\ayusha\\source\\repos\\MobApplication\\MobApplication\\MobApplication\\MobApplication.csproj",
+        "projectPath": "C:\\Users\\ayusha\\Documents\\New folder\\Xamarin\\MobApplication\\MobApplication\\MobApplication\\MobApplication.csproj",
         "packagesPath": "C:\\Users\\ayusha\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ayusha\\source\\repos\\MobApplication\\MobApplication\\MobApplication\\obj\\",
+        "outputPath": "C:\\Users\\ayusha\\Documents\\New folder\\Xamarin\\MobApplication\\MobApplication\\MobApplication\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"

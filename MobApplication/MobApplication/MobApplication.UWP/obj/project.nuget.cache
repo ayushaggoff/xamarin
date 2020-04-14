@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Lq4zsez/FEGL50E1+6dTdJympPGBiLwPl8nrig9+V26sSKZBnZeDGgpV4d1csU0nxEzvQui0rZqrrXaSYJH6PQ==",
+  "dgSpecHash": "Qzhx/qLBBJF3iNpkStorOocYWaaYl6vlocRgkzCSt0azpYcUcRyb2hBu/24stnzJFZ+d0gSLSJY7DUJRG4pdHg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ayusha\\source\\repos\\MobApplication\\MobApplication\\MobApplication.UWP\\MobApplication.UWP.csproj",
+  "projectFilePath": "C:\\Users\\ayusha\\Documents\\New folder\\Xamarin\\MobApplication\\MobApplication\\MobApplication.UWP\\MobApplication.UWP.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ayusha\\.nuget\\packages\\microsoft.net.native.compiler\\2.1.8\\microsoft.net.native.compiler.2.1.8.nupkg.sha512",
     "C:\\Users\\ayusha\\.nuget\\packages\\microsoft.net.uwpcoreruntimesdk\\2.1.2\\microsoft.net.uwpcoreruntimesdk.2.1.2.nupkg.sha512",

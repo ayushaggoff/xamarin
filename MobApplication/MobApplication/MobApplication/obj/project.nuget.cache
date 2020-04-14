@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ylFiFwBMs2g9k5KqtMGXqWTJnnCbVrSmfkhMcJmXphWb7Tln7EpAT7dAxGEhkz60PRQgrLDx605Z28cmRe7WbA==",
+  "dgSpecHash": "icaYDrp3Rko5WjKd5uUiXOpl8eJ6P/A5hBbQkZFe/ozzuqVuuHk1szSJqh0IhgVuo508VthKVh8jTLnHxW96aA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ayusha\\source\\repos\\MobApplication\\MobApplication\\MobApplication\\MobApplication.csproj",
+  "projectFilePath": "C:\\Users\\ayusha\\Documents\\New folder\\Xamarin\\MobApplication\\MobApplication\\MobApplication\\MobApplication.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ayusha\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\ayusha\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "FR/Goaur2gKLD+yvyxnGs8I6AEshz1xBT8qKd0z+q4kVfGYGZtgK/QpzBdyQjHMbV0XqGJnX4cvayJrMmNuV8w==",
+  "dgSpecHash": "2zNBes2MjDzy9Pdgbml5l6RRVr9hnzjfRdL5KlwRUYCMx8LjjNZp9dQNdWN9QHDMMErwxSQv2HHFblw0MYeSBw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ayusha\\source\\repos\\MobApplication\\MobApplication\\MobApplication.iOS\\MobApplication.iOS.csproj",
+  "projectFilePath": "C:\\Users\\ayusha\\Documents\\New folder\\Xamarin\\MobApplication\\MobApplication\\MobApplication.iOS\\MobApplication.iOS.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ayusha\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
     "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.3.1\\xamarin.essentials.1.3.1.nupkg.sha512",

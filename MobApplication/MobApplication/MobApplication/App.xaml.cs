@@ -11,7 +11,7 @@ namespace MobApplication
         {
             InitializeComponent();
 
-            MainPage = new MainPage1();
+            MainPage = new WeatherInformation();
         }
 
         protected override void OnStart()

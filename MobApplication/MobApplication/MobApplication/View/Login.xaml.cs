@@ -17,7 +17,7 @@ namespace MobApplication.View
         LoginViewModel model = new LoginViewModel();
         //const string Email = "ayush@gmail.com";
         //const string Password = "123";
-        string check;
+        //string check;
         public Login()
         {
             InitializeComponent();

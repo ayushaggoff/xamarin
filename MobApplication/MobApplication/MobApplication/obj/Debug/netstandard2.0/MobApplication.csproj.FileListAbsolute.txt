@@ -15,9 +15,9 @@ C:\Users\ayusha\Documents\New folder\Xamarin\MobApplication\MobApplication\MobAp
 C:\Users\ayusha\Documents\New folder\Xamarin\MobApplication\MobApplication\MobApplication\obj\Debug\netstandard2.0\View\AboutUs.xaml.g.cs
 C:\Users\ayusha\Documents\New folder\Xamarin\MobApplication\MobApplication\MobApplication\obj\Debug\netstandard2.0\View\ContactUsView.xaml.g.cs
 C:\Users\ayusha\Documents\New folder\Xamarin\MobApplication\MobApplication\MobApplication\obj\Debug\netstandard2.0\View\Login.xaml.g.cs
-C:\Users\ayusha\Documents\New folder\Xamarin\MobApplication\MobApplication\MobApplication\obj\Debug\netstandard2.0\View\MainPage1.xaml.g.cs
 C:\Users\ayusha\Documents\New folder\Xamarin\MobApplication\MobApplication\MobApplication\obj\Debug\netstandard2.0\View\ProjectView\BIMNetworksView.xaml.g.cs
 C:\Users\ayusha\Documents\New folder\Xamarin\MobApplication\MobApplication\MobApplication\obj\Debug\netstandard2.0\View\ProjectView\DisplayNowView.xaml.g.cs
 C:\Users\ayusha\Documents\New folder\Xamarin\MobApplication\MobApplication\MobApplication\obj\Debug\netstandard2.0\View\ProjectView\Meeting HubView.xaml.g.cs
 C:\Users\ayusha\Documents\New folder\Xamarin\MobApplication\MobApplication\MobApplication\obj\Debug\netstandard2.0\View\ProjectView\NETFacilitiesView.xaml.g.cs
 C:\Users\ayusha\Documents\New folder\Xamarin\MobApplication\MobApplication\MobApplication\obj\Debug\netstandard2.0\View\WeatherInformation.xaml.g.cs
+C:\Users\ayusha\Documents\New folder\Xamarin\MobApplication\MobApplication\MobApplication\obj\Debug\netstandard2.0\View\HomePage.xaml.g.cs

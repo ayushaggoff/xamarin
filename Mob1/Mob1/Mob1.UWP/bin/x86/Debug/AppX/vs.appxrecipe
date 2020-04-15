@@ -30,13 +30,13 @@
     <AppXManifest Include="C:\Users\ayusha\Documents\New folder\Xamarin\Mob1\Mob1\Mob1.UWP\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-04-14T16:18:21.989</Modified>
+      <Modified>2020-04-15T13:55:28.040</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\ayusha\Documents\New folder\Xamarin\Mob1\Mob1\Mob1.UWP\bin\x86\Debug\Mob1.UWP.exe">
       <PackagePath>entrypoint\Mob1.UWP.exe</PackagePath>
-      <Modified>2020-04-14T16:18:20.251</Modified>
+      <Modified>2020-04-15T13:55:24.502</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ayusha\.nuget\packages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.10\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
       <PackagePath>System.Runtime.dll</PackagePath>
@@ -68,7 +68,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ayusha\Documents\New folder\Xamarin\Mob1\Mob1\Mob1\bin\Debug\netstandard2.0\Mob1.dll">
       <PackagePath>Mob1.dll</PackagePath>
-      <Modified>2020-04-14T17:08:43.942</Modified>
+      <Modified>2020-04-15T14:14:54.998</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Microsoft\Xamarin\NuGet\win2d.uwp\1.20.0\lib\uap10.0\Microsoft.Graphics.Canvas.winmd">
       <PackagePath>Microsoft.Graphics.Canvas.winmd</PackagePath>
@@ -227,11 +227,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ayusha\Documents\New folder\Xamarin\Mob1\Mob1\Mob1.UWP\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2020-04-14T16:18:20.011</Modified>
+      <Modified>2020-04-15T13:55:24.193</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ayusha\Documents\New folder\Xamarin\Mob1\Mob1\Mob1.UWP\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2020-04-14T16:18:20.012</Modified>
+      <Modified>2020-04-15T13:55:24.193</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.UniversalCRT.Debug\10.0.18362.0\\redist\Debug\x86\ucrtbased.dll">
       <PackagePath>ucrtbased.dll</PackagePath>
@@ -251,7 +251,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ayusha\Documents\New folder\Xamarin\Mob1\Mob1\Mob1.UWP\bin\x86\Debug\Core\Mob1.UWP.exe">
       <PackagePath>Mob1.UWP.exe</PackagePath>
-      <Modified>2020-04-14T16:18:21.981</Modified>
+      <Modified>2020-04-15T13:55:27.979</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

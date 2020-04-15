@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -12,10 +13,13 @@ namespace MobApplication.View
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class WeatherInformation : ContentPage
     {
+        ObservableCollection<Weather> list = new ObservableCollection<Weather>();
+
         public WeatherInformation()
         {
             InitializeComponent();
-            listView.ItemsSource = new List<Weather>
+
+             list = new ObservableCollection<Weather>
             {
             new Weather{ State="Berlin", WeatherCond="Snowing",Temprature="0\u2103" ,ImageUrl="https://img.icons8.com/offices/40/000000/snow.png"},
             new Weather { State="Bangalore", WeatherCond="Thunderstorms",Temprature="23\u2103",ImageUrl="https://img.icons8.com/offices/40/000000/storm.png" },
@@ -23,16 +27,19 @@ namespace MobApplication.View
             new Weather { State="New York", WeatherCond="Cloudy",Temprature="18\u2103" ,ImageUrl="https://img.icons8.com/offices/40/000000/clouds.png"},
             new Weather { State="Sydney", WeatherCond="Sunny",Temprature="6\u2103" ,ImageUrl="https://img.icons8.com/offices/40/000000/sun.png"}
             };
+            listView.ItemsSource = list;
+          
         }
-
+        
         private void listView_ItemSelected(object sender, SelectedItemChangedEventArgs e)
         {
-            DisplayAlert("","select","ok");
+            var state = e.SelectedItemIndex;
+            list.RemoveAt(state);
         }
 
         private void listView_ItemTapped(object sender, ItemTappedEventArgs e)
         {
-            DisplayAlert("", "tab", "ok");
+        //    DisplayAlert("", "tab", "ok");
         }
     }
 }

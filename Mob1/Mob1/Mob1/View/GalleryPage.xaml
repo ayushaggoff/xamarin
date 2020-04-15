@@ -4,29 +4,34 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
-             x:Class="Mob1.View.GalleryPage">
+             x:Class="Mob1.View.GalleryPage"
+             Title="Feed">
     <ContentPage.Content>
-        <StackLayout BackgroundColor="#F6F5F5" Padding="10">
-            <CollectionView x:Name="collectionList" SelectionMode="Multiple" SelectionChanged="CollectionList_SelectionChanged">
+        <StackLayout BackgroundColor="White" Padding="0">
+            <Label Text="Feed preferences" FontSize="Large" HorizontalOptions="Center" VerticalOptions="Start"/>
+            <StackLayout BackgroundColor="#F6F5F5" Padding="10">
+            <CollectionView x:Name="collectionList" SelectionMode="Single" SelectionChanged="CollectionList_SelectionChanged">
                 <CollectionView.ItemsLayout>
-                    <GridItemsLayout Orientation="Vertical" Span="2" VerticalItemSpacing="20" HorizontalItemSpacing="20"/>
+                    <GridItemsLayout Orientation="Vertical" Span="2" VerticalItemSpacing="10" HorizontalItemSpacing="20"/>
                 </CollectionView.ItemsLayout>
                 <CollectionView.ItemTemplate>
                     <DataTemplate>
-                        <Frame BackgroundColor="White" HasShadow="False" BorderColor="BlueViolet" Padding="0">
-                            <Grid BackgroundColor="White" Padding="0">
+                        <Frame BackgroundColor="White" HasShadow="False" BorderColor="BlueViolet" Padding="1">
+                            <Grid BackgroundColor="White" Padding="0" >
                                 <Grid.RowDefinitions>
                                     <RowDefinition Height="4*"/>
                                     <RowDefinition Height="*"/>
                                 </Grid.RowDefinitions>
-                                <Image Source="{Binding ImageUrl}" Grid.Row="0"  />
-                                <Label Text="{Binding Title}" Padding="10" FontSize="Medium" VerticalOptions="Start" Grid.Row="1"/>
+                                   
+                                <Image Source="{Binding ImageUrl}" Grid.Row="0" Aspect="Fill" HeightRequest="250" WidthRequest="125"  />
+                                    <Label Text="{Binding Title}" Padding="10" FontSize="Medium" VerticalOptions="Start" WidthRequest="125" Grid.Row="1"/>
                             </Grid>
                         </Frame>
                     </DataTemplate>
                 </CollectionView.ItemTemplate>
             </CollectionView>
-            <Button Text="Save" BackgroundColor="Red"/>
+            <Button x:Name="Btn_Save" Text="None" BackgroundColor="Red"/>
         </StackLayout>
+            </StackLayout>
     </ContentPage.Content>
 </ContentPage>

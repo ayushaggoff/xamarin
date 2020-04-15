@@ -18,7 +18,7 @@ namespace Mob1.View
         {
             InitializeComponent();
             
-            collectionList.SelectionChanged += CollectionList_SelectionChanged;
+           // collectionList.SelectionChanged += CollectionList_SelectionChanged;
             var imageList = new List<Gallery>
             { 
             new Gallery{ Title="Ayush" ,ImageUrl="https://images.pexels.com/photos/1227520/pexels-photo-1227520.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"},
@@ -39,15 +39,23 @@ namespace Mob1.View
 
         }
         private void CollectionList_SelectionChanged(object sender, SelectionChangedEventArgs e)
-        { 
+        {
+           
             var previous = e.CurrentSelection;
             var current = e.CurrentSelection;
+            if ((current.Count) > 0)
+            {
+                Btn_Save.Text = "Save";
+            }
+            else
+            {
+                Btn_Save.Text = "None";
+            }
             string msg = "Selected Image \n";
             for (int i = 0; i < previous.Count; i++)
             {
                 var image = previous[i] as Gallery;
-                msg +=$"{image.Title }";
-              
+               msg= msg +"\n"+$"{image.Title }"; 
             }
                DisplayAlert("", msg,"ok");
         }

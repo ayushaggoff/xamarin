@@ -27,8 +27,8 @@ namespace MobApplication.View
             new Weather { State="New York", WeatherCond="Cloudy",Temprature="18\u2103" ,ImageUrl="https://img.icons8.com/offices/40/000000/clouds.png"},
             new Weather { State="Sydney", WeatherCond="Sunny",Temprature="6\u2103" ,ImageUrl="https://img.icons8.com/offices/40/000000/sun.png"}
             };
-            listView.ItemsSource = list;
-          
+            //listView.ItemsSource = list;
+            BindableLayout.SetItemsSource(g1, list);
         }
         
         private void listView_ItemSelected(object sender, SelectedItemChangedEventArgs e)

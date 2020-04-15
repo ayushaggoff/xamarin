@@ -7,27 +7,33 @@
              x:Class="MobApplication.View.WeatherInformation"
              Title="Weather Information">
     <ContentPage.Content>
-        <StackLayout BackgroundColor="DarkGray" Padding="0,10,0,0">
+        <StackLayout x:Name="g1" BackgroundColor="DarkGray" Padding="0,10,0,0" Spacing="2">
             <Label Text="Weather Information" TextColor="White"/>
-            <ListView x:Name="listView" SeparatorColor="BlueViolet" SeparatorVisibility="None" ItemSelected="listView_ItemSelected" ItemTapped="listView_ItemTapped">
+            <!--<ListView x:Name="listView" SeparatorColor="BlueViolet" SeparatorVisibility="None" ItemSelected="listView_ItemSelected" ItemTapped="listView_ItemTapped">
                 <ListView.ItemTemplate>
                     <DataTemplate>
-                        <ViewCell>
-                            <Frame HasShadow="True" Padding="0,0,0,2">
-                                <StackLayout  Orientation="Horizontal" VerticalOptions="Center" Padding="10" BackgroundColor="#DFDFDF">
-                                <Image Source="{Binding ImageUrl}"></Image>
-                                <StackLayout HorizontalOptions="StartAndExpand">
-                                    <Label Text="{Binding State}" FontSize="Medium"/>
-                                    <Label Text="{Binding WeatherCond}" TextColor="Gray"/>
-                                </StackLayout>
-                                <Label Text="{Binding Temprature}" FontSize="Large"  VerticalOptions="Center"></Label>
-                                <Image Source="https://img.icons8.com/material/24/000000/forward--v1.png"></Image>
+                        <ViewCell>-->
+
+            <BindableLayout.ItemTemplate>
+                <DataTemplate>
+
+                    <Frame HasShadow="True" Padding="0">
+                        <StackLayout  Orientation="Horizontal" VerticalOptions="Center" Padding="10" BackgroundColor="#DFDFDF">
+                            <Image Source="{Binding ImageUrl}"></Image>
+                            <StackLayout HorizontalOptions="StartAndExpand" >
+                                <Label Text="{Binding State}" FontSize="Medium"/>
+                                <Label Text="{Binding WeatherCond}" TextColor="Gray"/>
                             </StackLayout>
-                                </Frame>
-                        </ViewCell>
+                            <Label Text="{Binding Temprature}" FontSize="Large"  VerticalOptions="Center"></Label>
+                            <Image Source="https://img.icons8.com/material/24/000000/forward--v1.png"></Image>
+                        </StackLayout>
+                    </Frame>
+                </DataTemplate>
+            </BindableLayout.ItemTemplate>
+            <!--</ViewCell>
                     </DataTemplate>
                 </ListView.ItemTemplate>
-            </ListView>
+            </ListView>-->
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

@@ -13,12 +13,12 @@ namespace MobApplication.View
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class WeatherInformation : ContentPage
     {
+        ViewCell lastCell;
         ObservableCollection<Weather> list = new ObservableCollection<Weather>();
-
         public WeatherInformation()
         {
             InitializeComponent();
-
+          
              list = new ObservableCollection<Weather>
             {
             new Weather{ State="Berlin", WeatherCond="Snowing",Temprature="0\u2103" ,ImageUrl="https://img.icons8.com/offices/40/000000/snow.png"},
@@ -27,19 +27,34 @@ namespace MobApplication.View
             new Weather { State="New York", WeatherCond="Cloudy",Temprature="18\u2103" ,ImageUrl="https://img.icons8.com/offices/40/000000/clouds.png"},
             new Weather { State="Sydney", WeatherCond="Sunny",Temprature="6\u2103" ,ImageUrl="https://img.icons8.com/offices/40/000000/sun.png"}
             };
-            //listView.ItemsSource = list;
-            BindableLayout.SetItemsSource(g1, list);
+            listView.ItemsSource = list;
+            // BindableLayout.SetItemsSource(g1, list);
         }
         
         private void listView_ItemSelected(object sender, SelectedItemChangedEventArgs e)
         {
+            
             var state = e.SelectedItemIndex;
-            list.RemoveAt(state);
+            //     list.RemoveAt(state);
+           
         }
 
         private void listView_ItemTapped(object sender, ItemTappedEventArgs e)
         {
         //    DisplayAlert("", "tab", "ok");
+        }
+
+        private void ViewCell_Tapped(object sender, EventArgs e)
+        {
+          
+            if (lastCell != null)
+                lastCell.View.BackgroundColor = Color.Transparent;
+            var viewCell = (ViewCell)sender;
+            if (viewCell.View != null)
+            {
+                viewCell.View.BackgroundColor = Color.Purple;
+                lastCell = viewCell;
+            }
         }
     }
 }

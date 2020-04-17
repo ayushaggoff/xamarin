@@ -12,5 +12,5 @@ C:\Users\ayusha\Documents\New folder\Xamarin\Mob1\Mob1\Mob1\obj\Debug\netstandar
 C:\Users\ayusha\Documents\New folder\Xamarin\Mob1\Mob1\Mob1\obj\Debug\netstandard2.0\ref\Mob1.dll
 C:\Users\ayusha\Documents\New folder\Xamarin\Mob1\Mob1\Mob1\obj\Debug\netstandard2.0\Mob1.pdb
 C:\Users\ayusha\Documents\New folder\Xamarin\Mob1\Mob1\Mob1\obj\Debug\netstandard2.0\View\GalleryPage.xaml.g.cs
-C:\Users\ayusha\Documents\New folder\Xamarin\Mob1\Mob1\Mob1\obj\Debug\netstandard2.0\Mob1.csprojAssemblyReference.cache
 C:\Users\ayusha\Documents\New folder\Xamarin\Mob1\Mob1\Mob1\obj\Debug\netstandard2.0\View\Try1.xaml.g.cs
+C:\Users\ayusha\Documents\New folder\Xamarin\Mob1\Mob1\Mob1\obj\Debug\netstandard2.0\Mob1.csprojAssemblyReference.cache

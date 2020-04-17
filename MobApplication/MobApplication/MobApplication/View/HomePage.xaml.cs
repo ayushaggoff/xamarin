@@ -26,8 +26,8 @@ namespace MobApplication.View
      new Industry { ImageUrl = "https://successive.tech/wp-content/uploads/2020/01/ecommerce_Thumbnails.png", Detail="Seamless omnichannel presence for your retail brand to augment customer loyalty and boost e-commerce toplines." },
      new Industry { ImageUrl = "https://successive.tech/wp-content/uploads/2020/01/Legal_Thumbnails.png", Detail="We enable an unbeatable combination of technology and legal acumen." },
      new Industry { ImageUrl = "https://successive.tech/wp-content/uploads/2020/01/agri_Thumbnails.png", Detail="We specialize in innovative tech-oriented business models that will drive massive ROI in the agriculture space." },
-     new Industry { ImageUrl = "https://successive.tech/wp-content/uploads/2020/01/Fintech_Thumbnails.png", Detail="" },
-     new Industry { ImageUrl = "https://successive.tech/wp-content/uploads/2020/01/Logistics_Thumbnails.png", Detail="" }
+     new Industry { ImageUrl = "https://successive.tech/wp-content/uploads/2020/01/Fintech_Thumbnails.png", Detail="Disruptive software-driven services need our innovative customer-centric solutions." },
+     new Industry { ImageUrl = "https://successive.tech/wp-content/uploads/2020/01/Logistics_Thumbnails.png", Detail="Transformation in transportation – infinite possibilities enabled at Successive." }
             };
         }
         private void Btn_Clicked(object sender, EventArgs e)
@@ -58,6 +58,9 @@ namespace MobApplication.View
                     break;
                 case "Contact Us":
                     contentview.Content = new View.contactus();
+                    break;
+                case "Careers":
+                    contentview.Content = new View.CareersView();
                     break;
                 case "Login":
                     contentview.Content = objlogin.Content;

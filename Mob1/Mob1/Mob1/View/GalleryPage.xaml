@@ -17,7 +17,7 @@
                 <CollectionView.ItemTemplate>
                     <DataTemplate>
                         <Frame BackgroundColor="White" HasShadow="False" BorderColor="BlueViolet" Padding="1">
-                            <Grid BackgroundColor="White" Padding="0" >
+                            <Grid  Padding="0" >
                                 <Grid.RowDefinitions>
                                     <RowDefinition Height="4*"/>
                                     <RowDefinition Height="*"/>

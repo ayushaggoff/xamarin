@@ -18,8 +18,8 @@ namespace MobApplication.View
         public WeatherInformation()
         {
             InitializeComponent();
-          
-             list = new ObservableCollection<Weather>
+
+            list = new ObservableCollection<Weather>
             {
             new Weather{ State="Berlin", WeatherCond="Snowing",Temprature="0\u2103" ,ImageUrl="https://img.icons8.com/offices/40/000000/snow.png"},
             new Weather { State="Bangalore", WeatherCond="Thunderstorms",Temprature="23\u2103",ImageUrl="https://img.icons8.com/offices/40/000000/storm.png" },
@@ -30,23 +30,23 @@ namespace MobApplication.View
             listView.ItemsSource = list;
             // BindableLayout.SetItemsSource(g1, list);
         }
-        
+
         private void listView_ItemSelected(object sender, SelectedItemChangedEventArgs e)
         {
-            
+
             var state = e.SelectedItemIndex;
             //     list.RemoveAt(state);
-           
+
         }
 
         private void listView_ItemTapped(object sender, ItemTappedEventArgs e)
         {
-        //    DisplayAlert("", "tab", "ok");
+            //    DisplayAlert("", "tab", "ok");
         }
 
         private void ViewCell_Tapped(object sender, EventArgs e)
         {
-          
+
             if (lastCell != null)
                 lastCell.View.BackgroundColor = Color.Transparent;
             var viewCell = (ViewCell)sender;

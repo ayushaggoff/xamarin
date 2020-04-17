@@ -12,40 +12,39 @@
                 <StackLayout>
                     <Button Text="Login" CommandParameter="Login" Clicked="Btn_Clicked"></Button>
                     <Button Text="Contact Us" CommandParameter="Contact Us" Clicked="Btn_Clicked"></Button>
+                    <Button Text="Careers" CommandParameter="Careers" Clicked="Btn_Clicked"></Button>
                 </StackLayout>
             </ContentPage.Content>
         </ContentPage>
     </MasterDetailPage.Master>
     <MasterDetailPage.Detail >
         <ContentPage BackgroundColor="White">
-            <StackLayout VerticalOptions="Fill">
+            <StackLayout VerticalOptions="Fill" BackgroundColor="Black">
                 <Image Source="https://successive.tech/wp-content/uploads/2020/02/logo_successivenew.png" VerticalOptions="Start" HorizontalOptions="Center" />
-                <Grid >
-                    <Grid.RowDefinitions>
-                        <RowDefinition Height="400"/>
-                        <RowDefinition Height="auto"/>
-                    </Grid.RowDefinitions>
-                    
-                    <CarouselView x:Name="CVIndustries" Grid.Row="0" PeekAreaInsets="20">
-                        <CarouselView.ItemsLayout>
-                            <LinearItemsLayout Orientation="Horizontal"/>
-                        </CarouselView.ItemsLayout>
-                        <CarouselView.ItemTemplate>
-                            
-                            <DataTemplate>
-                                <Frame CornerRadius="20" Margin="30">
-                                    <StackLayout>
-                                        <Image Source="{Binding ImageUrl}" WidthRequest="300" HeightRequest="200" Aspect="AspectFit"/>
-                                        <Label Text="{Binding Detail}" />
-                                    </StackLayout>
-                                </Frame>
-                            </DataTemplate>
-                        </CarouselView.ItemTemplate>
-                    </CarouselView>
-                    <!--<IndicatorView IndicatorView.ItemsSourceBy="CVIndustries" IndicatorColor="LightGray" SelectedIndicatorColor="Black" Grid.Row="1"/>-->
-                </Grid>
+                
                 <ContentView x:Name="contentview" >
-                    
+                    <Grid >
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="300"/>
+                            <RowDefinition Height="auto"/>
+                        </Grid.RowDefinitions>
+                        <CarouselView x:Name="CVIndustries" Grid.Row="0" PeekAreaInsets="20">
+                            <CarouselView.ItemsLayout>
+                                <LinearItemsLayout Orientation="Horizontal"/>
+                            </CarouselView.ItemsLayout>
+                            <CarouselView.ItemTemplate>
+                                <DataTemplate>
+                                    <Frame CornerRadius="20" Margin="30" BackgroundColor="White">
+                                        <StackLayout>
+                                            <Image Source="{Binding ImageUrl}" WidthRequest="300" HeightRequest="200" Aspect="AspectFit"/>
+                                            <Label Text="{Binding Detail}" HorizontalOptions="CenterAndExpand"/>
+                                        </StackLayout>
+                                    </Frame>
+                                </DataTemplate>
+                            </CarouselView.ItemTemplate>
+                        </CarouselView>
+                        <!--<IndicatorView IndicatorView.ItemsSourceBy="CVIndustries" IndicatorColor="LightGray" SelectedIndicatorColor="Black" Grid.Row="1"/>-->
+                    </Grid>
                 </ContentView>
                 <Grid x:Name="ProjectBtnGrid" VerticalOptions="EndAndExpand" IsVisible="False" Padding="0" BackgroundColor="Red">
                     <Button Text="Home" Clicked="Btn_Clicked" CommandParameter="Home"  Grid.Column="0" Padding="0" BackgroundColor="Red"></Button>

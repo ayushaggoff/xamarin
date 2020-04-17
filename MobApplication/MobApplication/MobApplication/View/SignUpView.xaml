@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentView xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="MobApplication.View.SignUpView">
+  <ContentView.Content>
+      <StackLayout>
+            <Entry Text="{Binding FirstName}" x:Name="FirstName" Placeholder="First Name" />
+            <Entry Text="{Binding MiddleName}" x:Name="MiddleName" Placeholder="Middle Name" />
+            <Entry Text="{Binding LastName}" x:Name="LastName" Placeholder="Last Name" />
+            <DatePicker x:Name="Dob" Date="06/16/2020" />
+            <Entry Text="{Binding Mobile}" x:Name="Mobile" Placeholder="Mobile" />
+            <Entry Text="{Binding Address}" x:Name="Address" Placeholder="Address" />
+            <Label x:Name="LblEducation" Text="Education" FontSize="Large"/>
+            <Button x:Name="BtnAddEducation" Text="Add"/>
+            <Label x:Name="LblExperiance" Text="Experiance" FontSize="Large"/>
+            <Button x:Name="BtnAddExperiance" Text="Add"/>
+        </StackLayout>
+  </ContentView.Content>
+</ContentView>

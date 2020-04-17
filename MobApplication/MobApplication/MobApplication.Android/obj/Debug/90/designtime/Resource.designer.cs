@@ -5801,7 +5801,7 @@ namespace MobApplication.Droid
 			public const int tooltip_frame_light = 2131165297;
 			
 			// aapt resource value: 0x7F070072
-			public const int user = 2131165298;
+			public const int user_(4) = 2131165298;
 			
 			static Drawable()
 			{

@@ -13,7 +13,7 @@ namespace Mob1.View
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class GalleryPage : ContentPage
     {
-      
+        public string CustColor { get; set; }
         public GalleryPage()
         {
             InitializeComponent();
@@ -31,7 +31,7 @@ namespace Mob1.View
             new Gallery{ Title="fefwefe" ,ImageUrl="https://images.pexels.com/photos/544268/pexels-photo-544268.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"},
             new Gallery{ Title="fefewdwd" ,ImageUrl="https://images.pexels.com/photos/1866690/pexels-photo-1866690.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"}
             };
-         
+            CustColor = "White";
             collectionList.ItemsSource = imageList;
         }
         void OnCheckBoxCheckedChanged(object sender, CheckedChangedEventArgs e)
@@ -40,9 +40,10 @@ namespace Mob1.View
         }
         private void CollectionList_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
-           
             var previous = e.CurrentSelection;
             var current = e.CurrentSelection;
+            CustColor = "Green";
+            
             if ((current.Count) > 0)
             {
                 Btn_Save.Text = "Save";

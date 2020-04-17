@@ -475,3 +475,6 @@ C:\Users\ayusha\Documents\New folder\Xamarin\MobApplication\MobApplication\MobAp
 C:\Users\ayusha\Documents\New folder\Xamarin\MobApplication\MobApplication\MobApplication.Android\obj\Debug\90\stamp\_GenerateJavaStubs.stamp
 C:\Users\ayusha\Documents\New folder\Xamarin\MobApplication\MobApplication\MobApplication.Android\obj\Debug\90\stamp\_GeneratePackageManagerJava.stamp
 C:\Users\ayusha\Documents\New folder\Xamarin\MobApplication\MobApplication\MobApplication.Android\obj\Debug\90\stamp\_ResolveLibraryProjectImports.stamp
+C:\Users\ayusha\Documents\New folder\Xamarin\MobApplication\MobApplication\MobApplication.Android\obj\Debug\90\res\drawable\tie.png
+C:\Users\ayusha\Documents\New folder\Xamarin\MobApplication\MobApplication\MobApplication.Android\obj\Debug\90\res\drawable\user.png
+C:\Users\ayusha\Documents\New folder\Xamarin\MobApplication\MobApplication\MobApplication.Android\obj\Debug\90\res\drawable\lock1.png

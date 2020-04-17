@@ -8,9 +8,9 @@
 
     <ContentView.Content>
         <StackLayout HorizontalOptions="Center">
-            <Label Text="NETFacilities" FontSize="Medium" HorizontalOptions="CenterAndExpand"/>
+            <Label  TextColor="White"  Text="NETFacilities" FontSize="Medium" HorizontalOptions="CenterAndExpand"/>
             <Image Source="https://lh3.googleusercontent.com/Cd5jbIpYZ7sfy9_0x-crWLvFlg1YVuHT38fq5Vg6h3o1M-WH3m7tPtPPKaSULAKLkmBHBA=s98" HorizontalOptions="Center"/>
-            <Label Text="NET Facilities is a cloud based industry agnostic CMMS software which companies of all shapes and size use to manage their facilities, assets, service routines, maintenance routines etc." FontSize="Small"/>
+            <Label  TextColor="White" Text="NET Facilities is a cloud based industry agnostic CMMS software which companies of all shapes and size use to manage their facilities, assets, service routines, maintenance routines etc." FontSize="Small"/>
         </StackLayout>
     </ContentView.Content>
 </ContentView>

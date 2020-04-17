@@ -16,21 +16,21 @@
                             <!--<BindableLayout.ItemTemplate>
                 <DataTemplate>-->
 
-                    <Frame HasShadow="True" Padding="0">
-                        <!--<StackLayout  Orientation="Horizontal" VerticalOptions="Center" Padding="10" BackgroundColor="#DFDFDF">-->
-                        <StackLayout x:Name="ss"  Orientation="Horizontal"  VerticalOptions="Center" Padding="10" >
-                            <Image Source="{Binding ImageUrl}"></Image>
-                            <StackLayout HorizontalOptions="StartAndExpand" >
-                                <Label Text="{Binding State}" FontSize="Medium"/>
-                                <Label Text="{Binding WeatherCond}" TextColor="Gray"/>
-                            </StackLayout>
-                            <Label Text="{Binding Temprature}" FontSize="Large"  VerticalOptions="Center"></Label>
-                            <Image Source="https://img.icons8.com/material/24/000000/forward--v1.png"></Image>
-                        </StackLayout>
-                    </Frame>
-                <!--</DataTemplate>
+                            <Frame HasShadow="True" Padding="0">
+                                <!--<StackLayout  Orientation="Horizontal" VerticalOptions="Center" Padding="10" BackgroundColor="#DFDFDF">-->
+                                <StackLayout x:Name="ss"  Orientation="Horizontal"  VerticalOptions="Center" Padding="10" >
+                                    <Image Source="{Binding ImageUrl}"></Image>
+                                    <StackLayout HorizontalOptions="StartAndExpand" >
+                                        <Label Text="{Binding State}" FontSize="Medium"/>
+                                        <Label Text="{Binding WeatherCond}" TextColor="Gray"/>
+                                    </StackLayout>
+                                    <Label Text="{Binding Temprature}" FontSize="Large"  VerticalOptions="Center"></Label>
+                                    <Image Source="https://img.icons8.com/material/24/000000/forward--v1.png"></Image>
+                                </StackLayout>
+                            </Frame>
+                            <!--</DataTemplate>
             </BindableLayout.ItemTemplate>-->
-            </ViewCell>
+                        </ViewCell>
                     </DataTemplate>
                 </ListView.ItemTemplate>
             </ListView>

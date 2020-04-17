@@ -658,15 +658,6 @@
       <PackagePath>Assets\Wide310x150Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ayusha\Documents\New folder\Xamarin\MobApplication\MobApplication\MobApplication.UWP\lock1.png">
-      <PackagePath>lock1.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ayusha\Documents\New folder\Xamarin\MobApplication\MobApplication\MobApplication.UWP\tie.png">
-      <PackagePath>tie.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ayusha\Documents\New folder\Xamarin\MobApplication\MobApplication\MobApplication.UWP\user.png">
-      <PackagePath>user.png</PackagePath>
-    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ayusha\Documents\New folder\Xamarin\MobApplication\MobApplication\MobApplication.UWP\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
     </AppxPackagedFile>

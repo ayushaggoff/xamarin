@@ -16,7 +16,7 @@
                             <!--<BindableLayout.ItemTemplate>
                 <DataTemplate>-->
                             <Frame HasShadow="True" Padding="0">
-                                <StackLayout  Orientation="Horizontal" VerticalOptions="Center" Padding="10" BackgroundColor="{Binding bgColor}">
+                                <StackLayout  Orientation="Horizontal" VerticalOptions="Center" Padding="10">
                                     <Image Source="{Binding ImageUrl}"></Image>
                                     <StackLayout HorizontalOptions="StartAndExpand" >
                                         <Label Text="{Binding State}" FontSize="Medium"/>

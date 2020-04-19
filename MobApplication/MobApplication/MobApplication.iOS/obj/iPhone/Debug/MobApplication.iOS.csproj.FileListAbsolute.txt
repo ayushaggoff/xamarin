@@ -57,3 +57,4 @@ C:\Users\ayusha\Documents\New folder\Xamarin\MobApplication\MobApplication\MobAp
 C:\Users\ayusha\Documents\New folder\Xamarin\MobApplication\MobApplication\MobApplication.iOS\obj\iPhone\Debug\MobApplication.iOS.csproj.CopyComplete
 C:\Users\ayusha\Documents\New folder\Xamarin\MobApplication\MobApplication\MobApplication.iOS\obj\iPhone\Debug\MobApplication.iOS.exe
 C:\Users\ayusha\Documents\New folder\Xamarin\MobApplication\MobApplication\MobApplication.iOS\obj\iPhone\Debug\MobApplication.iOS.pdb
+C:\Users\ayusha\Documents\New folder\Xamarin\MobApplication\MobApplication\MobApplication.iOS\bin\iPhone\Debug\ImageCircle.Forms.Plugin.dll

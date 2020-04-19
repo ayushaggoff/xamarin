@@ -131,6 +131,24 @@
     <Content Include="Assets\Wide310x150Logo.scale-200.png" />
     <Content Include="Assets\Wide310x150Logo.scale-400.png" />
     <AndroidResource Include="lock1.png" />
+    <Content Include="p.jpg" />
+    <Content Include="p1.jpg" />
+    <Content Include="p10.jpg" />
+    <Content Include="p11.jpg" />
+    <Content Include="p12.jpg" />
+    <Content Include="p13.jpg" />
+    <Content Include="p14.jpg" />
+    <Content Include="p15.jpg" />
+    <Content Include="p16.jpg" />
+    <Content Include="p17.jpg" />
+    <Content Include="p2.jpg" />
+    <Content Include="p3.jpg" />
+    <Content Include="p4.jpg" />
+    <Content Include="p5.jpg" />
+    <Content Include="p6.jpg" />
+    <Content Include="p7.jpg" />
+    <Content Include="p8.jpg" />
+    <Content Include="p9.jpg" />
     <Content Include="Properties\Default.rd.xml" />
     <AndroidResource Include="user.png" />
     <AndroidResource Include="tie.png" />
@@ -146,9 +164,12 @@
     </Page>
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Xamarin.Forms" Version="4.4.0.991265" />
-    <PackageReference Include="Microsoft.NETCore.UniversalWindowsPlatform" Version="6.1.9" />
-    <PackageReference Include="Xamarin.Essentials" Version="1.3.1" />
+    <PackageReference Include="Xam.Plugins.Forms.ImageCircle">
+      <Version>3.0.0.5</Version>
+    </PackageReference>
+    <PackageReference Include="Xamarin.Forms" Version="4.5.0.617" />
+    <PackageReference Include="Microsoft.NETCore.UniversalWindowsPlatform" Version="6.2.10" />
+    <PackageReference Include="Xamarin.Essentials" Version="1.5.2" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\MobApplication\MobApplication.csproj">

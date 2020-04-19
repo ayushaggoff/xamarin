@@ -7,18 +7,16 @@
              x:Class="MobApplication.View.WeatherInformation"
              Title="Weather Information">
     <ContentPage.Content>
-        <StackLayout x:Name="g1" Padding="0,10,0,0" Spacing="2">
+        <StackLayout x:Name="g1" BackgroundColor="White" Padding="0,10,0,0" Spacing="2">
             <Label Text="Weather Information" TextColor="White"/>
             <ListView x:Name="listView" SeparatorColor="BlueViolet" SeparatorVisibility="None" ItemSelected="listView_ItemSelected" ItemTapped="listView_ItemTapped">
                 <ListView.ItemTemplate>
                     <DataTemplate>
-                        <ViewCell  Tapped="ViewCell_Tapped">
+                        <ViewCell>
                             <!--<BindableLayout.ItemTemplate>
                 <DataTemplate>-->
-
                             <Frame HasShadow="True" Padding="0">
-                                <!--<StackLayout  Orientation="Horizontal" VerticalOptions="Center" Padding="10" BackgroundColor="#DFDFDF">-->
-                                <StackLayout x:Name="ss"  Orientation="Horizontal"  VerticalOptions="Center" Padding="10" >
+                                <StackLayout  Orientation="Horizontal" VerticalOptions="Center" Padding="10" BackgroundColor="{Binding bgColor}">
                                     <Image Source="{Binding ImageUrl}"></Image>
                                     <StackLayout HorizontalOptions="StartAndExpand" >
                                         <Label Text="{Binding State}" FontSize="Medium"/>

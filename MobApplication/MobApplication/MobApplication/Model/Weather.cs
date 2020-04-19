@@ -6,13 +6,36 @@ using System.Text;
 
 namespace MobApplication.Model
 {
-    public class Weather
+    public class Weather: INotifyPropertyChanged
     {
         public string State { get; set; }
         public string WeatherCond { get; set; }
         public string Temprature { get; set; }
         public string ImageUrl { get; set; }
-        
+         Color _color;
+
+        public event PropertyChangedEventHandler PropertyChanged;
+
+        public Color BgColor 
+        {
+            get
+            {
+                return _color;
+            }
+            set
+            {
+                _color = value;
+                OnPropertyChanged("BgColor");
+            }
+        }
+
+
+        private void OnPropertyChanged(string status)
+        {
+            if (PropertyChanged != null)
+            {
+                PropertyChanged(this, new PropertyChangedEventArgs(status));
+            }
         }
     }
 }

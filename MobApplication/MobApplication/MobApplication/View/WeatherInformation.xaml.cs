@@ -13,7 +13,7 @@ namespace MobApplication.View
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class WeatherInformation : ContentPage
     {
-
+        Weather prevCellInfo;
         ViewCell lastCell;
         ObservableCollection<Weather> list = new ObservableCollection<Weather>
             {
@@ -27,9 +27,27 @@ namespace MobApplication.View
         {
             InitializeComponent();
 
+            BindingContext = new Weather();
+            listView.ItemsSource = list;
+            prevCellInfo = list[0];//
+            // BindableLayout.SetItemsSource(g1, list);
         }
 
-   
+        private void listView_ItemSelected(object sender, SelectedItemChangedEventArgs e)
+        {
+            
+            var se = (ListView)sender;
+            prevCellInfo.BgColor = Color.Transparent;
+            int count = 0;
+            prevCellInfo.BgColor = Color.Transparent;
+            var data = e.SelectedItem as Weather;
+
+            data.BgColor = Color.Red;
+            prevCellInfo = data;
+            //var state = e.SelectedItemIndex;
+            //     list.RemoveAt(state);
+
+        }
 
         private void listView_ItemTapped(object sender, ItemTappedEventArgs e)
         {

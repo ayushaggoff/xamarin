@@ -23,39 +23,39 @@ namespace MobApplication.View
             BindingContext =new ActivityLog();
              AList = new List<ActivityLog>
             {
-                new ActivityLog{ Name="Ayush Aggarwal",Status="On Hold",Id="FED 89045",Image="p.jpg" },
-                new ActivityLog{ Name="Aashish",Status="Not Started",Id="FED 89045" ,Image="p1.jpg"}
+                new ActivityLog{ Name="Ayush Aggarwal",PrevStatus="On Hold",CurrStatus="In Progress",Id="FED 89045",Image="pp.png" },
+                new ActivityLog{ Name="Aashish",PrevStatus="Not Started",CurrStatus="In Progress",Id="FED 89045" ,Image="pp16.png"}
             };
 
             List<ActivityLog> BList = new List<ActivityLog>
             {
-                new ActivityLog{ Name="Bilu",Status="On Hold",Id="FED 89045",Image="p5.jpg" },
-                new ActivityLog{ Name="Bhupender",Status="Not Started",Id="FED 89045" ,Image="p6.jpg"}
+                new ActivityLog{ Name="Bilu",PrevStatus="On Hold",CurrStatus="In Progress",Id="FED 89045",Image="pp5.png" },
+                new ActivityLog{ Name="Bhupender",PrevStatus="Not Started",CurrStatus="In Progress",Id="FED 89045" ,Image="pp6.png"}
             };
 
 
             List<ActivityLog> DList = new List<ActivityLog>
             {
-                new ActivityLog{ Name="Deepak",Status="In Progress",Id="FED 89045",Image="p7.jpg" },
-                new ActivityLog{ Name="Davinder Singh",Status="On Hold",Id="FED 89045",Image="p8.jpg" },
-                new ActivityLog{ Name="Dharam",Status="Not Started",Id="FED 89045",Image="p9.jpg" },
-                new ActivityLog{ Name="Devendra",Status="On Hold",Id="FED 89045",Image="p10.jpg" },
-                new ActivityLog{ Name="Divyansh",Status="In Progress",Id="FED 89045" ,Image="p11.jpg"}
+                new ActivityLog{ Name="Deepak",PrevStatus="In Progress",CurrStatus="Completed",Id="FED 89045",Image="pp7.png "},
+                new ActivityLog{ Name="Davinder Singh",PrevStatus="On Hold",CurrStatus="In Progress",Id="FED 89045",Image="pp8.png" },
+                new ActivityLog{ Name="Dharam",PrevStatus="Not Started",CurrStatus="In Progress",Id="FED 89045",Image="pp9.png" },
+                new ActivityLog{ Name="Devendra",PrevStatus="On Hold",CurrStatus="In Progress",Id="FED 89045",Image="pp10.png" },
+                new ActivityLog{ Name="Divyansh",PrevStatus="In Progress",CurrStatus="Completed",Id="FED 89045" ,Image="pp11.png"}
             };
 
             List<ActivityLog> GList = new List<ActivityLog>
             {
-                new ActivityLog{ Name="Gaurav Yadav",Status="Not Started",Id="FED 89045",Image="p12.jpg" },
-                new ActivityLog{ Name="Gautam Kumar",Status="In Progress",Id="FED 89045",Image="p13.jpg" },
-                new ActivityLog{ Name="Ghanandra Pratap",Status="On Hold",Id="FED 89045",Image="p14.jpg" },
-                new ActivityLog{ Name="Gurpreet Singh",Status="On Hold",Id="FED 89045",Image="p15.jpg" }
+                new ActivityLog{ Name="Gaurav Yadav",PrevStatus="Not Started",CurrStatus="In Progress",Id="FED 89045",Image="pp12.png" },
+                new ActivityLog{ Name="Gautam Kumar",PrevStatus="In Progress",CurrStatus="Completed",Id="FED 89045",Image="pp13.png" },
+                new ActivityLog{ Name="Ghanandra Pratap",PrevStatus="On Hold",CurrStatus="In Progress",Id="FED 89045",Image="pp14.png" },
+                new ActivityLog{ Name="Gurpreet Singh",PrevStatus="On Hold",CurrStatus="In Progress",Id="FED 89045",Image="pp15.png" }
             };
 
             PList = new List<ActivityLog>
             {
-                new ActivityLog{ Name="Prabhat",Status="Not Started",Id="FED 89045",Image="p16.jpg" },
-                new ActivityLog{ Name="Prashant",Status="In Progress",Id="FED 89045" ,Image="p3.jpg"},
-                new ActivityLog{ Name="Prajwal",Status="In Progress",Id="FED 89045" ,Image="p4.jpg"}
+                new ActivityLog{ Name="Prabhat",PrevStatus="Not Started",CurrStatus="In Progress",Id="FED 89045",Image="pp16.png" },
+                new ActivityLog{ Name="Prashant",PrevStatus="In Progress",CurrStatus="Completed",Id="FED 89045" ,Image="pp3.png"},
+                new ActivityLog{ Name="Prajwal",PrevStatus="In Progress",CurrStatus="Completed",Id="FED 89045" ,Image="pp4.png"}
             };
 
             List<ActivityLogGroup> MainActivityList = new List<ActivityLogGroup>

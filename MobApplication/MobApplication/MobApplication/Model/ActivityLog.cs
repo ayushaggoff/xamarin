@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
+using System.Drawing;
 using System.Text;
 
 namespace MobApplication.Model
@@ -8,57 +9,57 @@ namespace MobApplication.Model
     public class ActivityLog : INotifyPropertyChanged
     {
         public string Name { get; set; }
-        public string Status { get; set; }
+        public string PrevStatus { get; set; }
+        public string CurrStatus { get; set; }
+
         public string Id { get; set; }
         public string Image { get; set; }
-        public bool _isCheck;
         public event PropertyChangedEventHandler PropertyChanged;
 
-        public bool IsCheckOnHold
+        public Color PrevStatusColor
         {
             get
             {
-                if (Status == "On Hold")
+                if (PrevStatus == "On Hold")
                 {
-                    return true;
+                    return Color.Orange;
+                }
+                else if (PrevStatus == "Not Started")
+                {
+                    return Color.Red;
+                }
+                else if (PrevStatus == "In Progress")
+                {
+                    return Color.Red;
                 }
                 else
                 {
-                    return false;
+                    return Color.Red;
                 }
             }
         }
-
-        public bool IsCheckNotStarted
+        public Color CurrStatusColor
         {
             get
             {
-                if (Status == "Not Started")
+                if (CurrStatus == "On Hold")
                 {
-                    return true;
+                    return Color.Orange;
+                }
+                else if (CurrStatus == "Not Started")
+                {
+                    return Color.Red;
+                }
+                else if (CurrStatus == "In Progress")
+                {
+                    return Color.Blue;
                 }
                 else
                 {
-                    return false;
+                    return Color.LightGreen;
                 }
             }
         }
-
-        public bool IsCheckInProgress
-        {
-            get
-            {
-                if (Status == "In Progress")
-                {
-                    return true;
-                }
-                else
-                {
-                    return false;
-                }
-            }
-        }
-
         private void OnPropertyChanged(string status)
         {
             if (PropertyChanged != null)

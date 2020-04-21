@@ -21,6 +21,36 @@ namespace MobApplication.View
             new Weather { State="Bangalore", WeatherCond="Thunderstorms",Temprature="23\u2103",ImageUrl="https://img.icons8.com/offices/40/000000/storm.png" },
             new Weather { State="London", WeatherCond="Rainy",Temprature="5\u2103" ,ImageUrl="https://img.icons8.com/offices/40/000000/downpour.png"},
             new Weather { State="New York", WeatherCond="Cloudy",Temprature="18\u2103" ,ImageUrl="https://img.icons8.com/offices/40/000000/clouds.png"},
+              new Weather { State="London", WeatherCond="Rainy",Temprature="5\u2103" ,ImageUrl="https://img.icons8.com/offices/40/000000/downpour.png"},
+            new Weather { State="New York", WeatherCond="Cloudy",Temprature="18\u2103" ,ImageUrl="https://img.icons8.com/offices/40/000000/clouds.png"},
+              new Weather { State="London", WeatherCond="Rainy",Temprature="5\u2103" ,ImageUrl="https://img.icons8.com/offices/40/000000/downpour.png"},
+            new Weather { State="New York", WeatherCond="Cloudy",Temprature="18\u2103" ,ImageUrl="https://img.icons8.com/offices/40/000000/clouds.png"},
+              new Weather { State="London1", WeatherCond="Rainy",Temprature="5\u2103" ,ImageUrl="https://img.icons8.com/offices/40/000000/downpour.png"},
+            new Weather { State="New York2", WeatherCond="Cloudy",Temprature="18\u2103" ,ImageUrl="https://img.icons8.com/offices/40/000000/clouds.png"},
+              new Weather { State="London3", WeatherCond="Rainy",Temprature="5\u2103" ,ImageUrl="https://img.icons8.com/offices/40/000000/downpour.png"},
+                new Weather { State="London4", WeatherCond="Rainy",Temprature="5\u2103" ,ImageUrl="https://img.icons8.com/offices/40/000000/downpour.png"},
+                  new Weather { State="London5", WeatherCond="Rainy",Temprature="5\u2103" ,ImageUrl="https://img.icons8.com/offices/40/000000/downpour.png"},
+                    new Weather { State="London6", WeatherCond="Rainy",Temprature="5\u2103" ,ImageUrl="https://img.icons8.com/offices/40/000000/downpour.png"},
+            new Weather { State="New York7", WeatherCond="Cloudy",Temprature="18\u2103" ,ImageUrl="https://img.icons8.com/offices/40/000000/clouds.png"},
+              new Weather { State="London8", WeatherCond="Rainy",Temprature="5\u2103" ,ImageUrl="https://img.icons8.com/offices/40/000000/downpour.png"},
+            new Weather { State="New York9", WeatherCond="Cloudy",Temprature="18\u2103" ,ImageUrl="https://img.icons8.com/offices/40/000000/clouds.png"},
+              new Weather { State="London8", WeatherCond="Rainy",Temprature="5\u2103" ,ImageUrl="https://img.icons8.com/offices/40/000000/downpour.png"},
+            new Weather { State="New York1", WeatherCond="Cloudy",Temprature="18\u2103" ,ImageUrl="https://img.icons8.com/offices/40/000000/clouds.png"},
+              new Weather { State="London11", WeatherCond="Rainy",Temprature="5\u2103" ,ImageUrl="https://img.icons8.com/offices/40/000000/downpour.png"},
+            new Weather { State="New York12", WeatherCond="Cloudy",Temprature="18\u2103" ,ImageUrl="https://img.icons8.com/offices/40/000000/clouds.png"},
+              new Weather { State="London13", WeatherCond="Rainy",Temprature="5\u2103" ,ImageUrl="https://img.icons8.com/offices/40/000000/downpour.png"},
+            new Weather { State="New York14", WeatherCond="Cloudy",Temprature="18\u2103" ,ImageUrl="https://img.icons8.com/offices/40/000000/clouds.png"},
+              new Weather { State="London", WeatherCond="Rainy",Temprature="5\u2103" ,ImageUrl="https://img.icons8.com/offices/40/000000/downpour.png"},
+            new Weather { State="New York", WeatherCond="Cloudy",Temprature="18\u2103" ,ImageUrl="https://img.icons8.com/offices/40/000000/clouds.png"},
+              new Weather { State="London", WeatherCond="Rainy",Temprature="5\u2103" ,ImageUrl="https://img.icons8.com/offices/40/000000/downpour.png"},
+                new Weather { State="London", WeatherCond="Rainy",Temprature="5\u2103" ,ImageUrl="https://img.icons8.com/offices/40/000000/downpour.png"},
+
+            new Weather { State="New York", WeatherCond="Cloudy",Temprature="18\u2103" ,ImageUrl="https://img.icons8.com/offices/40/000000/clouds.png"},
+            new Weather { State="New York", WeatherCond="Cloudy",Temprature="18\u2103" ,ImageUrl="https://img.icons8.com/offices/40/000000/clouds.png"},
+
+            new Weather { State="New York", WeatherCond="Cloudy",Temprature="18\u2103" ,ImageUrl="https://img.icons8.com/offices/40/000000/clouds.png"},
+            new Weather { State="New York", WeatherCond="Cloudy",Temprature="18\u2103" ,ImageUrl="https://img.icons8.com/offices/40/000000/clouds.png"},
+            new Weather { State="New York", WeatherCond="Cloudy",Temprature="18\u2103" ,ImageUrl="https://img.icons8.com/offices/40/000000/clouds.png"},
             new Weather { State="Sydney", WeatherCond="Sunny",Temprature="6\u2103" ,ImageUrl="https://img.icons8.com/offices/40/000000/sun.png"}
             };
         public WeatherInformation()
@@ -68,6 +98,11 @@ namespace MobApplication.View
         }
 
         private void listView_ItemSelected_1(object sender, SelectedItemChangedEventArgs e)
+        {
+
+        }
+
+        private void listView_ItemAppearing(object sender, ItemVisibilityEventArgs e)
         {
 
         }

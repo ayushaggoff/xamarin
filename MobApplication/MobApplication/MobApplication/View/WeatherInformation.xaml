@@ -9,7 +9,7 @@
     <ContentPage.Content>
         <StackLayout x:Name="g1" BackgroundColor="White" Padding="0,10,0,0" Spacing="2">
             <Label Text="Weather Information" TextColor="White"/>
-            <ListView x:Name="listView" SeparatorColor="BlueViolet" SeparatorVisibility="None" ItemSelected="listView_ItemSelected" ItemTapped="listView_ItemTapped">
+            <ListView x:Name="listView" SeparatorColor="BlueViolet" ItemAppearing="listView_ItemAppearing" SeparatorVisibility="None" ItemSelected="listView_ItemSelected" ItemTapped="listView_ItemTapped">
                 <ListView.ItemTemplate>
                     <DataTemplate>
                         <ViewCell>

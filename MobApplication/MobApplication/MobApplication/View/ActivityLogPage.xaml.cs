@@ -19,6 +19,7 @@ namespace MobApplication.View
         List<ActivityLog> AList;
         public ActivityLogPage()
         {
+      
             InitializeComponent();
             BindingContext =new ActivityLog();
              AList = new List<ActivityLog>

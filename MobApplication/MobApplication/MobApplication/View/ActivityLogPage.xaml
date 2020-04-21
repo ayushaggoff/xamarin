@@ -4,21 +4,27 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-             mc:Ignorable="d" Title="Activity Log"
+             mc:Ignorable="d" 
              x:Class="MobApplication.View.ActivityLogPage">
-    <ContentPage.Content>
+    <!--<NavigationPage.TitleView>
+        <AbsoluteLayout BackgroundColor="White">
+            <Label Text="Activity Log"/>
+        </AbsoluteLayout>
+    </NavigationPage.TitleView>-->
+    <ContentPage.Content >
         <StackLayout Padding="15" BackgroundColor="White">
             <Label Text="Activity Log" FontSize="Small" Padding="10" BackgroundColor="White" HorizontalOptions="Center"/>
+            <Frame Padding="2" BackgroundColor="#FAFBFD"></Frame>
             <StackLayout x:Name="g1" Padding="0,10,0,0">
                 <ListView x:Name="listView" IsGroupingEnabled="True" SeparatorVisibility="None" HasUnevenRows="True" >
                     <ListView.ItemTemplate>
                         <DataTemplate>
                             <ViewCell>
-                                <Frame HasShadow="True"  BackgroundColor="#F3F3F5" Margin="0" Padding="0,0,0,1">
+                                <Frame HasShadow="True"  BackgroundColor="#F3F3F5" Margin="0" Padding="0,0,0,2">
                                     <AbsoluteLayout Padding="0,20,0,25" BackgroundColor="White">
                                         <ic:CircleImage WidthRequest="50" HeightRequest="50" Aspect="AspectFill" Source="{Binding Image}" />
                                         <Label Text="{Binding Name}" AbsoluteLayout.LayoutBounds="60,15,1,1" AbsoluteLayout.LayoutFlags="SizeProportional"/>
-                                        <Label Text=" &gt;" TextColor="Black" VerticalOptions="Center" HorizontalOptions="End" AbsoluteLayout.LayoutBounds="1,0.5,1,1" AbsoluteLayout.LayoutFlags="SizeProportional"/>
+                                        <Label Text=" &gt;" TextColor="Black" VerticalOptions="Center" FontSize="Medium" HorizontalOptions="End" AbsoluteLayout.LayoutBounds="1,0.5,1,1" AbsoluteLayout.LayoutFlags="SizeProportional"/>
                                         <!--<Image Source="https://img.icons8.com/material/24/000000/forwardv1.png" VerticalOptions="Center" HorizontalOptions="End" AbsoluteLayout.LayoutBounds="1,0.5,1,1" AbsoluteLayout.LayoutFlags="SizeProportional"></Image>-->
                                         <!--<Label Text="{Binding Status}" IsVisible="False" Padding="0"/>-->
                                         <Label x:Name="LblNotStarted"  Padding="0" AbsoluteLayout.LayoutBounds="60,55,1,1" AbsoluteLayout.LayoutFlags="SizeProportional">
@@ -47,7 +53,10 @@
                     <ListView.GroupHeaderTemplate>
                         <DataTemplate>
                             <ViewCell>
-                                <Label Text="{Binding Title}" Padding="20,0,0,0"></Label>
+                                <StackLayout Orientation="Vertical" Padding="0,10,0,0">
+                                    <Button Text="{Binding Title}" WidthRequest="20" Padding="4" BackgroundColor="#F4F4F5" HorizontalOptions="Start"/>
+                                </StackLayout>
+
                             </ViewCell>
                         </DataTemplate>
                     </ListView.GroupHeaderTemplate>

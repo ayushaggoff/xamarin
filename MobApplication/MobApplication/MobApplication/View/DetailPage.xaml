@@ -11,53 +11,67 @@
             <Label Text="Detail Page" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" FontSize="Large" TextColor="Black" BackgroundColor="White"/>
         </StackLayout>
     </NavigationPage.TitleView>
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Style x:Key="LabelHeading" TargetType="Label">
+                <Setter Property="FontSize" Value="Small"/>
+                <Setter Property="TextColor" Value="Gray"/>
+            </Style>
+            <Style x:Key="LabelValue" TargetType="Label">
+                <Setter Property="FontSize" Value="Small"/>
+                <Setter Property="TextColor" Value="Black"/>
+                <Setter Property="Padding" Value="28,0,0,0"/>
+            </Style>
+        </ResourceDictionary>
+    </ContentPage.Resources>
     <ContentPage.Content>
+        <ScrollView>
         <StackLayout Padding="50" BackgroundColor="White">
+                <StackLayout Orientation="Vertical" HorizontalOptions="Center" BackgroundColor="White">
+                    <ic:CircleImage WidthRequest="80" HeightRequest="80" Aspect="AspectFill" Source="pp.png" />
+                    <Label x:Name="LblNotStarted"  Padding="0" AbsoluteLayout.LayoutBounds="60,55,1,1" AbsoluteLayout.LayoutFlags="SizeProportional">
+                        <Label.FormattedText>
+                            <FormattedString>
+                                <Span Text="Profile Created on:  "/>
+                                <Span Text="{Binding ProfileCreatedDate}" TextColor="Black" />
+                            </FormattedString>
+                        </Label.FormattedText>
+                    </Label>
+                </StackLayout>
 
-            <StackLayout Orientation="Vertical" HorizontalOptions="Center" BackgroundColor="White">
-                <ic:CircleImage WidthRequest="80" HeightRequest="80" Aspect="AspectFill" Source="pp.png" />
-                <Label x:Name="LblNotStarted"  Padding="0" AbsoluteLayout.LayoutBounds="60,55,1,1" AbsoluteLayout.LayoutFlags="SizeProportional">
-                    <Label.FormattedText>
-                        <FormattedString>
-                            <Span Text="Profile Created on:  "/>
-                            <Span Text="{Binding ProfileCreatedDate}" TextColor="Black" />
-                        </FormattedString>
-                    </Label.FormattedText>
-                </Label>
-            </StackLayout>
-            
-            
-            <StackLayout Orientation="Horizontal" BackgroundColor="White">
-                <Image Source="username.png" WidthRequest="25" HeightRequest="25"/>
-                <Label Text="Account Number" FontSize="Small" TextColor="Gray" VerticalOptions="End"/>
-            </StackLayout>
-            <Label Text="{Binding AccountNumber}" FontSize="Small" TextColor="Black" Padding="28,0,0,0" />
-            <StackLayout Orientation="Horizontal" Padding="0,20,0,0">
-                <Image Source="id.png" WidthRequest="25" HeightRequest="25"/>
-                <Label Text="Name" FontSize="Small" TextColor="Gray" VerticalOptions="End"/>
-            </StackLayout>
-            <Label Text="{Binding Name}" FontSize="Small" TextColor="Black" Padding="28,0,0,0" />
-            <StackLayout Orientation="Horizontal" Padding="0,20,0,0">
-                <Image Source="folder.png" WidthRequest="25" HeightRequest="25"/>
-                <Label Text="Type" FontSize="Small" TextColor="Gray" VerticalOptions="End"/>
-            </StackLayout>
-            <Label Text="{Binding Type}" FontSize="Small" TextColor="Black"  Padding="28,0,0,0" />
-            <StackLayout Orientation="Horizontal" Padding="0,20,0,0">
-                <Image Source="email.png" WidthRequest="25" HeightRequest="25"/>
-                <Label Text="Email" FontSize="Small" TextColor="Gray" VerticalOptions="End"/>
-            </StackLayout>
-            <Label Text="{Binding Email}" FontSize="Small" TextColor="Black"  Padding="28,0,0,0" />
-            <StackLayout Orientation="Horizontal" Padding="0,20,0,0">
-                <Image Source="phone.png" WidthRequest="25" HeightRequest="25"/>
-                <Label Text="Phone Number" FontSize="Small" TextColor="Gray" VerticalOptions="End"/>
-            </StackLayout>
-            <Label Text="{Binding PhoneNumber}" FontSize="Small" TextColor="Black" Padding="28,0,0,0" />
-            <StackLayout Orientation="Horizontal" Padding="0,20,0,0">
-                <Image Source="loction.png" WidthRequest="25" HeightRequest="25"/>
-                <Label Text="Location" FontSize="Small" TextColor="Gray" VerticalOptions="End"/>
-            </StackLayout>
-            <Label Text="{Binding Location}" FontSize="Small" TextColor="Black" Padding="28,0,0,20" />
-            <Button Text="Edit Notes" TextColor="White" CornerRadius="25"  BackgroundColor="#BC2729" Padding="10"/>
+
+                <StackLayout Orientation="Horizontal" BackgroundColor="White" VerticalOptions="Center">
+                    <Image Source="username.png" WidthRequest="25" HeightRequest="25"/>
+                    <Label Text="Account Number" Style="{StaticResource LabelHeading}" />
+                </StackLayout>
+                <Label Text="{Binding AccountNumber}" Style="{StaticResource LabelValue}" />
+                <StackLayout Orientation="Horizontal" Padding="0,20,0,0">
+                    <Image Source="id.png" WidthRequest="25" HeightRequest="25"/>
+                    <Label Text="Name"  Style="{StaticResource LabelHeading}"/>
+                </StackLayout>
+                <Label Text="{Binding Name}" Style="{StaticResource LabelValue}" />
+                <StackLayout Orientation="Horizontal" Padding="0,20,0,0">
+                    <Image Source="folder.png" WidthRequest="25" HeightRequest="25"/>
+                    <Label Text="Type" Style="{StaticResource LabelHeading}"/>
+                </StackLayout>
+                <Label Text="{Binding Type}" Style="{StaticResource LabelValue}" />
+                <StackLayout Orientation="Horizontal" Padding="0,20,0,0">
+                    <Image Source="email.png" WidthRequest="25" HeightRequest="25"/>
+                    <Label Text="Email" Style="{StaticResource LabelHeading}"/>
+                </StackLayout>
+                <Label Text="{Binding Email}" Style="{StaticResource LabelValue}" />
+                <StackLayout Orientation="Horizontal" Padding="0,20,0,0">
+                    <Image Source="phone.png" WidthRequest="25" HeightRequest="25"/>
+                    <Label Text="Phone Number" Style="{StaticResource LabelHeading}"/>
+                </StackLayout>
+                <Label Text="{Binding PhoneNumber}" Style="{StaticResource LabelValue}" />
+                <StackLayout Orientation="Horizontal" Padding="0,20,0,0">
+                    <Image Source="loction.png" WidthRequest="25" HeightRequest="25"/>
+                    <Label Text="Location" Style="{StaticResource LabelHeading}"/>
+                </StackLayout>
+                <Label Text="{Binding Location}" Style="{StaticResource LabelValue}" />
+                <Button Text="Edit Notes" TextColor="White" CornerRadius="25"  BackgroundColor="#BC2729" Padding="10"/>
         </StackLayout>
+            </ScrollView>
     </ContentPage.Content>
 </ContentPage>

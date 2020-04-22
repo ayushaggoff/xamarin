@@ -11,14 +11,14 @@
             <Label Text="Detail Page" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" FontSize="Large" TextColor="Black" BackgroundColor="White"/>
         </StackLayout>
     </NavigationPage.TitleView>
-    <ContentPage.Resources>
+    <!--<ContentPage.Resources>
         <ResourceDictionary>
             <Style TargetType="Label">
                 <Setter  Property="FontSize" Value="Small"/>
                 <Setter Property="TextColor" Value="Gray"/>
             </Style>
         </ResourceDictionary>
-    </ContentPage.Resources>
+    </ContentPage.Resources>-->
     <!--<ContentPage.Resources>
         <ResourceDictionary>
             <Style x:Key="LabelHeading" TargetType="Label">
@@ -50,34 +50,34 @@
 
                 <StackLayout Orientation="Horizontal" BackgroundColor="White" VerticalOptions="Center">
                     <Image Source="username.png" WidthRequest="25" HeightRequest="25"/>
-                    <Label Text="Account Number"  />
+                    <Label Text="Account Number" Style="{StaticResource LabelHeading}" />
                 </StackLayout>
-                <Label Text="{Binding AccountNumber}"  />
+                <Label Text="{Binding AccountNumber}" Style="{StaticResource LabelValue}" />
                 <StackLayout Orientation="Horizontal" Padding="0,20,0,0">
                     <Image Source="id.png" WidthRequest="25" HeightRequest="25"/>
-                    <Label Text="Name" />
+                    <Label Text="Name"  Style="{StaticResource LabelHeading}"/>
                 </StackLayout>
-                <Label Text="{Binding Name}" />
+                <Label Text="{Binding Name}" Style="{StaticResource LabelValue}" />
                 <StackLayout Orientation="Horizontal" Padding="0,20,0,0">
                     <Image Source="folder.png" WidthRequest="25" HeightRequest="25"/>
-                    <Label Text="Type" />
+                    <Label Text="Type" Style="{StaticResource LabelHeading}"/>
                 </StackLayout>
-                <Label Text="{Binding Type}"  />
+                <Label Text="{Binding Type}" Style="{StaticResource LabelValue}" />
                 <StackLayout Orientation="Horizontal" Padding="0,20,0,0">
                     <Image Source="email.png" WidthRequest="25" HeightRequest="25"/>
-                    <Label Text="Email" />
+                    <Label Text="Email" Style="{StaticResource LabelHeading}"/>
                 </StackLayout>
-                <Label Text="{Binding Email}" />
+                <Label Text="{Binding Email}" Style="{StaticResource LabelValue}" />
                 <StackLayout Orientation="Horizontal" Padding="0,20,0,0">
                     <Image Source="phone.png" WidthRequest="25" HeightRequest="25"/>
-                    <Label Text="Phone Number" />
+                    <Label Text="Phone Number" Style="{StaticResource LabelHeading}"/>
                 </StackLayout>
-                <Label Text="{Binding PhoneNumber}"  />
+                <Label Text="{Binding PhoneNumber}" Style="{StaticResource LabelValue}" />
                 <StackLayout Orientation="Horizontal" Padding="0,20,0,0">
                     <Image Source="loction.png" WidthRequest="25" HeightRequest="25"/>
-                    <Label Text="Location" />
+                    <Label Text="Location" Style="{StaticResource LabelHeading}"/>
                 </StackLayout>
-                <Label Text="{Binding Location}"  />
+                <Label Text="{Binding Location}" Style="{StaticResource LabelValue}" />
                 <Button Text="Edit Notes" TextColor="White" CornerRadius="25"  BackgroundColor="#BC2729" Padding="10"/>
         </StackLayout>
             </ScrollView>

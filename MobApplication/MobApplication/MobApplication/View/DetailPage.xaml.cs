@@ -17,6 +17,12 @@ namespace MobApplication.View
         {
             InitializeComponent();
             BindingContext =new  UserDetail();
+           
+        }
+
+        private void Button_Clicked(object sender, EventArgs e)
+        {
+            Resources["buttonStyle"] = Resources["ButtonHighlight"];
         }
     }
 }

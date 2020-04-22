@@ -9,10 +9,15 @@ namespace MobApplication
     {
         public App()
         {
+
             InitializeComponent();
 
-            MainPage = new WeatherInformation();
+            MainPage = new NavigationPage(new DetailPage())
+            {
+                BarBackgroundColor = Color.White,
+            };
         }
+    
 
         protected override void OnStart()
         {

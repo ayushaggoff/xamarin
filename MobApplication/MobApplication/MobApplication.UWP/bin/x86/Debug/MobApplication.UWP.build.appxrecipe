@@ -172,59 +172,83 @@
       <PackagePath>Assets\Wide310x150Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ayusha\Documents\New folder\Xamarin\MobApplication\MobApplication\MobApplication.UWP\p.jpg">
-      <PackagePath>p.jpg</PackagePath>
+    <AppxPackagedFile Include="C:\Users\ayusha\Documents\New folder\Xamarin\MobApplication\MobApplication\MobApplication.UWP\email.png">
+      <PackagePath>email.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ayusha\Documents\New folder\Xamarin\MobApplication\MobApplication\MobApplication.UWP\p1.jpg">
-      <PackagePath>p1.jpg</PackagePath>
+    <AppxPackagedFile Include="C:\Users\ayusha\Documents\New folder\Xamarin\MobApplication\MobApplication\MobApplication.UWP\folder.png">
+      <PackagePath>folder.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ayusha\Documents\New folder\Xamarin\MobApplication\MobApplication\MobApplication.UWP\p10.jpg">
-      <PackagePath>p10.jpg</PackagePath>
+    <AppxPackagedFile Include="C:\Users\ayusha\Documents\New folder\Xamarin\MobApplication\MobApplication\MobApplication.UWP\id.png">
+      <PackagePath>id.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ayusha\Documents\New folder\Xamarin\MobApplication\MobApplication\MobApplication.UWP\p11.jpg">
-      <PackagePath>p11.jpg</PackagePath>
+    <AppxPackagedFile Include="C:\Users\ayusha\Documents\New folder\Xamarin\MobApplication\MobApplication\MobApplication.UWP\lock1.png">
+      <PackagePath>lock1.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ayusha\Documents\New folder\Xamarin\MobApplication\MobApplication\MobApplication.UWP\p12.jpg">
-      <PackagePath>p12.jpg</PackagePath>
+    <AppxPackagedFile Include="C:\Users\ayusha\Documents\New folder\Xamarin\MobApplication\MobApplication\MobApplication.UWP\loction.png">
+      <PackagePath>loction.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ayusha\Documents\New folder\Xamarin\MobApplication\MobApplication\MobApplication.UWP\p13.jpg">
-      <PackagePath>p13.jpg</PackagePath>
+    <AppxPackagedFile Include="C:\Users\ayusha\Documents\New folder\Xamarin\MobApplication\MobApplication\MobApplication.UWP\phone.png">
+      <PackagePath>phone.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ayusha\Documents\New folder\Xamarin\MobApplication\MobApplication\MobApplication.UWP\p14.jpg">
-      <PackagePath>p14.jpg</PackagePath>
+    <AppxPackagedFile Include="C:\Users\ayusha\Documents\New folder\Xamarin\MobApplication\MobApplication\MobApplication.UWP\pp.png">
+      <PackagePath>pp.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ayusha\Documents\New folder\Xamarin\MobApplication\MobApplication\MobApplication.UWP\p15.jpg">
-      <PackagePath>p15.jpg</PackagePath>
+    <AppxPackagedFile Include="C:\Users\ayusha\Documents\New folder\Xamarin\MobApplication\MobApplication\MobApplication.UWP\pp10.png">
+      <PackagePath>pp10.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ayusha\Documents\New folder\Xamarin\MobApplication\MobApplication\MobApplication.UWP\p16.jpg">
-      <PackagePath>p16.jpg</PackagePath>
+    <AppxPackagedFile Include="C:\Users\ayusha\Documents\New folder\Xamarin\MobApplication\MobApplication\MobApplication.UWP\pp11.png">
+      <PackagePath>pp11.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ayusha\Documents\New folder\Xamarin\MobApplication\MobApplication\MobApplication.UWP\p17.jpg">
-      <PackagePath>p17.jpg</PackagePath>
+    <AppxPackagedFile Include="C:\Users\ayusha\Documents\New folder\Xamarin\MobApplication\MobApplication\MobApplication.UWP\pp12.png">
+      <PackagePath>pp12.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ayusha\Documents\New folder\Xamarin\MobApplication\MobApplication\MobApplication.UWP\p2.jpg">
-      <PackagePath>p2.jpg</PackagePath>
+    <AppxPackagedFile Include="C:\Users\ayusha\Documents\New folder\Xamarin\MobApplication\MobApplication\MobApplication.UWP\pp14.png">
+      <PackagePath>pp14.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ayusha\Documents\New folder\Xamarin\MobApplication\MobApplication\MobApplication.UWP\p3.jpg">
-      <PackagePath>p3.jpg</PackagePath>
+    <AppxPackagedFile Include="C:\Users\ayusha\Documents\New folder\Xamarin\MobApplication\MobApplication\MobApplication.UWP\pp15.png">
+      <PackagePath>pp15.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ayusha\Documents\New folder\Xamarin\MobApplication\MobApplication\MobApplication.UWP\p4.jpg">
-      <PackagePath>p4.jpg</PackagePath>
+    <AppxPackagedFile Include="C:\Users\ayusha\Documents\New folder\Xamarin\MobApplication\MobApplication\MobApplication.UWP\pp16.png">
+      <PackagePath>pp16.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ayusha\Documents\New folder\Xamarin\MobApplication\MobApplication\MobApplication.UWP\p5.jpg">
-      <PackagePath>p5.jpg</PackagePath>
+    <AppxPackagedFile Include="C:\Users\ayusha\Documents\New folder\Xamarin\MobApplication\MobApplication\MobApplication.UWP\pp17.png">
+      <PackagePath>pp17.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ayusha\Documents\New folder\Xamarin\MobApplication\MobApplication\MobApplication.UWP\p6.jpg">
-      <PackagePath>p6.jpg</PackagePath>
+    <AppxPackagedFile Include="C:\Users\ayusha\Documents\New folder\Xamarin\MobApplication\MobApplication\MobApplication.UWP\pp2.png">
+      <PackagePath>pp2.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ayusha\Documents\New folder\Xamarin\MobApplication\MobApplication\MobApplication.UWP\p7.jpg">
-      <PackagePath>p7.jpg</PackagePath>
+    <AppxPackagedFile Include="C:\Users\ayusha\Documents\New folder\Xamarin\MobApplication\MobApplication\MobApplication.UWP\pp3.png">
+      <PackagePath>pp3.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ayusha\Documents\New folder\Xamarin\MobApplication\MobApplication\MobApplication.UWP\p8.jpg">
-      <PackagePath>p8.jpg</PackagePath>
+    <AppxPackagedFile Include="C:\Users\ayusha\Documents\New folder\Xamarin\MobApplication\MobApplication\MobApplication.UWP\pp4.png">
+      <PackagePath>pp4.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ayusha\Documents\New folder\Xamarin\MobApplication\MobApplication\MobApplication.UWP\p9.jpg">
-      <PackagePath>p9.jpg</PackagePath>
+    <AppxPackagedFile Include="C:\Users\ayusha\Documents\New folder\Xamarin\MobApplication\MobApplication\MobApplication.UWP\pp5.png">
+      <PackagePath>pp5.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ayusha\Documents\New folder\Xamarin\MobApplication\MobApplication\MobApplication.UWP\pp6.png">
+      <PackagePath>pp6.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ayusha\Documents\New folder\Xamarin\MobApplication\MobApplication\MobApplication.UWP\pp7.png">
+      <PackagePath>pp7.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ayusha\Documents\New folder\Xamarin\MobApplication\MobApplication\MobApplication.UWP\pp8.png">
+      <PackagePath>pp8.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ayusha\Documents\New folder\Xamarin\MobApplication\MobApplication\MobApplication.UWP\pp9.png">
+      <PackagePath>pp9.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ayusha\Documents\New folder\Xamarin\MobApplication\MobApplication\MobApplication.UWP\tie.png">
+      <PackagePath>tie.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ayusha\Documents\New folder\Xamarin\MobApplication\MobApplication\MobApplication.UWP\user.png">
+      <PackagePath>user.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ayusha\Documents\New folder\Xamarin\MobApplication\MobApplication\MobApplication.UWP\username.png">
+      <PackagePath>username.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ayusha\Documents\New folder\Xamarin\MobApplication\MobApplication\MobApplication.UWP\pp13.jpg">
+      <PackagePath>pp13.jpg</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ayusha\Documents\New folder\Xamarin\MobApplication\MobApplication\MobApplication.UWP\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>

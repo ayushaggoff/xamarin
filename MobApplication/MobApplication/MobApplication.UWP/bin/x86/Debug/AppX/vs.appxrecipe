@@ -30,13 +30,13 @@
     <AppXManifest Include="C:\Users\ayusha\Documents\New folder\Xamarin\MobApplication\MobApplication\MobApplication.UWP\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-04-19T06:00:35.980</Modified>
+      <Modified>2020-04-22T04:28:06.816</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\ayusha\Documents\New folder\Xamarin\MobApplication\MobApplication\MobApplication.UWP\bin\x86\Debug\MobApplication.UWP.exe">
       <PackagePath>entrypoint\MobApplication.UWP.exe</PackagePath>
-      <Modified>2020-04-19T06:00:34.121</Modified>
+      <Modified>2020-04-22T04:28:04.126</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ayusha\.nuget\packages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.10\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
       <PackagePath>System.Runtime.dll</PackagePath>
@@ -72,7 +72,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ayusha\Documents\New folder\Xamarin\MobApplication\MobApplication\MobApplication\bin\Debug\netstandard2.0\MobApplication.dll">
       <PackagePath>MobApplication.dll</PackagePath>
-      <Modified>2020-04-19T06:07:38.242</Modified>
+      <Modified>2020-04-22T12:43:33.478</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Microsoft\Xamarin\NuGet\win2d.uwp\1.20.0\lib\uap10.0\Microsoft.Graphics.Canvas.winmd">
       <PackagePath>Microsoft.Graphics.Canvas.winmd</PackagePath>
@@ -221,77 +221,109 @@
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2020-04-02T12:17:30.169</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ayusha\Documents\New folder\Xamarin\MobApplication\MobApplication\MobApplication.UWP\p.jpg">
-      <PackagePath>p.jpg</PackagePath>
-      <Modified>2020-04-17T12:57:23.426</Modified>
+    <AppxPackagedFile Include="C:\Users\ayusha\Documents\New folder\Xamarin\MobApplication\MobApplication\MobApplication.UWP\email.png">
+      <PackagePath>email.png</PackagePath>
+      <Modified>2020-04-21T12:01:16.401</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ayusha\Documents\New folder\Xamarin\MobApplication\MobApplication\MobApplication.UWP\p1.jpg">
-      <PackagePath>p1.jpg</PackagePath>
-      <Modified>2020-04-17T12:57:23.459</Modified>
+    <AppxPackagedFile Include="C:\Users\ayusha\Documents\New folder\Xamarin\MobApplication\MobApplication\MobApplication.UWP\folder.png">
+      <PackagePath>folder.png</PackagePath>
+      <Modified>2020-04-21T12:01:16.376</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ayusha\Documents\New folder\Xamarin\MobApplication\MobApplication\MobApplication.UWP\p10.jpg">
-      <PackagePath>p10.jpg</PackagePath>
-      <Modified>2020-04-19T03:27:32.257</Modified>
+    <AppxPackagedFile Include="C:\Users\ayusha\Documents\New folder\Xamarin\MobApplication\MobApplication\MobApplication.UWP\id.png">
+      <PackagePath>id.png</PackagePath>
+      <Modified>2020-04-21T12:01:16.396</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ayusha\Documents\New folder\Xamarin\MobApplication\MobApplication\MobApplication.UWP\p11.jpg">
-      <PackagePath>p11.jpg</PackagePath>
-      <Modified>2020-04-19T03:27:32.261</Modified>
+    <AppxPackagedFile Include="C:\Users\ayusha\Documents\New folder\Xamarin\MobApplication\MobApplication\MobApplication.UWP\lock1.png">
+      <PackagePath>lock1.png</PackagePath>
+      <Modified>2020-04-20T06:17:57.136</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ayusha\Documents\New folder\Xamarin\MobApplication\MobApplication\MobApplication.UWP\p12.jpg">
-      <PackagePath>p12.jpg</PackagePath>
-      <Modified>2020-04-19T03:27:32.264</Modified>
+    <AppxPackagedFile Include="C:\Users\ayusha\Documents\New folder\Xamarin\MobApplication\MobApplication\MobApplication.UWP\loction.png">
+      <PackagePath>loction.png</PackagePath>
+      <Modified>2020-04-21T12:01:16.381</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ayusha\Documents\New folder\Xamarin\MobApplication\MobApplication\MobApplication.UWP\p13.jpg">
-      <PackagePath>p13.jpg</PackagePath>
-      <Modified>2020-04-19T03:27:32.270</Modified>
+    <AppxPackagedFile Include="C:\Users\ayusha\Documents\New folder\Xamarin\MobApplication\MobApplication\MobApplication.UWP\phone.png">
+      <PackagePath>phone.png</PackagePath>
+      <Modified>2020-04-21T12:01:16.389</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ayusha\Documents\New folder\Xamarin\MobApplication\MobApplication\MobApplication.UWP\p14.jpg">
-      <PackagePath>p14.jpg</PackagePath>
-      <Modified>2020-04-19T03:27:32.278</Modified>
+    <AppxPackagedFile Include="C:\Users\ayusha\Documents\New folder\Xamarin\MobApplication\MobApplication\MobApplication.UWP\pp.png">
+      <PackagePath>pp.png</PackagePath>
+      <Modified>2020-04-20T06:17:57.145</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ayusha\Documents\New folder\Xamarin\MobApplication\MobApplication\MobApplication.UWP\p15.jpg">
-      <PackagePath>p15.jpg</PackagePath>
-      <Modified>2020-04-19T03:27:32.283</Modified>
+    <AppxPackagedFile Include="C:\Users\ayusha\Documents\New folder\Xamarin\MobApplication\MobApplication\MobApplication.UWP\pp10.png">
+      <PackagePath>pp10.png</PackagePath>
+      <Modified>2020-04-20T06:17:57.458</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ayusha\Documents\New folder\Xamarin\MobApplication\MobApplication\MobApplication.UWP\p16.jpg">
-      <PackagePath>p16.jpg</PackagePath>
-      <Modified>2020-04-19T03:27:32.287</Modified>
+    <AppxPackagedFile Include="C:\Users\ayusha\Documents\New folder\Xamarin\MobApplication\MobApplication\MobApplication.UWP\pp11.png">
+      <PackagePath>pp11.png</PackagePath>
+      <Modified>2020-04-20T06:17:57.481</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ayusha\Documents\New folder\Xamarin\MobApplication\MobApplication\MobApplication.UWP\p17.jpg">
-      <PackagePath>p17.jpg</PackagePath>
-      <Modified>2020-04-19T03:27:32.206</Modified>
+    <AppxPackagedFile Include="C:\Users\ayusha\Documents\New folder\Xamarin\MobApplication\MobApplication\MobApplication.UWP\pp12.png">
+      <PackagePath>pp12.png</PackagePath>
+      <Modified>2020-04-20T06:17:57.507</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ayusha\Documents\New folder\Xamarin\MobApplication\MobApplication\MobApplication.UWP\p2.jpg">
-      <PackagePath>p2.jpg</PackagePath>
-      <Modified>2020-04-17T12:57:23.454</Modified>
+    <AppxPackagedFile Include="C:\Users\ayusha\Documents\New folder\Xamarin\MobApplication\MobApplication\MobApplication.UWP\pp14.png">
+      <PackagePath>pp14.png</PackagePath>
+      <Modified>2020-04-20T06:17:57.091</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ayusha\Documents\New folder\Xamarin\MobApplication\MobApplication\MobApplication.UWP\p3.jpg">
-      <PackagePath>p3.jpg</PackagePath>
-      <Modified>2020-04-17T12:57:23.436</Modified>
+    <AppxPackagedFile Include="C:\Users\ayusha\Documents\New folder\Xamarin\MobApplication\MobApplication\MobApplication.UWP\pp15.png">
+      <PackagePath>pp15.png</PackagePath>
+      <Modified>2020-04-20T06:17:57.103</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ayusha\Documents\New folder\Xamarin\MobApplication\MobApplication\MobApplication.UWP\p4.jpg">
-      <PackagePath>p4.jpg</PackagePath>
-      <Modified>2020-04-17T12:57:23.410</Modified>
+    <AppxPackagedFile Include="C:\Users\ayusha\Documents\New folder\Xamarin\MobApplication\MobApplication\MobApplication.UWP\pp16.png">
+      <PackagePath>pp16.png</PackagePath>
+      <Modified>2020-04-20T06:17:57.107</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ayusha\Documents\New folder\Xamarin\MobApplication\MobApplication\MobApplication.UWP\p5.jpg">
-      <PackagePath>p5.jpg</PackagePath>
-      <Modified>2020-04-19T03:27:32.218</Modified>
+    <AppxPackagedFile Include="C:\Users\ayusha\Documents\New folder\Xamarin\MobApplication\MobApplication\MobApplication.UWP\pp17.png">
+      <PackagePath>pp17.png</PackagePath>
+      <Modified>2020-04-20T06:17:57.121</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ayusha\Documents\New folder\Xamarin\MobApplication\MobApplication\MobApplication.UWP\p6.jpg">
-      <PackagePath>p6.jpg</PackagePath>
-      <Modified>2020-04-19T03:27:32.238</Modified>
+    <AppxPackagedFile Include="C:\Users\ayusha\Documents\New folder\Xamarin\MobApplication\MobApplication\MobApplication.UWP\pp2.png">
+      <PackagePath>pp2.png</PackagePath>
+      <Modified>2020-04-20T06:17:57.149</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ayusha\Documents\New folder\Xamarin\MobApplication\MobApplication\MobApplication.UWP\p7.jpg">
-      <PackagePath>p7.jpg</PackagePath>
-      <Modified>2020-04-19T03:27:32.243</Modified>
+    <AppxPackagedFile Include="C:\Users\ayusha\Documents\New folder\Xamarin\MobApplication\MobApplication\MobApplication.UWP\pp3.png">
+      <PackagePath>pp3.png</PackagePath>
+      <Modified>2020-04-20T06:17:57.154</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ayusha\Documents\New folder\Xamarin\MobApplication\MobApplication\MobApplication.UWP\p8.jpg">
-      <PackagePath>p8.jpg</PackagePath>
-      <Modified>2020-04-19T03:27:32.249</Modified>
+    <AppxPackagedFile Include="C:\Users\ayusha\Documents\New folder\Xamarin\MobApplication\MobApplication\MobApplication.UWP\pp4.png">
+      <PackagePath>pp4.png</PackagePath>
+      <Modified>2020-04-20T06:17:57.157</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ayusha\Documents\New folder\Xamarin\MobApplication\MobApplication\MobApplication.UWP\p9.jpg">
-      <PackagePath>p9.jpg</PackagePath>
-      <Modified>2020-04-19T03:27:32.252</Modified>
+    <AppxPackagedFile Include="C:\Users\ayusha\Documents\New folder\Xamarin\MobApplication\MobApplication\MobApplication.UWP\pp5.png">
+      <PackagePath>pp5.png</PackagePath>
+      <Modified>2020-04-20T06:17:57.164</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ayusha\Documents\New folder\Xamarin\MobApplication\MobApplication\MobApplication.UWP\pp6.png">
+      <PackagePath>pp6.png</PackagePath>
+      <Modified>2020-04-20T06:17:57.173</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ayusha\Documents\New folder\Xamarin\MobApplication\MobApplication\MobApplication.UWP\pp7.png">
+      <PackagePath>pp7.png</PackagePath>
+      <Modified>2020-04-20T06:17:57.177</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ayusha\Documents\New folder\Xamarin\MobApplication\MobApplication\MobApplication.UWP\pp8.png">
+      <PackagePath>pp8.png</PackagePath>
+      <Modified>2020-04-20T06:17:57.184</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ayusha\Documents\New folder\Xamarin\MobApplication\MobApplication\MobApplication.UWP\pp9.png">
+      <PackagePath>pp9.png</PackagePath>
+      <Modified>2020-04-20T06:17:57.250</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ayusha\Documents\New folder\Xamarin\MobApplication\MobApplication\MobApplication.UWP\tie.png">
+      <PackagePath>tie.png</PackagePath>
+      <Modified>2020-04-20T06:17:57.127</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ayusha\Documents\New folder\Xamarin\MobApplication\MobApplication\MobApplication.UWP\user.png">
+      <PackagePath>user.png</PackagePath>
+      <Modified>2020-04-20T06:17:57.133</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ayusha\Documents\New folder\Xamarin\MobApplication\MobApplication\MobApplication.UWP\username.png">
+      <PackagePath>username.png</PackagePath>
+      <Modified>2020-04-21T12:12:13.998</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ayusha\Documents\New folder\Xamarin\MobApplication\MobApplication\MobApplication.UWP\pp13.jpg">
+      <PackagePath>pp13.jpg</PackagePath>
+      <Modified>2020-04-20T06:17:57.520</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ayusha\Documents\New folder\Xamarin\MobApplication\MobApplication\MobApplication.UWP\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
@@ -303,11 +335,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ayusha\Documents\New folder\Xamarin\MobApplication\MobApplication\MobApplication.UWP\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2020-04-19T06:00:33.864</Modified>
+      <Modified>2020-04-21T12:12:37.158</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ayusha\Documents\New folder\Xamarin\MobApplication\MobApplication\MobApplication.UWP\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2020-04-19T06:00:33.864</Modified>
+      <Modified>2020-04-21T12:12:37.158</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.UniversalCRT.Debug\10.0.18362.0\\redist\Debug\x86\ucrtbased.dll">
       <PackagePath>ucrtbased.dll</PackagePath>
@@ -323,11 +355,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ayusha\Documents\New folder\Xamarin\MobApplication\MobApplication\MobApplication.UWP\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2020-04-19T03:40:24.295</Modified>
+      <Modified>2020-04-21T12:12:38.289</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ayusha\Documents\New folder\Xamarin\MobApplication\MobApplication\MobApplication.UWP\bin\x86\Debug\Core\MobApplication.UWP.exe">
       <PackagePath>MobApplication.UWP.exe</PackagePath>
-      <Modified>2020-04-19T06:00:35.972</Modified>
+      <Modified>2020-04-22T04:28:06.781</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

@@ -7,7 +7,7 @@
              x:Class="MobApplication.App">
     <Application.Resources>
        
-        <ResourceDictionary>
+        <!--<ResourceDictionary>
             <Style x:Key="LabelHeading" TargetType="Label">
                 <Setter Property="FontSize" Value="Small"/>
                 <Setter Property="TextColor" Value="Gray"/>
@@ -17,7 +17,7 @@
                 <Setter Property="TextColor" Value="Black"/>
                 <Setter Property="Padding" Value="28,0,0,0"/>
             </Style>
-        </ResourceDictionary>
+        </ResourceDictionary>-->
    
         <!--<Style TargetType="NavigationPage">
                 <Setter Property="BarBackgroundColor" Value="White"/>

@@ -27,7 +27,13 @@ namespace MobApplication.View
         new Contact{ Name="Bharat Kumar",Number="8736823201" },
         new Contact{ Name="Ravi Singh",Number="9734126298" },
         new Contact{ Name="Praveen Aggarwal",Number="8736426231" },
-        new Contact{ Name="Shivam kumar",Number="9936823298" },
+        new Contact{ Name="Shivam kumar",Number="9936823298" },new Contact{ Name="Praveen Aggaral",Number="8736426231" },
+        new Contact{ Name="Shivam kumar",Number="9936823298" },new Contact{ Name="Praveen Aggarwal",Number="8736426231" },
+        new Contact{ Name="Shivam kumar",Number="9936823298" },new Contact{ Name="Praveen Aggarwal",Number="8736426231" },
+        new Contact{ Name="Shivam kumar",Number="9936823298" },new Contact{ Name="Praveen Aggarwal",Number="8736426231" },
+        new Contact{ Name="Shivam kumar",Number="9936823298" },new Contact{ Name="Praveen Aggarwal",Number="8736426231" },
+        new Contact{ Name="Shivam kumar",Number="9936823298" },new Contact{ Name="Praveen Aggarwal",Number="8736426231" },
+        new Contact{ Name="Shivam kumar",Number="9936823298" }
         };
         public ContactPage()
         {

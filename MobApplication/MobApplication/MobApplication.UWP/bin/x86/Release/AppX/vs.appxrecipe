@@ -1,0 +1,436 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>LAPR258</Machine>
+    <WindowsUser>ayusha</WindowsUser>
+    <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
+    <TargetOsVersion>10.0</TargetOsVersion>
+    <TargetOsDescription>Windows 10.0</TargetOsDescription>
+    <SolutionConfiguration>Release|x86</SolutionConfiguration>
+    <PackageArchitecture>x86</PackageArchitecture>
+    <PackageIdentityName>ec0cc741-fd3e-485c-81be-68815c480690</PackageIdentityName>
+    <PackageIdentityPublisher>CN=da08c7d8-e38e-42c2-9153-d8c7b0bb052f</PackageIdentityPublisher>
+    <IntermediateOutputPath>C:\Users\ayusha\Documents\New folder\Xamarin\MobApplication\MobApplication\MobApplication.UWP\obj\x86\Release\</IntermediateOutputPath>
+    <RemoteDeploymentType>
+    </RemoteDeploymentType>
+    <PackageRegistrationPath>
+    </PackageRegistrationPath>
+    <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
+    <DeployOptionalPackages>false</DeployOptionalPackages>
+    <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
+    <LayoutDir>C:\Users\ayusha\Documents\New folder\Xamarin\MobApplication\MobApplication\MobApplication.UWP\bin\x86\Release\AppX</LayoutDir>
+    <RegisteredManifestChecksum>FB615982CCBFFF70F72C9D4295780F5E6505BA8CEBB2FC83B0C197B5C6A20712</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>fb86879c-5c5e-466a-8995-eeaf0aab6ac1_1.0.0.0_x86__3txa2yscrk3d8</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>fb86879c-5c5e-466a-8995-eeaf0aab6ac1_3txa2yscrk3d8!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>fb86879c-5c5e-466a-8995-eeaf0aab6ac1</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=da08c7d8-e38e-42c2-9153-d8c7b0bb052f</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\ayusha\Documents\New folder\Xamarin\MobApplication\MobApplication\MobApplication.UWP\bin\x86\Release\ilc\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-04-20T05:54:05.430</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\ayusha\Documents\New folder\Xamarin\MobApplication\MobApplication\MobApplication.UWP\bin\x86\Release\ilc\Assets\LargeTile.scale-100.png">
+      <PackagePath>Assets\LargeTile.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-04-02T12:17:29.935</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ayusha\Documents\New folder\Xamarin\MobApplication\MobApplication\MobApplication.UWP\bin\x86\Release\ilc\Assets\LargeTile.scale-200.png">
+      <PackagePath>Assets\LargeTile.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-04-02T12:17:29.942</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ayusha\Documents\New folder\Xamarin\MobApplication\MobApplication\MobApplication.UWP\bin\x86\Release\ilc\Assets\LargeTile.scale-400.png">
+      <PackagePath>Assets\LargeTile.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-04-02T12:17:29.946</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ayusha\Documents\New folder\Xamarin\MobApplication\MobApplication\MobApplication.UWP\bin\x86\Release\ilc\Assets\SmallTile.scale-100.png">
+      <PackagePath>Assets\SmallTile.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-04-02T12:17:29.949</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ayusha\Documents\New folder\Xamarin\MobApplication\MobApplication\MobApplication.UWP\bin\x86\Release\ilc\Assets\SmallTile.scale-200.png">
+      <PackagePath>Assets\SmallTile.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-04-02T12:17:29.951</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ayusha\Documents\New folder\Xamarin\MobApplication\MobApplication\MobApplication.UWP\bin\x86\Release\ilc\Assets\SmallTile.scale-400.png">
+      <PackagePath>Assets\SmallTile.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-04-02T12:17:30.063</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ayusha\Documents\New folder\Xamarin\MobApplication\MobApplication\MobApplication.UWP\bin\x86\Release\ilc\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-04-02T12:17:30.067</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ayusha\Documents\New folder\Xamarin\MobApplication\MobApplication\MobApplication.UWP\bin\x86\Release\ilc\Assets\SplashScreen.scale-200.png">
+      <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-04-02T12:17:30.071</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ayusha\Documents\New folder\Xamarin\MobApplication\MobApplication\MobApplication.UWP\bin\x86\Release\ilc\Assets\SplashScreen.scale-400.png">
+      <PackagePath>Assets\SplashScreen.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-04-02T12:17:30.078</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ayusha\Documents\New folder\Xamarin\MobApplication\MobApplication\MobApplication.UWP\bin\x86\Release\ilc\Assets\Square150x150Logo.scale-100.png">
+      <PackagePath>Assets\Square150x150Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-04-02T12:17:30.081</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ayusha\Documents\New folder\Xamarin\MobApplication\MobApplication\MobApplication.UWP\bin\x86\Release\ilc\Assets\Square150x150Logo.scale-200.png">
+      <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-04-02T12:17:30.084</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ayusha\Documents\New folder\Xamarin\MobApplication\MobApplication\MobApplication.UWP\bin\x86\Release\ilc\Assets\Square150x150Logo.scale-400.png">
+      <PackagePath>Assets\Square150x150Logo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-04-02T12:17:30.109</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ayusha\Documents\New folder\Xamarin\MobApplication\MobApplication\MobApplication.UWP\bin\x86\Release\ilc\Assets\Square44x44Logo.altform-unplated_targetsize-16.png">
+      <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-16.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-04-02T12:17:30.112</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ayusha\Documents\New folder\Xamarin\MobApplication\MobApplication\MobApplication.UWP\bin\x86\Release\ilc\Assets\Square44x44Logo.altform-unplated_targetsize-256.png">
+      <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-256.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-04-02T12:17:30.116</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ayusha\Documents\New folder\Xamarin\MobApplication\MobApplication\MobApplication.UWP\bin\x86\Release\ilc\Assets\Square44x44Logo.altform-unplated_targetsize-48.png">
+      <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-48.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-04-02T12:17:30.119</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ayusha\Documents\New folder\Xamarin\MobApplication\MobApplication\MobApplication.UWP\bin\x86\Release\ilc\Assets\Square44x44Logo.scale-100.png">
+      <PackagePath>Assets\Square44x44Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-04-02T12:17:30.122</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ayusha\Documents\New folder\Xamarin\MobApplication\MobApplication\MobApplication.UWP\bin\x86\Release\ilc\Assets\Square44x44Logo.scale-200.png">
+      <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-04-02T12:17:30.129</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ayusha\Documents\New folder\Xamarin\MobApplication\MobApplication\MobApplication.UWP\bin\x86\Release\ilc\Assets\Square44x44Logo.scale-400.png">
+      <PackagePath>Assets\Square44x44Logo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-04-02T12:17:30.133</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ayusha\Documents\New folder\Xamarin\MobApplication\MobApplication\MobApplication.UWP\bin\x86\Release\ilc\Assets\Square44x44Logo.targetsize-16.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-16.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-04-02T12:17:30.136</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ayusha\Documents\New folder\Xamarin\MobApplication\MobApplication\MobApplication.UWP\bin\x86\Release\ilc\Assets\Square44x44Logo.targetsize-256.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-256.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-04-02T12:17:30.140</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ayusha\Documents\New folder\Xamarin\MobApplication\MobApplication\MobApplication.UWP\bin\x86\Release\ilc\Assets\Square44x44Logo.targetsize-48.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-48.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-04-02T12:17:30.143</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ayusha\Documents\New folder\Xamarin\MobApplication\MobApplication\MobApplication.UWP\bin\x86\Release\ilc\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-04-02T12:17:30.148</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ayusha\Documents\New folder\Xamarin\MobApplication\MobApplication\MobApplication.UWP\bin\x86\Release\ilc\Assets\StoreLogo.scale-200.png">
+      <PackagePath>Assets\StoreLogo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-04-02T12:17:30.152</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ayusha\Documents\New folder\Xamarin\MobApplication\MobApplication\MobApplication.UWP\bin\x86\Release\ilc\Assets\StoreLogo.scale-400.png">
+      <PackagePath>Assets\StoreLogo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-04-02T12:17:30.155</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ayusha\Documents\New folder\Xamarin\MobApplication\MobApplication\MobApplication.UWP\bin\x86\Release\ilc\Assets\Wide310x150Logo.scale-100.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-04-02T12:17:30.158</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ayusha\Documents\New folder\Xamarin\MobApplication\MobApplication\MobApplication.UWP\bin\x86\Release\ilc\Assets\Wide310x150Logo.scale-200.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-04-02T12:17:30.161</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ayusha\Documents\New folder\Xamarin\MobApplication\MobApplication\MobApplication.UWP\bin\x86\Release\ilc\Assets\Wide310x150Logo.scale-400.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-04-02T12:17:30.169</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ayusha\Documents\New folder\Xamarin\MobApplication\MobApplication\MobApplication.UWP\bin\x86\Release\ilc\clrcompression.dll">
+      <PackagePath>clrcompression.dll</PackagePath>
+      <Modified>2020-02-27T13:45:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ayusha\Documents\New folder\Xamarin\MobApplication\MobApplication\MobApplication.UWP\bin\x86\Release\ilc\lock1.png">
+      <PackagePath>lock1.png</PackagePath>
+      <Modified>2020-04-19T11:37:09.267</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ayusha\Documents\New folder\Xamarin\MobApplication\MobApplication\MobApplication.UWP\bin\x86\Release\ilc\Microsoft.Graphics.Canvas.dll">
+      <PackagePath>Microsoft.Graphics.Canvas.dll</PackagePath>
+      <Modified>2016-11-29T21:28:38.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ayusha\Documents\New folder\Xamarin\MobApplication\MobApplication\MobApplication.UWP\bin\x86\Release\ilc\Microsoft.Graphics.Canvas.winmd">
+      <PackagePath>Microsoft.Graphics.Canvas.winmd</PackagePath>
+      <Modified>2016-11-29T21:28:38.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ayusha\Documents\New folder\Xamarin\MobApplication\MobApplication\MobApplication.UWP\bin\x86\Release\ilc\MobApplication.UWP.dll">
+      <PackagePath>MobApplication.UWP.dll</PackagePath>
+      <Modified>2020-04-20T05:54:02.948</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ayusha\Documents\New folder\Xamarin\MobApplication\MobApplication\MobApplication.UWP\bin\x86\Release\ilc\MobApplication.UWP.exe">
+      <PackagePath>MobApplication.UWP.exe</PackagePath>
+      <Modified>2020-04-20T05:54:05.358</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ayusha\Documents\New folder\Xamarin\MobApplication\MobApplication\MobApplication.UWP\bin\x86\Release\ilc\MobApplication.UWP.pdb">
+      <PackagePath>MobApplication.UWP.pdb</PackagePath>
+      <Modified>2020-04-20T05:54:05.349</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ayusha\Documents\New folder\Xamarin\MobApplication\MobApplication\MobApplication.UWP\bin\x86\Release\ilc\p1.jpg">
+      <PackagePath>p1.jpg</PackagePath>
+      <Modified>2020-04-20T05:27:21.968</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ayusha\Documents\New folder\Xamarin\MobApplication\MobApplication\MobApplication.UWP\bin\x86\Release\ilc\p10.jpg">
+      <PackagePath>p10.jpg</PackagePath>
+      <Modified>2020-04-20T05:21:50.765</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ayusha\Documents\New folder\Xamarin\MobApplication\MobApplication\MobApplication.UWP\bin\x86\Release\ilc\p11.jpg">
+      <PackagePath>p11.jpg</PackagePath>
+      <Modified>2020-04-20T05:21:50.769</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ayusha\Documents\New folder\Xamarin\MobApplication\MobApplication\MobApplication.UWP\bin\x86\Release\ilc\p12.jpg">
+      <PackagePath>p12.jpg</PackagePath>
+      <Modified>2020-04-20T05:21:50.773</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ayusha\Documents\New folder\Xamarin\MobApplication\MobApplication\MobApplication.UWP\bin\x86\Release\ilc\p13.jpg">
+      <PackagePath>p13.jpg</PackagePath>
+      <Modified>2020-04-20T05:21:50.777</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ayusha\Documents\New folder\Xamarin\MobApplication\MobApplication\MobApplication.UWP\bin\x86\Release\ilc\p14.jpg">
+      <PackagePath>p14.jpg</PackagePath>
+      <Modified>2020-04-20T05:21:50.782</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ayusha\Documents\New folder\Xamarin\MobApplication\MobApplication\MobApplication.UWP\bin\x86\Release\ilc\p15.jpg">
+      <PackagePath>p15.jpg</PackagePath>
+      <Modified>2020-04-20T05:21:50.785</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ayusha\Documents\New folder\Xamarin\MobApplication\MobApplication\MobApplication.UWP\bin\x86\Release\ilc\p16.jpg">
+      <PackagePath>p16.jpg</PackagePath>
+      <Modified>2020-04-20T05:21:50.790</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ayusha\Documents\New folder\Xamarin\MobApplication\MobApplication\MobApplication.UWP\bin\x86\Release\ilc\p17.jpg">
+      <PackagePath>p17.jpg</PackagePath>
+      <Modified>2020-04-20T05:21:50.707</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ayusha\Documents\New folder\Xamarin\MobApplication\MobApplication\MobApplication.UWP\bin\x86\Release\ilc\p2.jpg">
+      <PackagePath>p2.jpg</PackagePath>
+      <Modified>2020-04-20T05:27:21.977</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ayusha\Documents\New folder\Xamarin\MobApplication\MobApplication\MobApplication.UWP\bin\x86\Release\ilc\p3.jpg">
+      <PackagePath>p3.jpg</PackagePath>
+      <Modified>2020-04-20T05:27:21.959</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ayusha\Documents\New folder\Xamarin\MobApplication\MobApplication\MobApplication.UWP\bin\x86\Release\ilc\p4.jpg">
+      <PackagePath>p4.jpg</PackagePath>
+      <Modified>2020-04-20T05:27:21.928</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ayusha\Documents\New folder\Xamarin\MobApplication\MobApplication\MobApplication.UWP\bin\x86\Release\ilc\p5.jpg">
+      <PackagePath>p5.jpg</PackagePath>
+      <Modified>2020-04-20T05:21:50.716</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ayusha\Documents\New folder\Xamarin\MobApplication\MobApplication\MobApplication.UWP\bin\x86\Release\ilc\p6.jpg">
+      <PackagePath>p6.jpg</PackagePath>
+      <Modified>2020-04-20T05:21:50.733</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ayusha\Documents\New folder\Xamarin\MobApplication\MobApplication\MobApplication.UWP\bin\x86\Release\ilc\p7.jpg">
+      <PackagePath>p7.jpg</PackagePath>
+      <Modified>2020-04-20T05:21:50.743</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ayusha\Documents\New folder\Xamarin\MobApplication\MobApplication\MobApplication.UWP\bin\x86\Release\ilc\p8.jpg">
+      <PackagePath>p8.jpg</PackagePath>
+      <Modified>2020-04-20T05:21:50.752</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ayusha\Documents\New folder\Xamarin\MobApplication\MobApplication\MobApplication.UWP\bin\x86\Release\ilc\p9.jpg">
+      <PackagePath>p9.jpg</PackagePath>
+      <Modified>2020-04-20T05:21:50.760</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ayusha\Documents\New folder\Xamarin\MobApplication\MobApplication\MobApplication.UWP\bin\x86\Release\ilc\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2020-04-20T05:50:42.148</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ayusha\Documents\New folder\Xamarin\MobApplication\MobApplication\MobApplication.UWP\bin\x86\Release\ilc\tie.png">
+      <PackagePath>tie.png</PackagePath>
+      <Modified>2020-04-19T11:37:09.366</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ayusha\Documents\New folder\Xamarin\MobApplication\MobApplication\MobApplication.UWP\bin\x86\Release\ilc\user.png">
+      <PackagePath>user.png</PackagePath>
+      <Modified>2020-04-19T11:37:09.424</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Users\ayusha\.nuget\packages\microsoft.ui.xaml\2.3.191211002\buildTransitive\..\tools\AppX\x86\Release\Microsoft.UI.Xaml.2.3.appx">
+      <Name>Microsoft.UI.Xaml.2.3</Name>
+      <Version>2.31912.11002.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.UI.Xaml.2.3, MinVersion = 2.31912.11002.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\ayusha\.nuget\packages\microsoft.ui.xaml\2.3.191211002\buildTransitive\..\tools\AppX\x86\Release\Microsoft.UI.Xaml.2.3.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\ayusha\.nuget\packages\microsoft.ui.xaml\2.3.191211002\buildTransitive\..\tools\AppX\x86\Release\Microsoft.UI.Xaml.2.3.appx">
+      <Name>Microsoft.UI.Xaml.2.3</Name>
+      <Version>2.31912.11002.0</Version>
+      <Architecture>Win32</Architecture>
+      <FrameworkIdentity>Name = Microsoft.UI.Xaml.2.3, MinVersion = 2.31912.11002.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\ayusha\.nuget\packages\microsoft.ui.xaml\2.3.191211002\buildTransitive\..\tools\AppX\x86\Release\Microsoft.UI.Xaml.2.3.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\ayusha\.nuget\packages\microsoft.ui.xaml\2.3.191211002\buildTransitive\..\tools\AppX\x64\Release\Microsoft.UI.Xaml.2.3.appx">
+      <Name>Microsoft.UI.Xaml.2.3</Name>
+      <Version>2.31912.11002.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.UI.Xaml.2.3, MinVersion = 2.31912.11002.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\ayusha\.nuget\packages\microsoft.ui.xaml\2.3.191211002\buildTransitive\..\tools\AppX\x64\Release\Microsoft.UI.Xaml.2.3.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\ayusha\.nuget\packages\microsoft.ui.xaml\2.3.191211002\buildTransitive\..\tools\AppX\arm\Release\Microsoft.UI.Xaml.2.3.appx">
+      <Name>Microsoft.UI.Xaml.2.3</Name>
+      <Version>2.31912.11002.0</Version>
+      <Architecture>arm</Architecture>
+      <FrameworkIdentity>Name = Microsoft.UI.Xaml.2.3, MinVersion = 2.31912.11002.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\ayusha\.nuget\packages\microsoft.ui.xaml\2.3.191211002\buildTransitive\..\tools\AppX\arm\Release\Microsoft.UI.Xaml.2.3.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\ayusha\.nuget\packages\microsoft.ui.xaml\2.3.191211002\buildTransitive\..\tools\AppX\arm64\Release\Microsoft.UI.Xaml.2.3.appx">
+      <Name>Microsoft.UI.Xaml.2.3</Name>
+      <Version>2.31912.11002.0</Version>
+      <Architecture>arm64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.UI.Xaml.2.3, MinVersion = 2.31912.11002.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\ayusha\.nuget\packages\microsoft.ui.xaml\2.3.191211002\buildTransitive\..\tools\AppX\arm64\Release\Microsoft.UI.Xaml.2.3.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\ayusha\.nuget\packages\runtime.win10-x86.microsoft.net.native.sharedlibrary\2.2.7-rel-28605-00\build\..\tools\SharedLibrary\ret\Native\Microsoft.NET.Native.Framework.2.2.appx">
+      <Name>Microsoft.NET.Native.Framework.2.2</Name>
+      <Version>2.2.27912.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.Native.Framework.2.2, MinVersion = 2.2.27912.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\ayusha\.nuget\packages\runtime.win10-x86.microsoft.net.native.sharedlibrary\2.2.7-rel-28605-00\build\..\tools\SharedLibrary\ret\Native\Microsoft.NET.Native.Framework.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\ayusha\.nuget\packages\runtime.win10-x64.microsoft.net.native.sharedlibrary\2.2.7-rel-28605-00\build\..\tools\SharedLibrary\ret\Native\Microsoft.NET.Native.Framework.2.2.appx">
+      <Name>Microsoft.NET.Native.Framework.2.2</Name>
+      <Version>2.2.27912.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.Native.Framework.2.2, MinVersion = 2.2.27912.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\ayusha\.nuget\packages\runtime.win10-x64.microsoft.net.native.sharedlibrary\2.2.7-rel-28605-00\build\..\tools\SharedLibrary\ret\Native\Microsoft.NET.Native.Framework.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\ayusha\.nuget\packages\runtime.win10-arm64.microsoft.net.native.sharedlibrary\2.2.7-rel-28605-00\build\..\tools\SharedLibrary\ret\Native\Microsoft.NET.Native.Framework.2.2.appx">
+      <Name>Microsoft.NET.Native.Framework.2.2</Name>
+      <Version>2.2.27912.0</Version>
+      <Architecture>arm64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.Native.Framework.2.2, MinVersion = 2.2.27912.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\ayusha\.nuget\packages\runtime.win10-arm64.microsoft.net.native.sharedlibrary\2.2.7-rel-28605-00\build\..\tools\SharedLibrary\ret\Native\Microsoft.NET.Native.Framework.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\ayusha\.nuget\packages\runtime.win10-arm.microsoft.net.native.sharedlibrary\2.2.7-rel-28605-00\build\..\tools\SharedLibrary\ret\Native\Microsoft.NET.Native.Framework.2.2.appx">
+      <Name>Microsoft.NET.Native.Framework.2.2</Name>
+      <Version>2.2.27912.0</Version>
+      <Architecture>arm</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.Native.Framework.2.2, MinVersion = 2.2.27912.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\ayusha\.nuget\packages\runtime.win10-arm.microsoft.net.native.sharedlibrary\2.2.7-rel-28605-00\build\..\tools\SharedLibrary\ret\Native\Microsoft.NET.Native.Framework.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\ayusha\.nuget\packages\runtime.win10-x86.microsoft.net.native.compiler\2.2.8-rel-28605-00\build\..\tools\Runtime\x86\Microsoft.NET.Native.Runtime.2.2.appx">
+      <Name>Microsoft.NET.Native.Runtime.2.2</Name>
+      <Version>2.2.28604.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.Native.Runtime.2.2, MinVersion = 2.2.28604.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\ayusha\.nuget\packages\runtime.win10-x86.microsoft.net.native.compiler\2.2.8-rel-28605-00\build\..\tools\Runtime\x86\Microsoft.NET.Native.Runtime.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\ayusha\.nuget\packages\runtime.win10-x64.microsoft.net.native.compiler\2.2.8-rel-28605-00\build\..\tools\Runtime\x64\Microsoft.NET.Native.Runtime.2.2.appx">
+      <Name>Microsoft.NET.Native.Runtime.2.2</Name>
+      <Version>2.2.28604.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.Native.Runtime.2.2, MinVersion = 2.2.28604.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\ayusha\.nuget\packages\runtime.win10-x64.microsoft.net.native.compiler\2.2.8-rel-28605-00\build\..\tools\Runtime\x64\Microsoft.NET.Native.Runtime.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\ayusha\.nuget\packages\runtime.win10-arm64.microsoft.net.native.compiler\2.2.8-rel-28605-00\build\..\tools\Runtime\arm64\Microsoft.NET.Native.Runtime.2.2.appx">
+      <Name>Microsoft.NET.Native.Runtime.2.2</Name>
+      <Version>2.2.28604.0</Version>
+      <Architecture>arm64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.Native.Runtime.2.2, MinVersion = 2.2.28604.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\ayusha\.nuget\packages\runtime.win10-arm64.microsoft.net.native.compiler\2.2.8-rel-28605-00\build\..\tools\Runtime\arm64\Microsoft.NET.Native.Runtime.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\ayusha\.nuget\packages\runtime.win10-arm.microsoft.net.native.compiler\2.2.8-rel-28605-00\build\..\tools\Runtime\arm\Microsoft.NET.Native.Runtime.2.2.appx">
+      <Name>Microsoft.NET.Native.Runtime.2.2</Name>
+      <Version>2.2.28604.0</Version>
+      <Architecture>arm</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.Native.Runtime.2.2, MinVersion = 2.2.28604.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\ayusha\.nuget\packages\runtime.win10-arm.microsoft.net.native.compiler\2.2.8-rel-28605-00\build\..\tools\Runtime\arm\Microsoft.NET.Native.Runtime.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00</Name>
+      <Version>14.0.27810.0</Version>
+      <Architecture>ARM</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00, MinVersion = 14.0.27810.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Retail\ARM\Microsoft.VCLibs.ARM.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00</Name>
+      <Version>14.0.27810.0</Version>
+      <Architecture>ARM64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00, MinVersion = 14.0.27810.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Retail\ARM64\Microsoft.VCLibs.ARM64.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00</Name>
+      <Version>14.0.27810.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00, MinVersion = 14.0.27810.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Retail\x64\Microsoft.VCLibs.x64.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00</Name>
+      <Version>14.0.27810.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00, MinVersion = 14.0.27810.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Retail\x86\Microsoft.VCLibs.x86.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>

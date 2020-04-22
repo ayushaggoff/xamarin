@@ -1,12 +1,11 @@
 C:\Users\ayusha\Documents\New folder\Xamarin\MobApplication\MobApplication\MobApplication.iOS\bin\iPhone\Debug\MobApplication.iOS.exe
 C:\Users\ayusha\Documents\New folder\Xamarin\MobApplication\MobApplication\MobApplication.iOS\bin\iPhone\Debug\MobApplication.iOS.pdb
+C:\Users\ayusha\Documents\New folder\Xamarin\MobApplication\MobApplication\MobApplication.iOS\bin\iPhone\Debug\ImageCircle.Forms.Plugin.dll
 C:\Users\ayusha\Documents\New folder\Xamarin\MobApplication\MobApplication\MobApplication.iOS\bin\iPhone\Debug\Xamarin.Essentials.dll
 C:\Users\ayusha\Documents\New folder\Xamarin\MobApplication\MobApplication\MobApplication.iOS\bin\iPhone\Debug\Xamarin.Essentials.pdb
 C:\Users\ayusha\Documents\New folder\Xamarin\MobApplication\MobApplication\MobApplication.iOS\bin\iPhone\Debug\Xamarin.Forms.Core.dll
 C:\Users\ayusha\Documents\New folder\Xamarin\MobApplication\MobApplication\MobApplication.iOS\bin\iPhone\Debug\Xamarin.Forms.Core.pdb
 C:\Users\ayusha\Documents\New folder\Xamarin\MobApplication\MobApplication\MobApplication.iOS\bin\iPhone\Debug\Xamarin.Forms.Platform.dll
-C:\Users\ayusha\Documents\New folder\Xamarin\MobApplication\MobApplication\MobApplication.iOS\bin\iPhone\Debug\Xamarin.Forms.Platform.iOS.dll
-C:\Users\ayusha\Documents\New folder\Xamarin\MobApplication\MobApplication\MobApplication.iOS\bin\iPhone\Debug\Xamarin.Forms.Platform.iOS.pdb
 C:\Users\ayusha\Documents\New folder\Xamarin\MobApplication\MobApplication\MobApplication.iOS\bin\iPhone\Debug\Xamarin.Forms.Xaml.dll
 C:\Users\ayusha\Documents\New folder\Xamarin\MobApplication\MobApplication\MobApplication.iOS\bin\iPhone\Debug\Xamarin.Forms.Xaml.pdb
 C:\Users\ayusha\Documents\New folder\Xamarin\MobApplication\MobApplication\MobApplication.iOS\bin\iPhone\Debug\ar\Xamarin.Forms.Platform.iOS.resources.dll
@@ -44,7 +43,9 @@ C:\Users\ayusha\Documents\New folder\Xamarin\MobApplication\MobApplication\MobAp
 C:\Users\ayusha\Documents\New folder\Xamarin\MobApplication\MobApplication\MobApplication.iOS\bin\iPhone\Debug\zh-Hans\Xamarin.Forms.Platform.iOS.resources.dll
 C:\Users\ayusha\Documents\New folder\Xamarin\MobApplication\MobApplication\MobApplication.iOS\bin\iPhone\Debug\zh-Hant\Xamarin.Forms.Platform.iOS.resources.dll
 C:\Users\ayusha\Documents\New folder\Xamarin\MobApplication\MobApplication\MobApplication.iOS\bin\iPhone\Debug\MobApplication.dll
+C:\Users\ayusha\Documents\New folder\Xamarin\MobApplication\MobApplication\MobApplication.iOS\bin\iPhone\Debug\Xamarin.Forms.Platform.iOS.dll
 C:\Users\ayusha\Documents\New folder\Xamarin\MobApplication\MobApplication\MobApplication.iOS\bin\iPhone\Debug\MobApplication.pdb
+C:\Users\ayusha\Documents\New folder\Xamarin\MobApplication\MobApplication\MobApplication.iOS\bin\iPhone\Debug\Xamarin.Forms.Platform.iOS.pdb
 C:\Users\ayusha\Documents\New folder\Xamarin\MobApplication\MobApplication\MobApplication.iOS\obj\iPhone\Debug\ibtool\_BundleResourceWithLogicalName.items
 C:\Users\ayusha\Documents\New folder\Xamarin\MobApplication\MobApplication\MobApplication.iOS\obj\iPhone\Debug\actool\_PartialAppManifest.items
 C:\Users\ayusha\Documents\New folder\Xamarin\MobApplication\MobApplication\MobApplication.iOS\obj\iPhone\Debug\actool\_BundleResourceWithLogicalName.items
@@ -57,4 +58,3 @@ C:\Users\ayusha\Documents\New folder\Xamarin\MobApplication\MobApplication\MobAp
 C:\Users\ayusha\Documents\New folder\Xamarin\MobApplication\MobApplication\MobApplication.iOS\obj\iPhone\Debug\MobApplication.iOS.csproj.CopyComplete
 C:\Users\ayusha\Documents\New folder\Xamarin\MobApplication\MobApplication\MobApplication.iOS\obj\iPhone\Debug\MobApplication.iOS.exe
 C:\Users\ayusha\Documents\New folder\Xamarin\MobApplication\MobApplication\MobApplication.iOS\obj\iPhone\Debug\MobApplication.iOS.pdb
-C:\Users\ayusha\Documents\New folder\Xamarin\MobApplication\MobApplication\MobApplication.iOS\bin\iPhone\Debug\ImageCircle.Forms.Plugin.dll

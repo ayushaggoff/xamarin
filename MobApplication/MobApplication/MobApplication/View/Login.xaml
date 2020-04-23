@@ -27,9 +27,17 @@
         </Control:CustomEntry>
         <Image Source="lock1.png" BackgroundColor="White"  AbsoluteLayout.LayoutBounds=".1, .6, .06,.07" AbsoluteLayout.LayoutFlags="All" />
         <Entry Text="{Binding Password}"   x:Name="password" Placeholder="Password" Completed="Password_Completed" Style="{StaticResource FoucsLabel}" IsPassword="True" Margin="0, 0, 0, 0"  BackgroundColor="White" AbsoluteLayout.LayoutBounds=".59, .6, .74, .07" AbsoluteLayout.LayoutFlags="All"/>
-
         <Frame Padding="0" AbsoluteLayout.LayoutBounds=".47, .7, .8,.06" AbsoluteLayout.LayoutFlags="All">
-            <Button Command="{Binding OnLogin}"  x:Name="login" Padding="0"  Text="Log In"  BackgroundColor="#19D6D2" TextColor="White"></Button>
+            <Button Command="{Binding OnLogin}"  x:Name="login" Padding="0"  Text="Log In"  BackgroundColor="#19D6D2" TextColor="White">
+                <Button.Triggers>
+                    <DataTrigger TargetType="Button" Binding="{Binding Source={x:Reference email}, Path=Text.Length}" Value="0">
+                        <Setter Property="IsEnabled" Value="False"></Setter>
+                    </DataTrigger>
+                    <DataTrigger TargetType="Button" Binding="{Binding Source={x:Reference password}, Path=Text.Length}" Value="0">
+                        <Setter Property="IsEnabled" Value="False"></Setter>
+                    </DataTrigger>
+                </Button.Triggers>
+            </Button>
         </Frame>
     </AbsoluteLayout>
 </ContentPage>

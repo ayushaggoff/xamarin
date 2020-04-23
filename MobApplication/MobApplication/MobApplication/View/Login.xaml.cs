@@ -32,7 +32,7 @@ namespace MobApplication.View
         }
         private void Email_Completed(object sender, EventArgs e)
         { 
-           model.EmailCheck(password);  
+          // model.EmailCheck(password);  
         }
 
         private void Password_Completed(object sender, EventArgs e)

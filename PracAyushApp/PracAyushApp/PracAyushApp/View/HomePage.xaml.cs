@@ -17,14 +17,39 @@ namespace PracAyushApp.View
             InitializeComponent();
             this.Title = "Select Option";
             StackLayout stackLayout = new StackLayout();
-            Button button = new Button();
-            button.Text = "Add Company";
-            button.Clicked += Button_Clicked;
-            stackLayout.Children.Add(button);
+            Button addButton = new Button();
+            addButton.Text = "Add Company";
+            addButton.Clicked += AddButton_Clicked;
+            stackLayout.Children.Add(addButton);
+            Button getButton = new Button();
+            getButton.Text = "Get Company List";
+            getButton.Clicked += GetButton_Clicked;
+            stackLayout.Children.Add(getButton);
+
+            Button updateButton = new Button();
+            updateButton.Text = "Update Company Detail";
+            updateButton.Clicked += UpdateButton_Clicked;
+            stackLayout.Children.Add(updateButton);
+            Button deleteButton = new Button();
+            deleteButton.Text = "Delete Company";
+            deleteButton.Clicked += DeleteButton_Clicked;
+            stackLayout.Children.Add(deleteButton);
             Content = stackLayout;
         }
 
-        private async void Button_Clicked(object sender, EventArgs e)
+        private async void AddButton_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new AddCompanyPage());
+        }
+        private async void GetButton_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new GetCompanyPage());
+        }
+        private async void UpdateButton_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new UpdateCompanyPage());
+        }
+        private async void DeleteButton_Clicked(object sender, EventArgs e)
         {
             await Navigation.PushAsync(new AddCompanyPage());
         }

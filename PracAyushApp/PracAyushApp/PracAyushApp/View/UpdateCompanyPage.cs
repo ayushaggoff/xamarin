@@ -10,13 +10,14 @@ using Xamarin.Forms;
 
 namespace PracAyushApp.View
 {
-    public class AddCompanyPage : ContentPage
+    public class UpdateCompanyPage : ContentPage
     {
         private Entry _nameEntry;
         private Entry _addressEntry;
-        private Button _saveButton;
-        string _dbPath = Path.Combine(System.Environment.GetFolderPath(System.Environment.SpecialFolder.Personal),"myDB.db3");
-        public AddCompanyPage()
+        private Button _updateButton;
+        string _dbPath = Path.Combine(System.Environment.GetFolderPath(System.Environment.SpecialFolder.Personal), "myDB.db3");
+
+        public UpdateCompanyPage()
         {
             StackLayout stackLayout = new StackLayout();
             _nameEntry = new Entry();
@@ -27,15 +28,13 @@ namespace PracAyushApp.View
             _addressEntry.Keyboard = Keyboard.Text;
             _addressEntry.Placeholder = "Address";
             stackLayout.Children.Add(_addressEntry);
-            _saveButton = new Button();
-            _saveButton.Text = "Add";
-            _saveButton.Clicked += _saveButton_Clicked;
-            stackLayout.Children.Add(_saveButton);
+            _updateButton = new Button();
+            _updateButton.Text = "Update";
+            _updateButton.Clicked += _updateButton_Clicked;
+            stackLayout.Children.Add(_updateButton);
             Content = stackLayout;
-
         }
-
-        private async void _saveButton_Clicked(object sender, EventArgs e)
+        private async void _updateButton_Clicked(object sender, EventArgs e)
         {
             var db = new SQLiteConnection(_dbPath);
             db.CreateTable<Models.Company>();
@@ -48,8 +47,9 @@ namespace PracAyushApp.View
                 Address = _addressEntry.Text
             };
             db.Insert(company);
-            await DisplayAlert("",company.Name +"save","ok");
+            await DisplayAlert("", company.Name + "save", "ok");
             await Navigation.PopAsync();
         }
+
     }
 }

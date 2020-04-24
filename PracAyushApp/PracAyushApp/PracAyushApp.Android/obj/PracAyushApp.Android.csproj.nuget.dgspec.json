@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ayusha\\source\\repos\\PracAyushApp\\PracAyushApp\\PracAyushApp.Android\\PracAyushApp.Android.csproj": {}
+    "C:\\Users\\ayusha\\Documents\\New folder\\Xamarin\\PracAyushApp\\PracAyushApp\\PracAyushApp.Android\\PracAyushApp.Android.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ayusha\\source\\repos\\PracAyushApp\\PracAyushApp\\PracAyushApp.Android\\PracAyushApp.Android.csproj": {
+    "C:\\Users\\ayusha\\Documents\\New folder\\Xamarin\\PracAyushApp\\PracAyushApp\\PracAyushApp.Android\\PracAyushApp.Android.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ayusha\\source\\repos\\PracAyushApp\\PracAyushApp\\PracAyushApp.Android\\PracAyushApp.Android.csproj",
+        "projectUniqueName": "C:\\Users\\ayusha\\Documents\\New folder\\Xamarin\\PracAyushApp\\PracAyushApp\\PracAyushApp.Android\\PracAyushApp.Android.csproj",
         "projectName": "PracAyushApp.Android",
-        "projectPath": "C:\\Users\\ayusha\\source\\repos\\PracAyushApp\\PracAyushApp\\PracAyushApp.Android\\PracAyushApp.Android.csproj",
+        "projectPath": "C:\\Users\\ayusha\\Documents\\New folder\\Xamarin\\PracAyushApp\\PracAyushApp\\PracAyushApp.Android\\PracAyushApp.Android.csproj",
         "packagesPath": "C:\\Users\\ayusha\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ayusha\\source\\repos\\PracAyushApp\\PracAyushApp\\PracAyushApp.Android\\obj\\",
+        "outputPath": "C:\\Users\\ayusha\\Documents\\New folder\\Xamarin\\PracAyushApp\\PracAyushApp\\PracAyushApp.Android\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
@@ -32,8 +32,8 @@
         "frameworks": {
           "monoandroid90": {
             "projectReferences": {
-              "C:\\Users\\ayusha\\source\\repos\\PracAyushApp\\PracAyushApp\\PracAyushApp\\PracAyushApp.csproj": {
-                "projectPath": "C:\\Users\\ayusha\\source\\repos\\PracAyushApp\\PracAyushApp\\PracAyushApp\\PracAyushApp.csproj"
+              "C:\\Users\\ayusha\\Documents\\New folder\\Xamarin\\PracAyushApp\\PracAyushApp\\PracAyushApp\\PracAyushApp.csproj": {
+                "projectPath": "C:\\Users\\ayusha\\Documents\\New folder\\Xamarin\\PracAyushApp\\PracAyushApp\\PracAyushApp\\PracAyushApp.csproj"
               }
             }
           }
@@ -61,19 +61,23 @@
             "Xamarin.Forms": {
               "target": "Package",
               "version": "[4.5.0.657, )"
+            },
+            "sqlite-net-pcl": {
+              "target": "Package",
+              "version": "[1.6.292, )"
             }
           }
         }
       }
     },
-    "C:\\Users\\ayusha\\source\\repos\\PracAyushApp\\PracAyushApp\\PracAyushApp\\PracAyushApp.csproj": {
+    "C:\\Users\\ayusha\\Documents\\New folder\\Xamarin\\PracAyushApp\\PracAyushApp\\PracAyushApp\\PracAyushApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ayusha\\source\\repos\\PracAyushApp\\PracAyushApp\\PracAyushApp\\PracAyushApp.csproj",
+        "projectUniqueName": "C:\\Users\\ayusha\\Documents\\New folder\\Xamarin\\PracAyushApp\\PracAyushApp\\PracAyushApp\\PracAyushApp.csproj",
         "projectName": "PracAyushApp",
-        "projectPath": "C:\\Users\\ayusha\\source\\repos\\PracAyushApp\\PracAyushApp\\PracAyushApp\\PracAyushApp.csproj",
+        "projectPath": "C:\\Users\\ayusha\\Documents\\New folder\\Xamarin\\PracAyushApp\\PracAyushApp\\PracAyushApp\\PracAyushApp.csproj",
         "packagesPath": "C:\\Users\\ayusha\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ayusha\\source\\repos\\PracAyushApp\\PracAyushApp\\PracAyushApp\\obj\\",
+        "outputPath": "C:\\Users\\ayusha\\Documents\\New folder\\Xamarin\\PracAyushApp\\PracAyushApp\\PracAyushApp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -125,6 +129,10 @@
             "Xamarin.Forms": {
               "target": "Package",
               "version": "[4.5.0.657, )"
+            },
+            "sqlite-net-pcl": {
+              "target": "Package",
+              "version": "[1.6.292, )"
             }
           },
           "imports": [

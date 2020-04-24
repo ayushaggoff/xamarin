@@ -1,1 +1,1 @@
-C:\Users\ayusha\source\repos\PracAyushApp\PracAyushApp\PracAyushApp.UWP\PracAyushApp.UWP.csproj;x86
+C:\Users\ayusha\Documents\New folder\Xamarin\PracAyushApp\PracAyushApp\PracAyushApp.UWP\PracAyushApp.UWP.csproj;x86

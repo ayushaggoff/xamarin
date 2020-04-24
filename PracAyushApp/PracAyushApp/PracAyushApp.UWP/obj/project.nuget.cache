@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "vtxxB7N9FvzDIQ8nBW88av4/hXlYV4JyS7WY0imxsEvzyZ3gXFR2bTYJamcmd13fwDYODiKcH0olxKCcmInyPg==",
+  "dgSpecHash": "nSEeHlPc753jQxy0bUtBL0T/Z9B5HCMH9iIw9tvbNaCx+sRP7iTXz2vZV1i2CdFL3/my5HVmdrubqfyIBFreJA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ayusha\\source\\repos\\PracAyushApp\\PracAyushApp\\PracAyushApp.UWP\\PracAyushApp.UWP.csproj",
+  "projectFilePath": "C:\\Users\\ayusha\\Documents\\New folder\\Xamarin\\PracAyushApp\\PracAyushApp\\PracAyushApp.UWP\\PracAyushApp.UWP.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ayusha\\.nuget\\packages\\microsoft.bcl\\1.1.10\\microsoft.bcl.1.1.10.nupkg.sha512",
     "C:\\Users\\ayusha\\.nuget\\packages\\microsoft.bcl.build\\1.0.14\\microsoft.bcl.build.1.0.14.nupkg.sha512",
@@ -32,6 +32,11 @@
     "C:\\Users\\ayusha\\.nuget\\packages\\runtime.win10-x86.microsoft.net.native.sharedlibrary\\2.2.7-rel-28605-00\\runtime.win10-x86.microsoft.net.native.sharedlibrary.2.2.7-rel-28605-00.nupkg.sha512",
     "C:\\Users\\ayusha\\.nuget\\packages\\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\\2.2.10\\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk.2.2.10.nupkg.sha512",
     "C:\\Users\\ayusha\\.nuget\\packages\\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\\6.2.10\\runtime.win10-x86.microsoft.netcore.universalwindowsplatform.6.2.10.nupkg.sha512",
+    "C:\\Users\\ayusha\\.nuget\\packages\\sqlite-net-pcl\\1.6.292\\sqlite-net-pcl.1.6.292.nupkg.sha512",
+    "C:\\Users\\ayusha\\.nuget\\packages\\sqlitepclraw.bundle_green\\1.1.13\\sqlitepclraw.bundle_green.1.1.13.nupkg.sha512",
+    "C:\\Users\\ayusha\\.nuget\\packages\\sqlitepclraw.core\\1.1.13\\sqlitepclraw.core.1.1.13.nupkg.sha512",
+    "C:\\Users\\ayusha\\.nuget\\packages\\sqlitepclraw.lib.e_sqlite3.v140\\1.1.13\\sqlitepclraw.lib.e_sqlite3.v140.1.1.13.nupkg.sha512",
+    "C:\\Users\\ayusha\\.nuget\\packages\\sqlitepclraw.provider.e_sqlite3.uwp10\\1.1.13\\sqlitepclraw.provider.e_sqlite3.uwp10.1.1.13.nupkg.sha512",
     "C:\\Microsoft\\Xamarin\\NuGet\\win2d.uwp\\1.20.0\\win2d.uwp.1.20.0.nupkg.sha512",
     "C:\\Users\\ayusha\\.nuget\\packages\\xamarin.essentials\\1.5.3.1\\xamarin.essentials.1.5.3.1.nupkg.sha512",
     "C:\\Users\\ayusha\\.nuget\\packages\\xamarin.forms\\4.5.0.657\\xamarin.forms.4.5.0.657.nupkg.sha512"

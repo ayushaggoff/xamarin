@@ -10,7 +10,7 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>ec0cc741-fd3e-485c-81be-68815c480690</PackageIdentityName>
     <PackageIdentityPublisher>CN=26af2249-dd48-4977-8678-4398c584f2a6</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\ayusha\source\repos\PracAyushApp\PracAyushApp\PracAyushApp.UWP\obj\x86\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\ayusha\Documents\New folder\Xamarin\PracAyushApp\PracAyushApp\PracAyushApp.UWP\obj\x86\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType>
     </RemoteDeploymentType>
     <PackageRegistrationPath>
@@ -18,7 +18,7 @@
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>C:\Users\ayusha\source\repos\PracAyushApp\PracAyushApp\PracAyushApp.UWP\bin\x86\Debug\AppX</LayoutDir>
+    <LayoutDir>C:\Users\ayusha\Documents\New folder\Xamarin\PracAyushApp\PracAyushApp\PracAyushApp.UWP\bin\x86\Debug\AppX</LayoutDir>
     <RegisteredManifestChecksum>14C021F0B5CD331B495FCB90845613185CB27D0449D9428DBC921EB2F1E32FD1</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>ee00db43-bbdb-4322-81b8-bc7e91efc85e_1.0.0.0_x86__1wx6cxp05cv2e</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>ee00db43-bbdb-4322-81b8-bc7e91efc85e_1wx6cxp05cv2e!App</RegisteredUserModeAppID>
@@ -27,16 +27,16 @@
     <RegisteredVersion>1.0.0.0</RegisteredVersion>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\ayusha\source\repos\PracAyushApp\PracAyushApp\PracAyushApp.UWP\bin\x86\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\ayusha\Documents\New folder\Xamarin\PracAyushApp\PracAyushApp\PracAyushApp.UWP\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-04-24T11:29:32.463</Modified>
+      <Modified>2020-04-24T13:12:34.694</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\ayusha\source\repos\PracAyushApp\PracAyushApp\PracAyushApp.UWP\bin\x86\Debug\PracAyushApp.UWP.exe">
+    <AppxPackagedFile Include="C:\Users\ayusha\Documents\New folder\Xamarin\PracAyushApp\PracAyushApp\PracAyushApp.UWP\bin\x86\Debug\PracAyushApp.UWP.exe">
       <PackagePath>entrypoint\PracAyushApp.UWP.exe</PackagePath>
-      <Modified>2020-04-24T11:29:30.831</Modified>
+      <Modified>2020-04-24T13:12:32.188</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ayusha\.nuget\packages\microsoft.net.http\2.2.29\lib\win8\System.Net.Http.Extensions.dll">
       <PackagePath>System.Net.Http.Extensions.dll</PackagePath>
@@ -53,6 +53,30 @@
     <AppxPackagedFile Include="C:\Users\ayusha\.nuget\packages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.10\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
       <PackagePath>System.Runtime.dll</PackagePath>
       <Modified>2020-02-27T13:46:04.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ayusha\.nuget\packages\sqlite-net-pcl\1.6.292\lib\netstandard1.1\SQLite-net.dll">
+      <PackagePath>SQLite-net.dll</PackagePath>
+      <Modified>2019-09-19T21:50:34.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ayusha\.nuget\packages\sqlitepclraw.bundle_green\1.1.13\lib\uap10.0\SQLitePCLRaw.batteries_green.dll">
+      <PackagePath>SQLitePCLRaw.batteries_green.dll</PackagePath>
+      <Modified>2019-01-24T10:00:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ayusha\.nuget\packages\sqlitepclraw.bundle_green\1.1.13\lib\uap10.0\SQLitePCLRaw.batteries_v2.dll">
+      <PackagePath>SQLitePCLRaw.batteries_v2.dll</PackagePath>
+      <Modified>2019-01-24T10:00:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ayusha\.nuget\packages\sqlitepclraw.core\1.1.13\lib\uap10.0\SQLitePCLRaw.core.dll">
+      <PackagePath>SQLitePCLRaw.core.dll</PackagePath>
+      <Modified>2019-01-24T10:00:06.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ayusha\.nuget\packages\sqlitepclraw.lib.e_sqlite3.v140\1.1.13\runtimes\win10-x86\native\e_sqlite3.dll">
+      <PackagePath>e_sqlite3.dll</PackagePath>
+      <Modified>2018-12-17T20:53:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ayusha\.nuget\packages\sqlitepclraw.provider.e_sqlite3.uwp10\1.1.13\lib\uap10.0\SQLitePCLRaw.provider.e_sqlite3.dll">
+      <PackagePath>SQLitePCLRaw.provider.e_sqlite3.dll</PackagePath>
+      <Modified>2019-01-24T10:00:14.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Microsoft\Xamarin\NuGet\win2d.uwp\1.20.0\runtimes\win10-x86\native\Microsoft.Graphics.Canvas.dll">
       <PackagePath>Microsoft.Graphics.Canvas.dll</PackagePath>
@@ -78,9 +102,9 @@
       <PackagePath>Xamarin.Forms.Xaml.dll</PackagePath>
       <Modified>2020-04-16T11:21:52.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ayusha\source\repos\PracAyushApp\PracAyushApp\PracAyushApp\bin\Debug\netstandard2.0\PracAyushApp.dll">
+    <AppxPackagedFile Include="C:\Users\ayusha\Documents\New folder\Xamarin\PracAyushApp\PracAyushApp\PracAyushApp\bin\Debug\netstandard2.0\PracAyushApp.dll">
       <PackagePath>PracAyushApp.dll</PackagePath>
-      <Modified>2020-04-24T11:29:21.704</Modified>
+      <Modified>2020-04-24T13:14:38.034</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Microsoft\Xamarin\NuGet\win2d.uwp\1.20.0\lib\uap10.0\Microsoft.Graphics.Canvas.winmd">
       <PackagePath>Microsoft.Graphics.Canvas.winmd</PackagePath>
@@ -94,156 +118,156 @@
       <PackagePath>Xamarin.Forms.Platform.UAP\Xamarin.Forms.Platform.UAP.xr.xml</PackagePath>
       <Modified>2020-04-16T11:21:46.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ayusha\source\repos\PracAyushApp\PracAyushApp\PracAyushApp.UWP\Assets\LargeTile.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\ayusha\Documents\New folder\Xamarin\PracAyushApp\PracAyushApp\PracAyushApp.UWP\Assets\LargeTile.scale-100.png">
       <PackagePath>Assets\LargeTile.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2020-04-24T11:13:58.995</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ayusha\source\repos\PracAyushApp\PracAyushApp\PracAyushApp.UWP\Assets\LargeTile.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\ayusha\Documents\New folder\Xamarin\PracAyushApp\PracAyushApp\PracAyushApp.UWP\Assets\LargeTile.scale-200.png">
       <PackagePath>Assets\LargeTile.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2020-04-24T11:13:58.998</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ayusha\source\repos\PracAyushApp\PracAyushApp\PracAyushApp.UWP\Assets\LargeTile.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\ayusha\Documents\New folder\Xamarin\PracAyushApp\PracAyushApp\PracAyushApp.UWP\Assets\LargeTile.scale-400.png">
       <PackagePath>Assets\LargeTile.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2020-04-24T11:13:59.001</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ayusha\source\repos\PracAyushApp\PracAyushApp\PracAyushApp.UWP\Assets\SmallTile.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\ayusha\Documents\New folder\Xamarin\PracAyushApp\PracAyushApp\PracAyushApp.UWP\Assets\SmallTile.scale-100.png">
       <PackagePath>Assets\SmallTile.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2020-04-24T11:13:59.003</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ayusha\source\repos\PracAyushApp\PracAyushApp\PracAyushApp.UWP\Assets\SmallTile.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\ayusha\Documents\New folder\Xamarin\PracAyushApp\PracAyushApp\PracAyushApp.UWP\Assets\SmallTile.scale-200.png">
       <PackagePath>Assets\SmallTile.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2020-04-24T11:13:59.012</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ayusha\source\repos\PracAyushApp\PracAyushApp\PracAyushApp.UWP\Assets\SmallTile.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\ayusha\Documents\New folder\Xamarin\PracAyushApp\PracAyushApp\PracAyushApp.UWP\Assets\SmallTile.scale-400.png">
       <PackagePath>Assets\SmallTile.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2020-04-24T11:13:59.284</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ayusha\source\repos\PracAyushApp\PracAyushApp\PracAyushApp.UWP\Assets\SplashScreen.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\ayusha\Documents\New folder\Xamarin\PracAyushApp\PracAyushApp\PracAyushApp.UWP\Assets\SplashScreen.scale-100.png">
       <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2020-04-24T11:13:59.286</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ayusha\source\repos\PracAyushApp\PracAyushApp\PracAyushApp.UWP\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\ayusha\Documents\New folder\Xamarin\PracAyushApp\PracAyushApp\PracAyushApp.UWP\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2020-04-24T11:13:59.288</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ayusha\source\repos\PracAyushApp\PracAyushApp\PracAyushApp.UWP\Assets\SplashScreen.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\ayusha\Documents\New folder\Xamarin\PracAyushApp\PracAyushApp\PracAyushApp.UWP\Assets\SplashScreen.scale-400.png">
       <PackagePath>Assets\SplashScreen.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2020-04-24T11:13:59.291</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ayusha\source\repos\PracAyushApp\PracAyushApp\PracAyushApp.UWP\Assets\Square150x150Logo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\ayusha\Documents\New folder\Xamarin\PracAyushApp\PracAyushApp\PracAyushApp.UWP\Assets\Square150x150Logo.scale-100.png">
       <PackagePath>Assets\Square150x150Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2020-04-24T11:13:59.293</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ayusha\source\repos\PracAyushApp\PracAyushApp\PracAyushApp.UWP\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\ayusha\Documents\New folder\Xamarin\PracAyushApp\PracAyushApp\PracAyushApp.UWP\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2020-04-24T11:13:59.295</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ayusha\source\repos\PracAyushApp\PracAyushApp\PracAyushApp.UWP\Assets\Square150x150Logo.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\ayusha\Documents\New folder\Xamarin\PracAyushApp\PracAyushApp\PracAyushApp.UWP\Assets\Square150x150Logo.scale-400.png">
       <PackagePath>Assets\Square150x150Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2020-04-24T11:13:59.298</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ayusha\source\repos\PracAyushApp\PracAyushApp\PracAyushApp.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-16.png">
+    <AppxPackagedFile Include="C:\Users\ayusha\Documents\New folder\Xamarin\PracAyushApp\PracAyushApp\PracAyushApp.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-16.png">
       <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-16.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2020-04-24T11:13:59.299</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ayusha\source\repos\PracAyushApp\PracAyushApp\PracAyushApp.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-256.png">
+    <AppxPackagedFile Include="C:\Users\ayusha\Documents\New folder\Xamarin\PracAyushApp\PracAyushApp\PracAyushApp.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-256.png">
       <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-256.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2020-04-24T11:13:59.301</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ayusha\source\repos\PracAyushApp\PracAyushApp\PracAyushApp.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-48.png">
+    <AppxPackagedFile Include="C:\Users\ayusha\Documents\New folder\Xamarin\PracAyushApp\PracAyushApp\PracAyushApp.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-48.png">
       <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-48.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2020-04-24T11:13:59.311</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ayusha\source\repos\PracAyushApp\PracAyushApp\PracAyushApp.UWP\Assets\Square44x44Logo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\ayusha\Documents\New folder\Xamarin\PracAyushApp\PracAyushApp\PracAyushApp.UWP\Assets\Square44x44Logo.scale-100.png">
       <PackagePath>Assets\Square44x44Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2020-04-24T11:13:59.313</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ayusha\source\repos\PracAyushApp\PracAyushApp\PracAyushApp.UWP\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\ayusha\Documents\New folder\Xamarin\PracAyushApp\PracAyushApp\PracAyushApp.UWP\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2020-04-24T11:13:59.315</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ayusha\source\repos\PracAyushApp\PracAyushApp\PracAyushApp.UWP\Assets\Square44x44Logo.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\ayusha\Documents\New folder\Xamarin\PracAyushApp\PracAyushApp\PracAyushApp.UWP\Assets\Square44x44Logo.scale-400.png">
       <PackagePath>Assets\Square44x44Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2020-04-24T11:13:59.316</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ayusha\source\repos\PracAyushApp\PracAyushApp\PracAyushApp.UWP\Assets\Square44x44Logo.targetsize-16.png">
+    <AppxPackagedFile Include="C:\Users\ayusha\Documents\New folder\Xamarin\PracAyushApp\PracAyushApp\PracAyushApp.UWP\Assets\Square44x44Logo.targetsize-16.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-16.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2020-04-24T11:13:59.318</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ayusha\source\repos\PracAyushApp\PracAyushApp\PracAyushApp.UWP\Assets\Square44x44Logo.targetsize-256.png">
+    <AppxPackagedFile Include="C:\Users\ayusha\Documents\New folder\Xamarin\PracAyushApp\PracAyushApp\PracAyushApp.UWP\Assets\Square44x44Logo.targetsize-256.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-256.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2020-04-24T11:13:59.320</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ayusha\source\repos\PracAyushApp\PracAyushApp\PracAyushApp.UWP\Assets\Square44x44Logo.targetsize-48.png">
+    <AppxPackagedFile Include="C:\Users\ayusha\Documents\New folder\Xamarin\PracAyushApp\PracAyushApp\PracAyushApp.UWP\Assets\Square44x44Logo.targetsize-48.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-48.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2020-04-24T11:13:59.322</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ayusha\source\repos\PracAyushApp\PracAyushApp\PracAyushApp.UWP\Assets\StoreLogo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\ayusha\Documents\New folder\Xamarin\PracAyushApp\PracAyushApp\PracAyushApp.UWP\Assets\StoreLogo.scale-100.png">
       <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2020-04-24T11:13:59.325</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ayusha\source\repos\PracAyushApp\PracAyushApp\PracAyushApp.UWP\Assets\StoreLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\ayusha\Documents\New folder\Xamarin\PracAyushApp\PracAyushApp\PracAyushApp.UWP\Assets\StoreLogo.scale-200.png">
       <PackagePath>Assets\StoreLogo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2020-04-24T11:13:59.326</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ayusha\source\repos\PracAyushApp\PracAyushApp\PracAyushApp.UWP\Assets\StoreLogo.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\ayusha\Documents\New folder\Xamarin\PracAyushApp\PracAyushApp\PracAyushApp.UWP\Assets\StoreLogo.scale-400.png">
       <PackagePath>Assets\StoreLogo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2020-04-24T11:13:59.617</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ayusha\source\repos\PracAyushApp\PracAyushApp\PracAyushApp.UWP\Assets\Wide310x150Logo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\ayusha\Documents\New folder\Xamarin\PracAyushApp\PracAyushApp\PracAyushApp.UWP\Assets\Wide310x150Logo.scale-100.png">
       <PackagePath>Assets\Wide310x150Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2020-04-24T11:13:59.618</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ayusha\source\repos\PracAyushApp\PracAyushApp\PracAyushApp.UWP\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\ayusha\Documents\New folder\Xamarin\PracAyushApp\PracAyushApp\PracAyushApp.UWP\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2020-04-24T11:13:59.621</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ayusha\source\repos\PracAyushApp\PracAyushApp\PracAyushApp.UWP\Assets\Wide310x150Logo.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\ayusha\Documents\New folder\Xamarin\PracAyushApp\PracAyushApp\PracAyushApp.UWP\Assets\Wide310x150Logo.scale-400.png">
       <PackagePath>Assets\Wide310x150Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2020-04-24T11:13:59.623</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ayusha\source\repos\PracAyushApp\PracAyushApp\PracAyushApp.UWP\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="C:\Users\ayusha\Documents\New folder\Xamarin\PracAyushApp\PracAyushApp\PracAyushApp.UWP\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
       <Modified>2020-04-24T11:13:59.627</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ayusha\source\repos\PracAyushApp\PracAyushApp\PracAyushApp.UWP\bin\x86\Debug\PracAyushApp.UWP.xr.xml">
+    <AppxPackagedFile Include="C:\Users\ayusha\Documents\New folder\Xamarin\PracAyushApp\PracAyushApp\PracAyushApp.UWP\bin\x86\Debug\PracAyushApp.UWP.xr.xml">
       <PackagePath>PracAyushApp.UWP.xr.xml</PackagePath>
       <Modified>2020-04-24T11:21:09.807</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ayusha\source\repos\PracAyushApp\PracAyushApp\PracAyushApp.UWP\bin\x86\Debug\App.xbf">
+    <AppxPackagedFile Include="C:\Users\ayusha\Documents\New folder\Xamarin\PracAyushApp\PracAyushApp\PracAyushApp.UWP\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2020-04-24T11:29:30.602</Modified>
+      <Modified>2020-04-24T13:12:31.937</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ayusha\source\repos\PracAyushApp\PracAyushApp\PracAyushApp.UWP\bin\x86\Debug\MainPage.xbf">
+    <AppxPackagedFile Include="C:\Users\ayusha\Documents\New folder\Xamarin\PracAyushApp\PracAyushApp\PracAyushApp.UWP\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2020-04-24T11:29:30.602</Modified>
+      <Modified>2020-04-24T13:12:31.937</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.UniversalCRT.Debug\10.0.18362.0\\redist\Debug\x86\ucrtbased.dll">
       <PackagePath>ucrtbased.dll</PackagePath>
@@ -257,13 +281,13 @@
       <PackagePath>WinMetadata\Microsoft.UI.Xaml.winmd</PackagePath>
       <Modified>2019-12-11T21:18:42.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ayusha\source\repos\PracAyushApp\PracAyushApp\PracAyushApp.UWP\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\ayusha\Documents\New folder\Xamarin\PracAyushApp\PracAyushApp\PracAyushApp.UWP\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2020-04-24T11:21:11.186</Modified>
+      <Modified>2020-04-24T13:12:33.235</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ayusha\source\repos\PracAyushApp\PracAyushApp\PracAyushApp.UWP\bin\x86\Debug\Core\PracAyushApp.UWP.exe">
+    <AppxPackagedFile Include="C:\Users\ayusha\Documents\New folder\Xamarin\PracAyushApp\PracAyushApp\PracAyushApp.UWP\bin\x86\Debug\Core\PracAyushApp.UWP.exe">
       <PackagePath>PracAyushApp.UWP.exe</PackagePath>
-      <Modified>2020-04-24T11:29:32.456</Modified>
+      <Modified>2020-04-24T13:12:34.680</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

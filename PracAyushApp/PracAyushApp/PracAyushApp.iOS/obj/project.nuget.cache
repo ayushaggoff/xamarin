@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "zJasdb6EAlEhsozXIH/+YXA3cw0lilCG+wC+WpZy3jJ1NlcCce6mO80sSMnDeIKvSDJHTKo0d2FHvobaBC3eBw==",
+  "dgSpecHash": "M1Sl0JHMrQyFaqW3Ibpv6I0J0i6rolQTnR+/7lxMD5ToBH1BI+nvB+Gl4SiMDDD1wlRI3d5Xt5ZOU3vB9x9upw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ayusha\\source\\repos\\PracAyushApp\\PracAyushApp\\PracAyushApp.iOS\\PracAyushApp.iOS.csproj",
+  "projectFilePath": "C:\\Users\\ayusha\\Documents\\New folder\\Xamarin\\PracAyushApp\\PracAyushApp\\PracAyushApp.iOS\\PracAyushApp.iOS.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ayusha\\.nuget\\packages\\microsoft.bcl\\1.1.10\\microsoft.bcl.1.1.10.nupkg.sha512",
     "C:\\Users\\ayusha\\.nuget\\packages\\microsoft.bcl.build\\1.0.14\\microsoft.bcl.build.1.0.14.nupkg.sha512",
@@ -10,6 +10,10 @@
     "C:\\Users\\ayusha\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\ayusha\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
     "C:\\Users\\ayusha\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
+    "C:\\Users\\ayusha\\.nuget\\packages\\sqlite-net-pcl\\1.6.292\\sqlite-net-pcl.1.6.292.nupkg.sha512",
+    "C:\\Users\\ayusha\\.nuget\\packages\\sqlitepclraw.bundle_green\\1.1.13\\sqlitepclraw.bundle_green.1.1.13.nupkg.sha512",
+    "C:\\Users\\ayusha\\.nuget\\packages\\sqlitepclraw.core\\1.1.13\\sqlitepclraw.core.1.1.13.nupkg.sha512",
+    "C:\\Users\\ayusha\\.nuget\\packages\\sqlitepclraw.provider.sqlite3.ios_unified\\1.1.13\\sqlitepclraw.provider.sqlite3.ios_unified.1.1.13.nupkg.sha512",
     "C:\\Users\\ayusha\\.nuget\\packages\\xamarin.essentials\\1.5.3.1\\xamarin.essentials.1.5.3.1.nupkg.sha512",
     "C:\\Users\\ayusha\\.nuget\\packages\\xamarin.forms\\4.5.0.657\\xamarin.forms.4.5.0.657.nupkg.sha512"
   ],

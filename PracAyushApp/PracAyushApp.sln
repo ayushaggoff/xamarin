@@ -9,7 +9,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PracAyushApp.Android", "Pra
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PracAyushApp.iOS", "PracAyushApp\PracAyushApp.iOS\PracAyushApp.iOS.csproj", "{78D18C03-8081-49ED-BFEE-6204F79E67E6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PracAyushApp", "PracAyushApp\PracAyushApp\PracAyushApp.csproj", "{FACF431A-5C9D-4958-BEEC-0ED9264934C9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PracAyushApp", "PracAyushApp\PracAyushApp\PracAyushApp.csproj", "{FACF431A-5C9D-4958-BEEC-0ED9264934C9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

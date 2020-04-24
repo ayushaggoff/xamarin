@@ -1,10 +1,18 @@
 {
   "version": 2,
-  "dgSpecHash": "yR3vGEQyaE5QxTDVVSb4ZL1teYi5bHAeV1h9/ip/VEJGyTJ86PonbwV6oXBneMeO5by9xxHspPLqbSvL4YlNQw==",
+  "dgSpecHash": "zTqHvnhspLS9MeXhXp8m+NUT+oygVLp8JPPoYJQJm59P68aEfJh6zr+5JsW9qsKEuC6NoyleD3yTuJ6AbqzN2Q==",
   "success": true,
   "projectFilePath": "C:\\Users\\ayusha\\Documents\\New folder\\Xamarin\\TryApp\\TryApp\\TryApp.Android\\TryApp.Android.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\ayusha\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\ayusha\\.nuget\\packages\\microsoft.bcl\\1.1.10\\microsoft.bcl.1.1.10.nupkg.sha512",
+    "C:\\Users\\ayusha\\.nuget\\packages\\microsoft.bcl.build\\1.0.14\\microsoft.bcl.build.1.0.14.nupkg.sha512",
+    "C:\\Users\\ayusha\\.nuget\\packages\\microsoft.net.http\\2.2.29\\microsoft.net.http.2.2.29.nupkg.sha512",
+    "C:\\Users\\ayusha\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
+    "C:\\Users\\ayusha\\.nuget\\packages\\sqlite-net-pcl\\1.6.292\\sqlite-net-pcl.1.6.292.nupkg.sha512",
+    "C:\\Users\\ayusha\\.nuget\\packages\\sqlitepclraw.bundle_green\\1.1.13\\sqlitepclraw.bundle_green.1.1.13.nupkg.sha512",
+    "C:\\Users\\ayusha\\.nuget\\packages\\sqlitepclraw.core\\1.1.13\\sqlitepclraw.core.1.1.13.nupkg.sha512",
+    "C:\\Users\\ayusha\\.nuget\\packages\\sqlitepclraw.lib.e_sqlite3.android\\1.1.13\\sqlitepclraw.lib.e_sqlite3.android.1.1.13.nupkg.sha512",
+    "C:\\Users\\ayusha\\.nuget\\packages\\sqlitepclraw.provider.e_sqlite3.android\\1.1.13\\sqlitepclraw.provider.e_sqlite3.android.1.1.13.nupkg.sha512",
     "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.android.arch.core.common\\1.1.1.3\\xamarin.android.arch.core.common.1.1.1.3.nupkg.sha512",
     "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.android.arch.core.runtime\\1.1.1.3\\xamarin.android.arch.core.runtime.1.1.1.3.nupkg.sha512",
     "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.android.arch.lifecycle.common\\1.1.1.3\\xamarin.android.arch.lifecycle.common.1.1.1.3.nupkg.sha512",
@@ -42,8 +50,8 @@
     "C:\\Users\\ayusha\\.nuget\\packages\\xamarin.android.support.vector.drawable\\28.0.0.3\\xamarin.android.support.vector.drawable.28.0.0.3.nupkg.sha512",
     "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.android.support.versionedparcelable\\28.0.0.3\\xamarin.android.support.versionedparcelable.28.0.0.3.nupkg.sha512",
     "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.android.support.viewpager\\28.0.0.3\\xamarin.android.support.viewpager.28.0.0.3.nupkg.sha512",
-    "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.3.1\\xamarin.essentials.1.3.1.nupkg.sha512",
-    "C:\\Users\\ayusha\\.nuget\\packages\\xamarin.forms\\4.3.0.908675\\xamarin.forms.4.3.0.908675.nupkg.sha512"
+    "C:\\Users\\ayusha\\.nuget\\packages\\xamarin.essentials\\1.5.3.1\\xamarin.essentials.1.5.3.1.nupkg.sha512",
+    "C:\\Users\\ayusha\\.nuget\\packages\\xamarin.forms\\4.5.0.657\\xamarin.forms.4.5.0.657.nupkg.sha512"
   ],
   "logs": []
 }

@@ -10,7 +10,7 @@ namespace TryApp
         {
             InitializeComponent();
 
-            MainPage = new Page1();
+            MainPage = new PracRestFullService();
         }
 
         protected override void OnStart()

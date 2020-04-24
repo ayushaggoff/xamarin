@@ -1,0 +1,14 @@
+C:\Users\ayusha\source\repos\PracAyushApp\PracAyushApp\PracAyushApp\bin\Debug\netstandard2.0\PracAyushApp.deps.json
+C:\Users\ayusha\source\repos\PracAyushApp\PracAyushApp\PracAyushApp\bin\Debug\netstandard2.0\PracAyushApp.dll
+C:\Users\ayusha\source\repos\PracAyushApp\PracAyushApp\PracAyushApp\obj\Debug\netstandard2.0\PracAyushApp.csprojAssemblyReference.cache
+C:\Users\ayusha\source\repos\PracAyushApp\PracAyushApp\PracAyushApp\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\ayusha\source\repos\PracAyushApp\PracAyushApp\PracAyushApp\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\ayusha\source\repos\PracAyushApp\PracAyushApp\PracAyushApp\obj\Debug\netstandard2.0\PracAyushApp.AssemblyInfoInputs.cache
+C:\Users\ayusha\source\repos\PracAyushApp\PracAyushApp\PracAyushApp\obj\Debug\netstandard2.0\PracAyushApp.AssemblyInfo.cs
+C:\Users\ayusha\source\repos\PracAyushApp\PracAyushApp\PracAyushApp\bin\Debug\netstandard2.0\ref\PracAyushApp.dll
+C:\Users\ayusha\source\repos\PracAyushApp\PracAyushApp\PracAyushApp\bin\Debug\netstandard2.0\PracAyushApp.pdb
+C:\Users\ayusha\source\repos\PracAyushApp\PracAyushApp\PracAyushApp\obj\Debug\netstandard2.0\PracAyushApp.csproj.CoreCompileInputs.cache
+C:\Users\ayusha\source\repos\PracAyushApp\PracAyushApp\PracAyushApp\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\ayusha\source\repos\PracAyushApp\PracAyushApp\PracAyushApp\obj\Debug\netstandard2.0\PracAyushApp.dll
+C:\Users\ayusha\source\repos\PracAyushApp\PracAyushApp\PracAyushApp\obj\Debug\netstandard2.0\ref\PracAyushApp.dll
+C:\Users\ayusha\source\repos\PracAyushApp\PracAyushApp\PracAyushApp\obj\Debug\netstandard2.0\PracAyushApp.pdb

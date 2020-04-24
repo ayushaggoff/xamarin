@@ -1,0 +1,1 @@
+C:\Users\ayusha\source\repos\PracAyushApp\PracAyushApp\PracAyushApp.UWP\PracAyushApp.UWP.csproj;x86

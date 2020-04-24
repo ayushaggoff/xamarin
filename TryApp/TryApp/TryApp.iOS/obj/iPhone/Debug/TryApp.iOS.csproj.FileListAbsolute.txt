@@ -57,3 +57,10 @@ C:\Users\ayusha\Documents\New folder\Xamarin\TryApp\TryApp\TryApp.iOS\obj\iPhone
 C:\Users\ayusha\Documents\New folder\Xamarin\TryApp\TryApp\TryApp.iOS\obj\iPhone\Debug\TryApp.iOS.csproj.CopyComplete
 C:\Users\ayusha\Documents\New folder\Xamarin\TryApp\TryApp\TryApp.iOS\obj\iPhone\Debug\TryApp.iOS.exe
 C:\Users\ayusha\Documents\New folder\Xamarin\TryApp\TryApp\TryApp.iOS\obj\iPhone\Debug\TryApp.iOS.pdb
+C:\Users\ayusha\Documents\New folder\Xamarin\TryApp\TryApp\TryApp.iOS\bin\iPhone\Debug\SQLite.Net.Platform.XamarinIOS.Unified.dll
+C:\Users\ayusha\Documents\New folder\Xamarin\TryApp\TryApp\TryApp.iOS\bin\iPhone\Debug\SQLite.Net.dll
+C:\Users\ayusha\Documents\New folder\Xamarin\TryApp\TryApp\TryApp.iOS\bin\iPhone\Debug\SQLite-net.dll
+C:\Users\ayusha\Documents\New folder\Xamarin\TryApp\TryApp\TryApp.iOS\bin\iPhone\Debug\SQLitePCLRaw.batteries_green.dll
+C:\Users\ayusha\Documents\New folder\Xamarin\TryApp\TryApp\TryApp.iOS\bin\iPhone\Debug\SQLitePCLRaw.batteries_v2.dll
+C:\Users\ayusha\Documents\New folder\Xamarin\TryApp\TryApp\TryApp.iOS\bin\iPhone\Debug\SQLitePCLRaw.core.dll
+C:\Users\ayusha\Documents\New folder\Xamarin\TryApp\TryApp\TryApp.iOS\bin\iPhone\Debug\SQLitePCLRaw.provider.sqlite3.dll

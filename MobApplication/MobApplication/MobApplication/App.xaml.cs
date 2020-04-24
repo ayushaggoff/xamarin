@@ -12,12 +12,13 @@ namespace MobApplication
 
             InitializeComponent();
 
-            MainPage = new NavigationPage(new DetailPage())
-            {
-                BarBackgroundColor = Color.White,
-            };
+            MainPage = new Login();
+        //    MainPage = new NavigationPage(new DetailPage())
+        //    {
+        //        BarBackgroundColor = Color.White,
+        //    };
         }
-    
+
 
         protected override void OnStart()
         {

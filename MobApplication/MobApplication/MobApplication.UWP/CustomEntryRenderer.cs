@@ -7,8 +7,9 @@ using System.Threading.Tasks;
 using MobApplication.Control;
 using Xamarin.Forms.Platform.UWP;
 using Xamarin.Forms;
+using Windows.UI.Xaml;
 
-[assembly: ExportRenderer(typeof(CustomEntry), typeof(CustomEntryRenderer))]
+[assembly: ExportRenderer(typeof(Entry), typeof(CustomEntryRenderer))]
 namespace MobApplication.UWP
 {
     public class CustomEntryRenderer: EntryRenderer
@@ -20,6 +21,7 @@ namespace MobApplication.UWP
             if (Control != null)
                 
             {
+                Control.Padding = new Windows.UI.Xaml.Thickness(0);
                 Control.BorderBrush.Opacity = 0;
             }
         }

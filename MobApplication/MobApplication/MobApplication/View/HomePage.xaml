@@ -19,7 +19,7 @@
     </MasterDetailPage.Master>
     <MasterDetailPage.Detail >
         <ContentPage BackgroundColor="White">
-            <StackLayout VerticalOptions="Fill" BackgroundColor="Black">
+            <StackLayout VerticalOptions="Fill" BackgroundColor="LightGray">
                 <Image Source="https://successive.tech/wp-content/uploads/2020/02/logo_successivenew.png" VerticalOptions="Start" HorizontalOptions="Center" />
                 
                 <ContentView x:Name="contentview" >

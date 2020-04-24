@@ -29,6 +29,9 @@
                 <Setter Property="TextColor" Value="Black"/>
                 <Setter Property="Padding" Value="28,0,0,0"/>
             </Style>
+            <Style x:Key="ButtonTry" TargetType="Button">
+                <Setter Property="BorderColor" Value="Blue"/>
+            </Style>
             <Style x:Key="ButtonHighlight" TargetType="Button">
                 <Setter Property="BorderColor" Value="Green"/>
             </Style>
@@ -48,8 +51,6 @@
                         </Label.FormattedText>
                     </Label>
                 </StackLayout>
-
-
                 <StackLayout Orientation="Horizontal" BackgroundColor="White" VerticalOptions="Center">
                     <Image Source="username.png" WidthRequest="25" HeightRequest="25"/>
                     <Label Text="Account Number" Style="{StaticResource LabelHeading}" />
@@ -80,7 +81,7 @@
                     <Label Text="Location" Style="{StaticResource LabelHeading}"/>
                 </StackLayout>
                 <Label Text="{Binding Location}" Style="{StaticResource LabelValue}" />
-                <Button Text="Edit Notes" TextColor="White" CornerRadius="25" WidthRequest="{OnPlatform UWP=30}" Clicked="Button_Clicked" Style="{DynamicResource buttonStyle}" BackgroundColor="#BC2729" Padding="10">                </Button>
+                <Button Text="Edit Notes" TextColor="White" VerticalOptions="Center" HorizontalOptions="Center" CornerRadius="25" WidthRequest="{OnPlatform UWP=330,Android=300}" Clicked="Button_Clicked" Style="{StaticResource buttonStyle}" BackgroundColor="#BC2729" Padding="10">                </Button>
         </StackLayout>
             </ScrollView>
     </ContentPage.Content>

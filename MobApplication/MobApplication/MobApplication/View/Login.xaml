@@ -4,11 +4,15 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:local="clr-namespace:MobApplication"  
              xmlns:Control="clr-namespace:MobApplication.Control"  
+             xmlns:converters="using:MobApplication.Converter"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
              x:Class="MobApplication.View.Login">
     <ContentPage.Resources>
+  
         <ResourceDictionary>
+        <converters:CheckEmailValidConverter x:Key="converter"/>
+            <converters:IntToBoolConverter x:Key="intToBool" />
             <Style x:Key="FoucsLabel" TargetType="Entry">
                 <Style.Triggers>
                     <Trigger TargetType="Entry" Property="IsFocused" Value="True">
@@ -24,32 +28,34 @@
         <Image Source="tie.png" BackgroundColor="White"  AbsoluteLayout.LayoutBounds=".1, .5, .06, .07"  AbsoluteLayout.LayoutFlags="All" />
         <!--<Control:CustomEntry Placeholder="Enter something here..."   ></Control:CustomEntry>-->
         <!--<Control:CustomEntry  Text="{Binding Email}" x:Name="email" Completed="Email_Completed"  Style="{StaticResource FoucsLabel}"  Margin="0, 0, 0, 0" BackgroundColor="White" Placeholder="Username" AbsoluteLayout.LayoutBounds=".59, .5, .74, .07" AbsoluteLayout.LayoutFlags="All">-->
-        <Entry  Text="{Binding Email}" x:Name="email" Style="{StaticResource FoucsLabel}"  Margin="0, 0, 0, 0" BackgroundColor="White" Placeholder="Username"  AbsoluteLayout.LayoutBounds=".59, .5, .74, .07" AbsoluteLayout.LayoutFlags="All">
-            <Entry.Triggers>
+        <Entry  Text="{Binding Email}"  x:Name="email" BackgroundColor="{Binding Source={RelativeSource Self}, Path=Text,Mode=TwoWay, Converter={StaticResource converter}}" Style="{StaticResource FoucsLabel}"  Margin="0, 0, 0, 0"  Placeholder="Username"  AbsoluteLayout.LayoutBounds=".59, .5, .74, .07" AbsoluteLayout.LayoutFlags="All">
+            <!--<Entry.Triggers>
                 <EventTrigger Event="Completed">
                     <local:EmailValidationTriggerAction></local:EmailValidationTriggerAction>
                 </EventTrigger>
-            </Entry.Triggers>
+            </Entry.Triggers>-->
         </Entry>
         <Image Source="lock1.png" BackgroundColor="White"  AbsoluteLayout.LayoutBounds=".1, .6, .06,.07" AbsoluteLayout.LayoutFlags="All" />
-        <Entry Text="{Binding Password}"   x:Name="password" Placeholder="Password" Completed="Password_Completed" Style="{StaticResource FoucsLabel}" IsPassword="True" Margin="0, 0, 0, 0"  BackgroundColor="White" AbsoluteLayout.LayoutBounds=".59, .6, .74, .07" AbsoluteLayout.LayoutFlags="All"/>
+        <Entry Text="{Binding Password}"   x:Name="password" Placeholder="Password" Completed="Password_Completed" Style="{StaticResource FoucsLabel}"  IsPassword="True" Margin="0, 0, 0, 0"  BackgroundColor="White" AbsoluteLayout.LayoutBounds=".59, .6, .74, .07" AbsoluteLayout.LayoutFlags="All"/>
         <Frame Padding="0" AbsoluteLayout.LayoutBounds=".47, .7, .8,.06" AbsoluteLayout.LayoutFlags="All">
-            <Button Command="{Binding OnLogin}"  x:Name="login" Padding="0"  Text="Log In"  BackgroundColor="#19D6D2" TextColor="White">
-                <Button.Triggers>
+            <Button Command="{Binding OnLogin}"  x:Name="login" Padding="0"  IsEnabled="{Binding Source={x:Reference email},
+                                    Path=Text.Length,
+                                    Converter={StaticResource intToBool}}" Text="Log In"  BackgroundColor="#19D6D2" TextColor="White">
+                <!--<Button.Triggers>
                     <MultiTrigger TargetType="Button">
                         <MultiTrigger.Conditions>
                             <BindingCondition  Binding="{Binding Source={x:Reference email}, Path=Text.Length}" Value="0"/>
                             <BindingCondition  Binding="{Binding Source={x:Reference password}, Path=Text.Length}" Value="0"/>
                         </MultiTrigger.Conditions>
                             <Setter Property="IsEnabled" Value="False"></Setter>
-                    </MultiTrigger>
+                    </MultiTrigger>-->
                     <!--<DataTrigger TargetType="Button" Binding="{Binding Source={x:Reference email}, Path=Text.Length}" Value="0">
                         <Setter Property="IsEnabled" Value="False"></Setter>
                     </DataTrigger>
                     <DataTrigger TargetType="Button" Binding="{Binding Source={x:Reference password}, Path=Text.Length}" Value="0">
                         <Setter Property="IsEnabled" Value="False"></Setter>
                     </DataTrigger>-->
-                </Button.Triggers>
+                <!--</Button.Triggers>-->
             </Button>
         </Frame>
     </AbsoluteLayout>

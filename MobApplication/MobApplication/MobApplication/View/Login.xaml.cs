@@ -21,7 +21,7 @@ namespace MobApplication.View
         public Login()
         {
             InitializeComponent();
-
+           
             model.Show += Model_Show;
             BindingContext = model; 
         }
@@ -37,7 +37,7 @@ namespace MobApplication.View
 
         private void Password_Completed(object sender, EventArgs e)
         {
-            model.PasswordCheck(login);
+          //  model.PasswordCheck(login);
         }
     }
 }

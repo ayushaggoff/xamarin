@@ -4,6 +4,7 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:local="clr-namespace:MobApplication"  
              xmlns:Control="clr-namespace:MobApplication.Control"  
+             xmlns:Behavior="clr-namespace:MobApplication.Behavior"  
              xmlns:converters="using:MobApplication.Converter"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
@@ -36,7 +37,11 @@
             </Entry.Triggers>-->
         </Entry>
         <Image Source="lock1.png" BackgroundColor="White"  AbsoluteLayout.LayoutBounds=".1, .6, .06,.07" AbsoluteLayout.LayoutFlags="All" />
-        <Entry Text="{Binding Password}"   x:Name="password" Placeholder="Password" Completed="Password_Completed" Style="{StaticResource FoucsLabel}"  IsPassword="True" Margin="0, 0, 0, 0"  BackgroundColor="White" AbsoluteLayout.LayoutBounds=".59, .6, .74, .07" AbsoluteLayout.LayoutFlags="All"/>
+        <Entry Text="{Binding Password}"   x:Name="password" Placeholder="Password" Completed="Password_Completed" Style="{StaticResource FoucsLabel}"  IsPassword="True" Margin="0, 0, 0, 0"  BackgroundColor="White" AbsoluteLayout.LayoutBounds=".59, .6, .74, .07" AbsoluteLayout.LayoutFlags="All">
+            <Entry.Behaviors>
+                <Behavior:PasswordValidationBehavior/>
+            </Entry.Behaviors>
+        </Entry>
         <Frame Padding="0" AbsoluteLayout.LayoutBounds=".47, .7, .8,.06" AbsoluteLayout.LayoutFlags="All">
             <Button Command="{Binding OnLogin}"  x:Name="login" Padding="0"  IsEnabled="{Binding Source={x:Reference email},
                                     Path=Text.Length,

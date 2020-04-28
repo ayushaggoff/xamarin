@@ -4,7 +4,8 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:local="clr-namespace:MobApplication"  
              xmlns:Control="clr-namespace:MobApplication.Control"  
-             xmlns:Behavior="clr-namespace:MobApplication.Behavior"  
+             xmlns:Behavior="clr-namespace:MobApplication.Behavior"
+               xmlns:CustomView="clr-namespace:MobApplication.View"
              xmlns:converters="using:MobApplication.Converter"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
@@ -26,18 +27,24 @@
     </ContentPage.Resources>
     <AbsoluteLayout BackgroundColor="#B3F2DD"  >
         <Image Source="user.png" AbsoluteLayout.LayoutBounds=".5,.15,.8,.3" AbsoluteLayout.LayoutFlags="All" />
-        <Image Source="tie.png" BackgroundColor="White"  AbsoluteLayout.LayoutBounds=".1, .5, .06, .07"  AbsoluteLayout.LayoutFlags="All" />
+        <!--<StackLayout Spacing="0" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Orientation="Horizontal" AbsoluteLayout.LayoutBounds=".3, .5, .8, .07" AbsoluteLayout.LayoutFlags="All">-->
+        <!--<Image Source="tie.png" BackgroundColor="White" Margin="0" />-->
         <!--<Control:CustomEntry Placeholder="Enter something here..."   ></Control:CustomEntry>-->
         <!--<Control:CustomEntry  Text="{Binding Email}" x:Name="email" Completed="Email_Completed"  Style="{StaticResource FoucsLabel}"  Margin="0, 0, 0, 0" BackgroundColor="White" Placeholder="Username" AbsoluteLayout.LayoutBounds=".59, .5, .74, .07" AbsoluteLayout.LayoutFlags="All">-->
-        <Entry  Text="{Binding Email}"  x:Name="email" BackgroundColor="{Binding Source={RelativeSource Self}, Path=Text,Mode=TwoWay, Converter={StaticResource converter}}" Style="{StaticResource FoucsLabel}"  Margin="0, 0, 0, 0"  Placeholder="Username"  AbsoluteLayout.LayoutBounds=".59, .5, .74, .07" AbsoluteLayout.LayoutFlags="All">
+        <!--<Entry  Text="{Binding Email}" x:Name="email" Focused="email_Focused" BackgroundColor="{Binding Source={RelativeSource Self}, Path=Text,Mode=TwoWay, Converter={StaticResource converter}}" Style="{StaticResource FoucsLabel}"  Margin="0, 0, 0, 0"  Placeholder="Username"  AbsoluteLayout.LayoutBounds=".59, .5, .74, .07" AbsoluteLayout.LayoutFlags="All">-->
+        <Image x:Name="ImgUsername" Source="tie.png" BackgroundColor="White" Margin="0" AbsoluteLayout.LayoutBounds=".1, .5, .06, .07"  AbsoluteLayout.LayoutFlags="All" />
+        <CustomView:EntryFiledView x:Name="CustField" IsVisible="False" AbsoluteLayout.LayoutBounds=".59, .45, .74, .07" AbsoluteLayout.LayoutFlags="All"/>
+        <Entry  Text="{Binding Email}" x:Name="email" Focused="email_Focused" BackgroundColor="{Binding Source={RelativeSource Self}, Path=Text,Mode=TwoWay, Converter={StaticResource converter}}" Style="{StaticResource FoucsLabel}"  Margin="0, 0, 0, 0"  Placeholder="Username"  AbsoluteLayout.LayoutBounds=".59, .5, .74, .07" AbsoluteLayout.LayoutFlags="All"  >
             <!--<Entry.Triggers>
                 <EventTrigger Event="Completed">
                     <local:EmailValidationTriggerAction></local:EmailValidationTriggerAction>
                 </EventTrigger>
             </Entry.Triggers>-->
         </Entry>
-        <Image Source="lock1.png" BackgroundColor="White"  AbsoluteLayout.LayoutBounds=".1, .6, .06,.07" AbsoluteLayout.LayoutFlags="All" />
-        <Entry Text="{Binding Password}"   x:Name="password" Placeholder="Password" Completed="Password_Completed" Style="{StaticResource FoucsLabel}"  IsPassword="True" Margin="0, 0, 0, 0"  BackgroundColor="White" AbsoluteLayout.LayoutBounds=".59, .6, .74, .07" AbsoluteLayout.LayoutFlags="All">
+        <!--</StackLayout>-->
+            <Image x:Name="ImgPassword" Source="lock1.png" BackgroundColor="White"  AbsoluteLayout.LayoutBounds=".1, .6, .06,.07" AbsoluteLayout.LayoutFlags="All" />
+        <CustomView:EntryFiledView x:Name="CustFieldPassword"  IsVisible="False"  AbsoluteLayout.LayoutBounds=".59, .6, .74, .07" AbsoluteLayout.LayoutFlags="All"/>
+        <Entry Text="{Binding Password}"  x:Name="password" Focused="password_Focused" Placeholder="Password" Completed="Password_Completed" Style="{StaticResource FoucsLabel}"  IsPassword="True" Margin="0, 0, 0, 0"  BackgroundColor="White" AbsoluteLayout.LayoutBounds=".59, .6, .74, .07" AbsoluteLayout.LayoutFlags="All">
             <Entry.Behaviors>
                 <Behavior:PasswordValidationBehavior/>
             </Entry.Behaviors>

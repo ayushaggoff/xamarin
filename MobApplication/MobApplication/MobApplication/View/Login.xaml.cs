@@ -21,7 +21,7 @@ namespace MobApplication.View
         public Login()
         {
             InitializeComponent();
-           
+         
             model.Show += Model_Show;
             BindingContext = model; 
         }
@@ -38,6 +38,26 @@ namespace MobApplication.View
         private void Password_Completed(object sender, EventArgs e)
         {
           //  model.PasswordCheck(login);
+        }
+
+        private void email_Focused(object sender, FocusEventArgs e)
+        {
+            CustField.EntryText = email.Text;
+            ImgUsername.IsVisible = false;
+            email.IsVisible = false;
+            CustField.LabelText = email.Placeholder.ToString();
+            CustField.BackgroundColor = Color.White;
+            CustField.IsVisible = true;
+        }
+
+        private void password_Focused(object sender, FocusEventArgs e)
+        {
+            CustFieldPassword.EntryText = password.Text;
+            ImgPassword.IsVisible = false;
+            password.IsVisible = false;
+            CustFieldPassword.LabelText = password.Placeholder.ToString();
+            CustFieldPassword.BackgroundColor = Color.White;
+            CustFieldPassword.IsVisible = true;
         }
     }
 }

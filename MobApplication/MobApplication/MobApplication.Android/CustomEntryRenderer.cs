@@ -26,6 +26,7 @@ namespace MobApplication.Droid
             base.OnElementChanged(e);
             if (Control != null)
             {
+               
                 Control.Background = new ColorDrawable(Android.Graphics.Color.Transparent);
             }
         }

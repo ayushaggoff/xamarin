@@ -21,7 +21,8 @@ namespace MobApplication.UWP
             if (Control != null)
                 
             {
-                Control.Padding = new Windows.UI.Xaml.Thickness(0);
+                Control.BorderThickness = new Windows.UI.Xaml.Thickness(0);
+                //Control.Padding = new Windows.UI.Xaml.Thickness(0);
                 Control.BorderBrush.Opacity = 0;
             }
         }

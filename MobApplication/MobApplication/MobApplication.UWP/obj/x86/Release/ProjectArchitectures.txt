@@ -1,1 +1,0 @@
-C:\Users\ayusha\Documents\New folder\Xamarin\MobApplication\MobApplication\MobApplication.UWP\MobApplication.UWP.csproj;x86

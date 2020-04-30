@@ -12,7 +12,15 @@ namespace MobApplication.View
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class EntryFiledView : ContentView
     {
-        public static BindableProperty TextProperty = BindableProperty.Create(nameof(Text), typeof(string), typeof(EntryFiledView), defaultBindingMode: BindingMode.TwoWay);
+
+        public static BindableProperty TextProperty = BindableProperty.Create(nameof(Text), typeof(string), typeof(EntryFiledView), defaultBindingMode: BindingMode.TwoWay, defaultValue: "", propertyChanged: (bindable, oldVal, newval) => {
+            var matEntry = (EntryFiledView)bindable;
+            matEntry.EntryField.Text = (string)newval;
+        });
+        //public static BindableProperty TextColorProperty = BindableProperty.Create(nameof(Text), typeof(Color), typeof(EntryFiledView), defaultBindingMode: BindingMode.TwoWay, defaultValue: "", propertyChanged: (bindable, oldVal, newval) => {
+        //    var matEntry = (EntryFiledView)bindable;
+        //    matEntry.EntryField.TextColor = (Color)newval;
+        //});
         public static BindableProperty PlaceholderProperty = BindableProperty.Create(nameof(Placeholder), typeof(string), typeof(EntryFiledView), defaultBindingMode: BindingMode.TwoWay, propertyChanged: (bindable, oldVal, newval) => {
             var matEntry = (EntryFiledView)bindable;
             matEntry.EntryField.Placeholder = (string)newval;

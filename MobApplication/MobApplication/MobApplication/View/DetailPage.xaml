@@ -43,7 +43,7 @@
         <StackLayout Padding="50" BackgroundColor="White">
                 <StackLayout Orientation="Vertical" HorizontalOptions="Center" BackgroundColor="White">
                     <!--<ic:CircleImage WidthRequest="80" HeightRequest="80" Aspect="AspectFill" Source="pp.png" />-->
-                    <Image WidthRequest="80" HeightRequest="80" Aspect="AspectFill" Source="pp.png" >
+                    <Image WidthRequest="40" HeightRequest="80" Aspect="AspectFill" Source="pp.png" >
                         <Image.Effects>
                             <Effect:RoundEffect />
                         </Image.Effects>

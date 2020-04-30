@@ -12,7 +12,7 @@ namespace MobApplication
 
             InitializeComponent();
 
-            MainPage = new Login();
+            MainPage = new WeatherPage();
         //    MainPage = new NavigationPage(new DetailPage())
         //    {
         //        BarBackgroundColor = Color.White,

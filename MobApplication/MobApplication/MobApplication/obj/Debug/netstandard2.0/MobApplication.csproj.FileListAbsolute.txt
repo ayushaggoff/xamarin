@@ -24,5 +24,7 @@ C:\Users\ayusha\Documents\New folder\Xamarin\MobApplication\MobApplication\MobAp
 C:\Users\ayusha\Documents\New folder\Xamarin\MobApplication\MobApplication\MobApplication\obj\Debug\netstandard2.0\MobApplication.dll
 C:\Users\ayusha\Documents\New folder\Xamarin\MobApplication\MobApplication\MobApplication\obj\Debug\netstandard2.0\ref\MobApplication.dll
 C:\Users\ayusha\Documents\New folder\Xamarin\MobApplication\MobApplication\MobApplication\obj\Debug\netstandard2.0\MobApplication.pdb
-C:\Users\ayusha\Documents\New folder\Xamarin\MobApplication\MobApplication\MobApplication\obj\Debug\netstandard2.0\MobApplication.csprojAssemblyReference.cache
 C:\Users\ayusha\Documents\New folder\Xamarin\MobApplication\MobApplication\MobApplication\obj\Debug\netstandard2.0\View\DetailPage.xaml.g.cs
+C:\Users\ayusha\Documents\New folder\Xamarin\MobApplication\MobApplication\MobApplication\obj\Debug\netstandard2.0\View\EntryFiledView.xaml.g.cs
+C:\Users\ayusha\Documents\New folder\Xamarin\MobApplication\MobApplication\MobApplication\obj\Debug\netstandard2.0\MobApplication.csprojAssemblyReference.cache
+C:\Users\ayusha\Documents\New folder\Xamarin\MobApplication\MobApplication\MobApplication\obj\Debug\netstandard2.0\Page1.xaml.g.cs

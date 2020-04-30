@@ -11,7 +11,8 @@ namespace PracAyushApp
         {
             InitializeComponent();
 
-            MainPage = new NavigationPage(new HomePage());
+            //MainPage = new NavigationPage(new HomePage());
+            MainPage = new MainPage();
         }
 
         protected override void OnStart()

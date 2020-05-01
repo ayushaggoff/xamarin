@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentView xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:CustomRenders1="clr-namespace:WeatherApplication.Control"
+             mc:Ignorable="d"
+             x:Class="WeatherApplication.View.FloatingEntryView">
+  <ContentView.Content>
+        <Frame x:Name="Frame" Padding=".2" Margin=".1">
+            <StackLayout Orientation="Horizontal"  BackgroundColor="White" Padding="0" Spacing="0">
+                <Image x:Name="image"  BackgroundColor="White"  VerticalOptions="Center" Grid.Column="0" Margin="0" ></Image>
+                <StackLayout Grid.Column="1" Margin="0" Spacing="0" Padding="0" BackgroundColor="AliceBlue">
+                    <Label x:Name="HiddenLabel" BackgroundColor="White" FontSize="12" IsVisible="False" Margin="0" Padding="8,0,0,0" />
+                    <CustomRenders1:CustomEntry x:Name="EntryField" BackgroundColor="White" WidthRequest="200" Text="{Binding Text, Mode=TwoWay}" Margin="0" />
+                </StackLayout>
+            </StackLayout>
+        </Frame>
+    </ContentView.Content>
+</ContentView>

@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using WeatherApplication.Control;
 using WeatherApplication.ModelView;
 using Xamarin.Essentials;
 using Xamarin.Forms;
@@ -23,26 +24,22 @@ namespace WeatherApplication.View
             InitializeComponent();
             model.Show += Model_Show;
             BindingContext = model;
+         
         }
 
-        public void SetValue(string key, string value)
-        {
-            var data = new LoginViewModel();
-            var content = JsonConvert.SerializeObject(data);
-            Preferences.Set(content, value);
-        }
-        public void GetValue(string key, string value)
-        {
-            var content = JsonConvert.DeserializeObject<List<LoginViewModel>>(key);
-          ;
-        }
 
         private void Model_Show(object sender, EventArgs e)
         {
+           
+            
             var ob = (string)sender;
             App.Current.MainPage.DisplayAlert("Error", ob, "ok");
+            
             if (ob == "Successfully logged in")
             {
+                var data = new LoginViewModel();
+                var content = JsonConvert.SerializeObject(data);
+                AppPreferences.SetToken(content);
                 Navigation.PushAsync(new HomePage());
             }
 

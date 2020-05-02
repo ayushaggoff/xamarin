@@ -9,16 +9,10 @@ namespace MobApplication
     {
         public App()
         {
-
             InitializeComponent();
 
-            MainPage = new WeatherPage();
-        //    MainPage = new NavigationPage(new DetailPage())
-        //    {
-        //        BarBackgroundColor = Color.White,
-        //    };
+            MainPage = new ActivityLogPage();
         }
-
 
         protected override void OnStart()
         {

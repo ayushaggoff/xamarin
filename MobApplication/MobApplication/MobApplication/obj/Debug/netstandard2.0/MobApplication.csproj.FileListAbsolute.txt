@@ -1,30 +1,9 @@
-C:\Users\ayusha\Documents\New folder\Xamarin\MobApplication\MobApplication\MobApplication\bin\Debug\netstandard2.0\MobApplication.deps.json
-C:\Users\ayusha\Documents\New folder\Xamarin\MobApplication\MobApplication\MobApplication\bin\Debug\netstandard2.0\MobApplication.dll
-C:\Users\ayusha\Documents\New folder\Xamarin\MobApplication\MobApplication\MobApplication\bin\Debug\netstandard2.0\ref\MobApplication.dll
-C:\Users\ayusha\Documents\New folder\Xamarin\MobApplication\MobApplication\MobApplication\bin\Debug\netstandard2.0\MobApplication.pdb
-C:\Users\ayusha\Documents\New folder\Xamarin\MobApplication\MobApplication\MobApplication\obj\Debug\netstandard2.0\App.xaml.g.cs
-C:\Users\ayusha\Documents\New folder\Xamarin\MobApplication\MobApplication\MobApplication\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
-C:\Users\ayusha\Documents\New folder\Xamarin\MobApplication\MobApplication\MobApplication\obj\Debug\netstandard2.0\View\AboutUs.xaml.g.cs
-C:\Users\ayusha\Documents\New folder\Xamarin\MobApplication\MobApplication\MobApplication\obj\Debug\netstandard2.0\View\ActivityLogPage.xaml.g.cs
-C:\Users\ayusha\Documents\New folder\Xamarin\MobApplication\MobApplication\MobApplication\obj\Debug\netstandard2.0\View\CareersView.xaml.g.cs
-C:\Users\ayusha\Documents\New folder\Xamarin\MobApplication\MobApplication\MobApplication\obj\Debug\netstandard2.0\View\ContactPage.xaml.g.cs
-C:\Users\ayusha\Documents\New folder\Xamarin\MobApplication\MobApplication\MobApplication\obj\Debug\netstandard2.0\View\ContactUsView.xaml.g.cs
-C:\Users\ayusha\Documents\New folder\Xamarin\MobApplication\MobApplication\MobApplication\obj\Debug\netstandard2.0\View\HomePage.xaml.g.cs
-C:\Users\ayusha\Documents\New folder\Xamarin\MobApplication\MobApplication\MobApplication\obj\Debug\netstandard2.0\View\Login.xaml.g.cs
-C:\Users\ayusha\Documents\New folder\Xamarin\MobApplication\MobApplication\MobApplication\obj\Debug\netstandard2.0\View\ProjectView\BIMNetworksView.xaml.g.cs
-C:\Users\ayusha\Documents\New folder\Xamarin\MobApplication\MobApplication\MobApplication\obj\Debug\netstandard2.0\View\ProjectView\DisplayNowView.xaml.g.cs
-C:\Users\ayusha\Documents\New folder\Xamarin\MobApplication\MobApplication\MobApplication\obj\Debug\netstandard2.0\View\ProjectView\Meeting HubView.xaml.g.cs
-C:\Users\ayusha\Documents\New folder\Xamarin\MobApplication\MobApplication\MobApplication\obj\Debug\netstandard2.0\View\ProjectView\NETFacilitiesView.xaml.g.cs
-C:\Users\ayusha\Documents\New folder\Xamarin\MobApplication\MobApplication\MobApplication\obj\Debug\netstandard2.0\View\SignUpView.xaml.g.cs
-C:\Users\ayusha\Documents\New folder\Xamarin\MobApplication\MobApplication\MobApplication\obj\Debug\netstandard2.0\View\WeatherInformation.xaml.g.cs
-C:\Users\ayusha\Documents\New folder\Xamarin\MobApplication\MobApplication\MobApplication\obj\Debug\netstandard2.0\MobApplication.csproj.CoreCompileInputs.cache
-C:\Users\ayusha\Documents\New folder\Xamarin\MobApplication\MobApplication\MobApplication\obj\Debug\netstandard2.0\MobApplication.AssemblyInfoInputs.cache
-C:\Users\ayusha\Documents\New folder\Xamarin\MobApplication\MobApplication\MobApplication\obj\Debug\netstandard2.0\MobApplication.AssemblyInfo.cs
-C:\Users\ayusha\Documents\New folder\Xamarin\MobApplication\MobApplication\MobApplication\obj\Debug\netstandard2.0\XamlC.stamp
-C:\Users\ayusha\Documents\New folder\Xamarin\MobApplication\MobApplication\MobApplication\obj\Debug\netstandard2.0\MobApplication.dll
-C:\Users\ayusha\Documents\New folder\Xamarin\MobApplication\MobApplication\MobApplication\obj\Debug\netstandard2.0\ref\MobApplication.dll
-C:\Users\ayusha\Documents\New folder\Xamarin\MobApplication\MobApplication\MobApplication\obj\Debug\netstandard2.0\MobApplication.pdb
-C:\Users\ayusha\Documents\New folder\Xamarin\MobApplication\MobApplication\MobApplication\obj\Debug\netstandard2.0\View\DetailPage.xaml.g.cs
-C:\Users\ayusha\Documents\New folder\Xamarin\MobApplication\MobApplication\MobApplication\obj\Debug\netstandard2.0\View\EntryFiledView.xaml.g.cs
-C:\Users\ayusha\Documents\New folder\Xamarin\MobApplication\MobApplication\MobApplication\obj\Debug\netstandard2.0\MobApplication.csprojAssemblyReference.cache
-C:\Users\ayusha\Documents\New folder\Xamarin\MobApplication\MobApplication\MobApplication\obj\Debug\netstandard2.0\Page1.xaml.g.cs
+C:\Users\ayusha\source\repos\MobApplication\MobApplication\MobApplication\obj\Debug\netstandard2.0\MobApplication.csprojAssemblyReference.cache
+C:\Users\ayusha\source\repos\MobApplication\MobApplication\MobApplication\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\ayusha\source\repos\MobApplication\MobApplication\MobApplication\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\ayusha\source\repos\MobApplication\MobApplication\MobApplication\obj\Debug\netstandard2.0\View\ActivityLogPage.xaml.g.cs
+C:\Users\ayusha\source\repos\MobApplication\MobApplication\MobApplication\obj\Debug\netstandard2.0\MobApplication.csproj.CoreCompileInputs.cache
+C:\Users\ayusha\source\repos\MobApplication\MobApplication\MobApplication\obj\Debug\netstandard2.0\MobApplication.AssemblyInfoInputs.cache
+C:\Users\ayusha\source\repos\MobApplication\MobApplication\MobApplication\obj\Debug\netstandard2.0\MobApplication.AssemblyInfo.cs
+C:\Users\ayusha\source\repos\MobApplication\MobApplication\MobApplication\bin\Debug\netstandard2.0\MobApplication.deps.json
+C:\Users\ayusha\source\repos\MobApplication\MobApplication\MobApplication\bin\Debug\netstandard2.0\MobApplication.dll

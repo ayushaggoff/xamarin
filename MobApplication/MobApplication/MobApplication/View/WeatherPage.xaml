@@ -6,11 +6,108 @@
              mc:Ignorable="d"
              x:Class="MobApplication.View.WeatherPage">
     <ContentPage.Content>
-        <Grid>
-            <StackLayout HorizontalOPtion="Center">
-                <Label text="Sydney" />
-                <Label text="Sunny" />
-                <Label text="20" />
+        <Grid Padding="0" RowSpacing="0">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="3*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="2*"/>
+            </Grid.RowDefinitions>
+            <StackLayout Orientation="Vertical" VerticalOptions="FillAndExpand"  HorizontalOptions="FillAndExpand" BackgroundColor="Firebrick" Padding="0" Spacing="0" Grid.Row="0">
+                <Label Text="Sydney" HorizontalOptions="Center" />
+                <Label Text="Sunny" HorizontalOptions="Center"/>
+                <Label Text="20" HorizontalOptions="Center" />
+            <StackLayout Orientation="Horizontal" VerticalOptions="EndAndExpand" HorizontalOptions="FillAndExpand" BackgroundColor="Yellow"  >
+                <Label Text="Thrusday" HorizontalOptions="Start"/>
+                <Label Text="Today"  />
+                <Label Text="23" HorizontalOptions="EndAndExpand" />
+                <Label Text="12" HorizontalOptions="End" />
+            </StackLayout>
+            </StackLayout>
+            <StackLayout  Orientation="Vertical" VerticalOptions="Fill" BackgroundColor="CadetBlue" Grid.Row="1" Padding="0" Spacing="0" >
+
+
+
+
+
+
+
+
+                <CollectionView x:Name="abcList">
+                    <CollectionView.ItemsLayout>
+                        <GridItemsLayout Orientation="Horizontal" VerticalItemSpacing="0"/>
+                    </CollectionView.ItemsLayout>
+                    <CollectionView.ItemTemplate>
+                        <DataTemplate>
+                            <Grid Padding="0">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="*"/>
+                                    <ColumnDefinition Width="Auto"/>
+
+                                </Grid.ColumnDefinitions>
+                                <StackLayout Grid.Column="0" HorizontalOptions="Center">
+                                    <Label Text="Now" />
+                                    <Label Text="Sun"  />
+                                    <Label Text="20"  />
+                                </StackLayout>
+                            </Grid>
+                        </DataTemplate>
+                    </CollectionView.ItemTemplate>
+
+
+
+
+
+
+
+
+                    <!--<Grid Padding="0">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="Auto"/>
+                        
+                    </Grid.ColumnDefinitions>
+                    <StackLayout Grid.Column="0" HorizontalOptions="Center">
+                        <Label Text="Now" />
+                        <Label Text="Sun"  />
+                        <Label Text="20"  />
+                    </StackLayout>
+                    <StackLayout Grid.Column="1"  HorizontalOptions="Center" >
+                        <Label Text="12" />
+                        <Label Text="Sun" />
+                        <Label Text="20"  />
+                    </StackLayout>
+                    <StackLayout Grid.Column="2"   HorizontalOptions="Center">
+                        <Label Text="13" />
+                        <Label Text="Sun" />
+                        <Label Text="20" />
+                    </StackLayout>
+                    <StackLayout Grid.Column="3"  HorizontalOptions="Center">
+                        <Label Text="14" />
+                        <Label Text="Sun" />
+                        <Label Text="20"  />
+                    </StackLayout>
+                    <StackLayout Grid.Column="4"  HorizontalOptions="Center">
+                        <Label Text="15" />
+                        <Label Text="Sun" />
+                        <Label Text="20" />
+                    </StackLayout>
+                    <StackLayout Grid.Column="5"  HorizontalOptions="Center">
+                        <Label Text="16" />
+                        <Label Text="Sun"/>
+                        <Label Text="20" />
+                    </StackLayout>
+                    <StackLayout Grid.Column="6"  HorizontalOptions="Center">
+                        <Label Text="17" />
+                        <Label Text="Sun"/>
+                        <Label Text="20"  />
+                    </StackLayout>
+                </Grid>-->
+            </StackLayout>
+            <StackLayout Orientation="Horizontal"  HorizontalOptions="FillAndExpand" BackgroundColor="Yellow" Grid.Row="2" Padding="0" Spacing="0" >
+                <Label Text="Friday" HorizontalOptions="Start"/>
+                <Label Text="Sun" HorizontalOptions="CenterAndExpand" />
+                <Label Text="23" HorizontalOptions="End" />
+                <Label Text="12" HorizontalOptions="End" />
             </StackLayout>
         </Grid>
     </ContentPage.Content>

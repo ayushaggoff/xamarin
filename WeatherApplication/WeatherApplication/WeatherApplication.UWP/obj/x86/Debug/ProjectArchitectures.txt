@@ -1,0 +1,1 @@
+C:\Users\ayusha\Documents\New folder\Xamarin\WeatherApplication\WeatherApplication\WeatherApplication.UWP\WeatherApplication.UWP.csproj;x86

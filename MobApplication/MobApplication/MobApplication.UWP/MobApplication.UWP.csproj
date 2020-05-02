@@ -92,7 +92,6 @@
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
-    <Compile Include="CustomEntryRenderer.cs" />
     <Compile Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
@@ -131,33 +130,7 @@
     <Content Include="Assets\Wide310x150Logo.scale-100.png" />
     <Content Include="Assets\Wide310x150Logo.scale-200.png" />
     <Content Include="Assets\Wide310x150Logo.scale-400.png" />
-    <Content Include="email.png" />
-    <Content Include="folder.png" />
-    <Content Include="id.png" />
-    <Content Include="lock1.png" />
-    <Content Include="loction.png" />
-    <Content Include="phone.png" />
-    <Content Include="pp.png" />
-    <Content Include="pp10.png" />
-    <Content Include="pp11.png" />
-    <Content Include="pp12.png" />
-    <Content Include="pp13.jpg" />
-    <Content Include="pp14.png" />
-    <Content Include="pp15.png" />
-    <Content Include="pp16.png" />
-    <Content Include="pp17.png" />
-    <Content Include="pp2.png" />
-    <Content Include="pp3.png" />
-    <Content Include="pp4.png" />
-    <Content Include="pp5.png" />
-    <Content Include="pp6.png" />
-    <Content Include="pp7.png" />
-    <Content Include="pp8.png" />
-    <Content Include="pp9.png" />
     <Content Include="Properties\Default.rd.xml" />
-    <Content Include="tie.png" />
-    <Content Include="user.png" />
-    <Content Include="username.png" />
   </ItemGroup>
   <ItemGroup>
     <ApplicationDefinition Include="App.xaml">

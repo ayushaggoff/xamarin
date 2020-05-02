@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "GUWpBUuzCPIGG3eZaKwNmsv9wCUB7O6wsHvAxLHpS3Rtzih5iMqR3iHgoUDlnEqI+C6A88MHG7bW2QgNhL9I2Q==",
+  "dgSpecHash": "Vj0L1IVVYrtrHo2YMU4dNqErqf579X5uH2h34QAkhUNu/OysVFJIl9gv+M+EUOvFbJfEJUQzUSqrFuzswZTE4g==",
   "success": true,
   "projectFilePath": "C:\\Users\\ayusha\\Documents\\New folder\\Xamarin\\WeatherApplication\\WeatherApplication\\WeatherApplication.iOS\\WeatherApplication.iOS.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\ayusha\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
     "C:\\Users\\ayusha\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
     "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.3.1\\xamarin.essentials.1.3.1.nupkg.sha512",
     "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.forms\\4.4.0.991265\\xamarin.forms.4.4.0.991265.nupkg.sha512"

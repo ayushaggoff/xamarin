@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "dGJA43QEb7vztdbzJ7vTTdLHJdihZ0CmluHa47UiDor3EIwgLIpjwQA3VF1V121OudpgBszIITC7XyAReMgltg==",
+  "dgSpecHash": "4bz8bEsRugxxjW9lN4tslc4QCISK6w35NUpwLAG1wZz1L7AMOthrNWOO9JX2gOno8zvZuaMcxSXG/SHXvCteGg==",
   "success": true,
   "projectFilePath": "C:\\Users\\ayusha\\Documents\\New folder\\Xamarin\\WeatherApplication\\WeatherApplication\\WeatherApplication.UWP\\WeatherApplication.UWP.csproj",
   "expectedPackageFiles": [
@@ -10,6 +10,7 @@
     "C:\\Users\\ayusha\\.nuget\\packages\\microsoft.netcore.universalwindowsplatform\\6.1.9\\microsoft.netcore.universalwindowsplatform.6.1.9.nupkg.sha512",
     "C:\\Users\\ayusha\\.nuget\\packages\\microsoft.ui.xaml\\2.1.190606001\\microsoft.ui.xaml.2.1.190606001.nupkg.sha512",
     "C:\\Users\\ayusha\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\ayusha\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
     "C:\\Users\\ayusha\\.nuget\\packages\\runtime.win10-arm-aot.microsoft.netcore.universalwindowsplatform\\6.1.9\\runtime.win10-arm-aot.microsoft.netcore.universalwindowsplatform.6.1.9.nupkg.sha512",
     "C:\\Users\\ayusha\\.nuget\\packages\\runtime.win10-arm.microsoft.net.native.compiler\\2.1.8\\runtime.win10-arm.microsoft.net.native.compiler.2.1.8.nupkg.sha512",
     "C:\\Users\\ayusha\\.nuget\\packages\\runtime.win10-arm.microsoft.net.native.sharedlibrary\\2.1.8\\runtime.win10-arm.microsoft.net.native.sharedlibrary.2.1.8.nupkg.sha512",

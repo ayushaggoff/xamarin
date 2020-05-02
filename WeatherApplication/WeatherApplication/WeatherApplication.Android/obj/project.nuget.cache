@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "DNKU3zf8+KxS+g30xwJX73xCpHLYBjtyTpB7tz34v78g3wZmN7MaHxq3fqRnJCSmxguKN8pN5qSaNJVQeZgcfA==",
+  "dgSpecHash": "sPZN8/wKlonHxItVtc0yVjhIsB7Ovr8YzY0ceBsMY/zqvmpG1FZmht4SL+8qSa7ROy07zkQZguGr2nwMp90uxw==",
   "success": true,
   "projectFilePath": "C:\\Users\\ayusha\\Documents\\New folder\\Xamarin\\WeatherApplication\\WeatherApplication\\WeatherApplication.Android\\WeatherApplication.Android.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\ayusha\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
     "C:\\Users\\ayusha\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
     "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.android.arch.core.common\\1.1.1.3\\xamarin.android.arch.core.common.1.1.1.3.nupkg.sha512",
     "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.android.arch.core.runtime\\1.1.1.3\\xamarin.android.arch.core.runtime.1.1.1.3.nupkg.sha512",

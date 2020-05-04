@@ -2,12 +2,19 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
-             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:local="clr-namespace:WeatherApplication.Control"
              mc:Ignorable="d"
              NavigationPage.HasNavigationBar="False"
              x:Class="WeatherApplication.View.HomePage">
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <local:DatetimeToStringConverter x:Key="cnvDateTimeConverter"></local:DatetimeToStringConverter>
+            <local:DateToDayConverter x:Key="cnvDayConverterConverter"></local:DateToDayConverter>
+
+        </ResourceDictionary>
+    </ContentPage.Resources>
     <ContentPage.Content>
-          <Grid Padding="0" RowSpacing="0">
+        <Grid Padding="0" RowSpacing="0">
             <Grid.RowDefinitions>
                 <RowDefinition Height="3*"/>
                 <RowDefinition Height="*"/>
@@ -22,8 +29,6 @@
                     <Label x:Name="Lbl_CurrentAverageTemp" Text="" VerticalTextAlignment="Center"  TextColor="White" FontSize="150"  BackgroundColor="Chocolate" Padding="0" Margin="0" HorizontalOptions="Center" />
                     <Label Text="°" TextColor="White" FontSize="150" />
                 </StackLayout>
-                
-
                 <StackLayout Orientation="Horizontal" VerticalOptions="EndAndExpand" HorizontalOptions="FillAndExpand" Margin="17,0,17,6"  >
                     <Label x:Name="Lbl_CurrentDay"  HorizontalOptions="Start" TextColor="White" />
                     <Label Text="Today" TextColor="White" />
@@ -46,9 +51,9 @@
                                     <ColumnDefinition Width="Auto"/>
                                 </Grid.ColumnDefinitions>
                                 <StackLayout Grid.Column="0" HorizontalOptions="Center" Margin="17">
-                                    <Label Text=" {Binding Date}" TextColor="White" HorizontalOptions="Center"/>
-                                    <Image Source="{Binding ImgSource}" WidthRequest="25" HeightRequest="25" />
-                                    <Label Text="{Binding MaxTemp}"  TextColor="White" />
+                                    <Label Text=" {Binding dt_txt, Converter={StaticResource cnvDateTimeConverter}}"  TextColor="White" HorizontalOptions="Center"/>
+                                    <Image Source="{Binding weather.icon}" WidthRequest="25" HeightRequest="25" />
+                                    <Label Text="{Binding main.temp_max}"  TextColor="White" />
                                 </StackLayout>
                             </Grid>
                         </DataTemplate>
@@ -61,14 +66,11 @@
                     <DataTemplate>
                         <ViewCell>
                             <Grid  Grid.Row="2" Padding="0" >
-                                <Label Grid.Column="0" Text="{Binding Day}" HorizontalOptions="Start" TextColor="White"/>
-
-                                <Image Grid.Column="1" WidthRequest="25" HeightRequest="25" HorizontalOptions="Center" Source="{Binding ImgSource}" />
-                                <Label Grid.Column="2"  Text="{Binding MaxTemp}" HorizontalOptions="Center" TextColor="White" />
-                                <Label  Grid.Column="2" Text="{Binding MinTemp}" HorizontalOptions="End" TextColor="White"/>
-
+                                <Label Grid.Column="0" Text="{Binding dt_txt, Converter={StaticResource cnvDayConverterConverter}}" HorizontalOptions="Start" TextColor="White"/>
+                                <Image Grid.Column="1" WidthRequest="25" HeightRequest="25" HorizontalOptions="Center" Source="{Binding  weather.icon}" />
+                                <Label Grid.Column="2"  Text="{Binding main.temp_max}" HorizontalOptions="Center" TextColor="White" />
+                                <Label  Grid.Column="2" Text="{Binding main.temp_min}" HorizontalOptions="End" TextColor="White"/>
                             </Grid>
-
                         </ViewCell>
                     </DataTemplate>
                 </ListView.ItemTemplate>

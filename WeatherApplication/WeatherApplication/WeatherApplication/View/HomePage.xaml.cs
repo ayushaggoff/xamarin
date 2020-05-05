@@ -5,8 +5,8 @@ using System.Collections.ObjectModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using WeatherApplication.Helper;
-using WeatherApplication.Models;
+using WeahterApplication.Helper;
+using WeahterApplication.Models;
 using WeatherApplication.ModelView;
 using Xamarin.Essentials;
 using Xamarin.Forms;
@@ -83,6 +83,7 @@ namespace WeatherApplication.View
             {
                 await DisplayAlert("Weather Info", "No forecast information found", "OK");
             }
+           // Loader.IsVisible = false;
         }
         private void CollectionList_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {

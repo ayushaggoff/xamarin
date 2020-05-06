@@ -6,15 +6,9 @@
              mc:Ignorable="d"
              x:Class="WeatherApplication.TryView.CustomTowMediaLoader">
     <ContentView.Content>
-        <Frame CornerRadius="15" OutlineColor="Black" HorizontalOptions="Center" VerticalOptions="Center" >
-            <StackLayout HorizontalOptions="FillAndExpand" >
-                <Label Text="Please Wait..." TextColor="Black" FontSize="Large"/>
-                <BoxView HeightRequest="1" BackgroundColor="Gray"/>
-                <StackLayout Spacing="0" Opacity="1">
-                    <ff:CachedImage Source="loader2.gif"/>
-                    <Label Text="Loading......" TextColor="Black" />
-                </StackLayout>
-            </StackLayout>
-        </Frame>
+        <StackLayout Spacing="0" HorizontalOptions="Center" BackgroundColor="White" Opacity="1">
+            <ff:CachedImage Source="loader2.gif"/>
+            <Label Text="Loading......" TextColor="Black" />
+        </StackLayout>
     </ContentView.Content>
 </ContentView>

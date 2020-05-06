@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentView xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="WeatherApplication.TryView.CustomRoatingLoader">
+  <ContentView.Content>
+        <StackLayout Orientation="Horizontal" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" Padding="0">
+            <Label x:Name="L" Text="L" FontSize="Large"/>
+            <Label x:Name="O"  Text="O" FontSize="Large"/>
+            <Label x:Name="A"  Text="A" FontSize="Large"/>
+            <Label x:Name="D"  Text="D" FontSize="Large"/>
+            <Label x:Name="I"  Text="I" FontSize="Large"/>
+            <Label x:Name="N" Text="N" FontSize="Large"/>
+            <Label x:Name="G"  Text="G" FontSize="Large"/>
+        </StackLayout>
+  </ContentView.Content>
+</ContentView>

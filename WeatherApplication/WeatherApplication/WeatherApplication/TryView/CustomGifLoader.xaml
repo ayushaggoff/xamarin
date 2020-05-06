@@ -10,16 +10,13 @@
                  Padding="20,100"  
                  xmlns:ff="clr-namespace:FFImageLoading.Forms;assembly=FFImageLoading.Forms">
     <ContentView.Content>    
-        <Frame CornerRadius="15" OutlineColor="Black" HorizontalOptions="Center" VerticalOptions="Center" >
-        <StackLayout HorizontalOptions="FillAndExpand" >
-            <Label Text="Please Wait..." TextColor="Black" FontSize="Large"/>
-            <BoxView HeightRequest="1" BackgroundColor="Gray"/>
-            <StackLayout Spacing="0" Opacity="1">
-                    <ff:CachedImage Source="loader3.gif"/>
-                <Label Text="Loading......" TextColor="Black" />
+     
+        
+            <StackLayout Spacing="0" BackgroundColor="White"  Opacity="1" Padding="0" HorizontalOptions="Center" VerticalOptions="Center">
+                    <ff:CachedImage Source="loader5.gif" />
+                <Label Text="Loading......" TextColor="Black" VerticalOptions="Start" HorizontalOptions="Center"/>
             </StackLayout>
-        </StackLayout>
-    </Frame>
+     
     </ContentView.Content>
 
 </ContentView>  

@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="WeatherApplication.TryView.CircleLayoutActivityLoader">
+    <ContentPage.Content>
+        <StackLayout x:Name="CircleLayout" VerticalOptions="Center" HorizontalOptions="Center">
+            <Button x:Name="Circle1" CornerRadius="25" WidthRequest="25" HeightRequest="25" BackgroundColor="Blue" HorizontalOptions="Center"></Button>
+            <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+                <Button x:Name="Circle2" CornerRadius="25" WidthRequest="25" HeightRequest="25" BackgroundColor="Blue"></Button>
+                <Button x:Name="Circle3" CornerRadius="25" WidthRequest="25" HeightRequest="25" BackgroundColor="Blue"></Button>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

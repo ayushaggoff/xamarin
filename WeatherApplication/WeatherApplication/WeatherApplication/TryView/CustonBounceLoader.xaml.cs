@@ -36,7 +36,7 @@ namespace WeatherApplication.TryView
 
             for (int i = 2; i > 1; i++)
             {
-                await Ball.TranslateTo(0, -100, 800, Easing.SinIn);
+                await Ball.TranslateTo(0, -25, 800, Easing.SinIn);
                 await Ball.TranslateTo(0, 0, 800, Easing.SinInOut);
             }
         }
@@ -44,7 +44,7 @@ namespace WeatherApplication.TryView
         {
             for (int i = 2; i > 1; i++)
             {
-                await Ball1.TranslateTo(0, -150, 1000, Easing.SinIn);
+                await Ball1.TranslateTo(0, -35, 1000, Easing.SinIn);
                 await Ball1.TranslateTo(0, 0, 1000, Easing.SinInOut);
             }
         }
@@ -52,7 +52,7 @@ namespace WeatherApplication.TryView
         {
             for (int i = 2; i > 1; i++)
             {
-                await Ball2.TranslateTo(0, -100, 700, Easing.SinIn);
+                await Ball2.TranslateTo(0, -25, 700, Easing.SinIn);
                 await Ball2.TranslateTo(0, 0, 700, Easing.SinInOut);
             }
         }
@@ -60,7 +60,7 @@ namespace WeatherApplication.TryView
         {
             for (int i = 2; i > 1; i++)
             {
-                await Ball3.TranslateTo(0, -200, 780, Easing.SinIn);
+                await Ball3.TranslateTo(0, -30, 780, Easing.SinIn);
                 await Ball3.TranslateTo(0, 0, 780, Easing.SinInOut);
             }
         }
@@ -68,8 +68,8 @@ namespace WeatherApplication.TryView
         {
             for (int i = 2; i > 1; i++)
             {
-                await Ball4.TranslateTo(0, -190, 800, Easing.SinIn);
-                await Ball4.TranslateTo(0, 0, 800, Easing.SinInOut);
+                await Ball4.TranslateTo(0, -25, 600, Easing.SinIn);
+                await Ball4.TranslateTo(0, 0, 600, Easing.SinInOut);
             }
         }
     }

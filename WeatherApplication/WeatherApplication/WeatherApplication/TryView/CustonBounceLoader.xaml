@@ -6,13 +6,13 @@
              mc:Ignorable="d"
              x:Class="WeatherApplication.TryView.CustonBounceLoader">
   <ContentView.Content>
-        <StackLayout VerticalOptions="CenterAndExpand" BackgroundColor="Transparent" HeightRequest="260" Padding="0">
-            <StackLayout Orientation="Horizontal" BackgroundColor="Transparent" VerticalOptions="EndAndExpand"  Padding="0" HorizontalOptions="Center">
-                <Label x:Name="Ball" Text="O" FontSize="Large" Padding="0"/>
-                <Label x:Name="Ball1" Text="O" FontSize="Large" Padding="0"/>
-                <Label x:Name="Ball2" Text="O" FontSize="Large" Padding="0"/>
-                <Label x:Name="Ball3" Text="O" FontSize="Large" Padding="0"/>
-                <Label x:Name="Ball4" Text="O" FontSize="Large" Padding="0"/>
+        <StackLayout VerticalOptions="CenterAndExpand" BackgroundColor="Transparent" HeightRequest="95" Spacing="0" Padding="0">
+            <StackLayout Orientation="Horizontal" BackgroundColor="Transparent" VerticalOptions="EndAndExpand" Margin="0" Padding="0" HorizontalOptions="Center">
+                <Label x:Name="Ball" Text="O" Padding="0"/>
+                <Label x:Name="Ball1" Text="O" Padding="0"/>
+                <Label x:Name="Ball2" Text="O" Padding="0"/>
+                <Label x:Name="Ball3" Text="O" Padding="0"/>
+                <Label x:Name="Ball4" Text="O" Padding="0"/>
             </StackLayout>
             <Label Text="Loading" FontSize="25" HorizontalOptions="Center" VerticalOptions="End" Padding="0" />
             </StackLayout>

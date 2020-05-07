@@ -1,5 +1,4 @@
-﻿using Rg.Plugins.Popup.Pages;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -19,7 +18,7 @@ namespace WeatherApplication.TryView
             InitializeComponent();
             Device.StartTimer(TimeSpan.FromSeconds(1), () =>
             {
-                custombox.Color = customlbl.TextColor = customsg.TextColor =
+                 customsg.TextColor =
                      customloader.Color =
                 Color.FromRgb(random.Next(0, 255), random.Next(0, 255), random.Next(0, 255));
                 // True = Repeat again, False = Stop the timer  

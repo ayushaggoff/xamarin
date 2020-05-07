@@ -7,18 +7,14 @@
              x:Class="WeatherApplication.TryView.RandomColorLoader"
     >
     <ContentView.Content>
-        <Frame CornerRadius="15" OutlineColor="Black" HorizontalOptions="Center" VerticalOptions="Center">
-            <StackLayout HorizontalOptions="FillAndExpand" >
-                <Label x:Name="customlbl" Text="In Progress" TextColor="Black" FontSize="Large"/>
-                <BoxView x:Name="custombox" HeightRequest="1" BackgroundColor="Gray"/>
-                <StackLayout Orientation="Horizontal">
+      
+                <StackLayout Orientation="Vertical" HorizontalOptions="Center">
                     <ActivityIndicator  x:Name="customloader" Color="Blue"
                                         IsRunning="True" IsEnabled="True"
                                         VerticalOptions="Center" HorizontalOptions="Center"
                                         HeightRequest="70" WidthRequest="70"/>
-                    <Label x:Name="customsg" Text="Loading......" TextColor="Black" FontSize="Large"/>
+                    <Label x:Name="customsg" Text="Loading..." TextColor="Black" HorizontalOptions="Center" FontSize="Large"/>
                 </StackLayout>
-            </StackLayout>
-        </Frame>
+
     </ContentView.Content>
 </ContentView>  

@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="WeatherApplication.TryView.CustomGoogleActivityLoader">
+    <ContentPage.Content>
+        <StackLayout Orientation="Horizontal" HorizontalOptions="Center" HeightRequest="55" VerticalOptions="Center" Spacing="15">
+            <StackLayout x:Name="Circle_Blue" HorizontalOptions="CenterAndExpand" VerticalOptions="EndAndExpand">
+                <Button CornerRadius="25" WidthRequest="25" HeightRequest="25" BackgroundColor="#4285F4"></Button>
+            </StackLayout>
+            <StackLayout x:Name="Circle_Red"  HorizontalOptions="CenterAndExpand" VerticalOptions="EndAndExpand">
+                <Button CornerRadius="25" WidthRequest="25" HeightRequest="25" BackgroundColor="#DB4437"></Button>
+            </StackLayout>
+            <StackLayout x:Name="Circle_Yellow"  HorizontalOptions="CenterAndExpand" VerticalOptions="EndAndExpand">
+                <Button CornerRadius="25" WidthRequest="25" HeightRequest="25" BackgroundColor="#F4B400"></Button>
+            </StackLayout>
+            <StackLayout x:Name="Circle_Green"  HorizontalOptions="CenterAndExpand" VerticalOptions="EndAndExpand">
+                <Button  CornerRadius="25" WidthRequest="25" HeightRequest="25" BackgroundColor="#0F9D58"></Button>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

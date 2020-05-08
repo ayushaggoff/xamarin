@@ -7,7 +7,7 @@
              x:Class="WeatherApplication.TryView.CustomNavBar">
   <ContentView.Content>
         
-            <Grid HorizontalOptions="Fill" Padding="4">
+            <Grid x:Name="NavBar" HorizontalOptions="Fill" Padding="4">
                 <Grid.ColumnDefinitions >
                     <ColumnDefinition Width="*"/>
                 <ColumnDefinition Width="*"/>

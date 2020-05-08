@@ -31,6 +31,10 @@ namespace WeatherApplication.TryView
            typeof(string), typeof(CustomNavBar), "", BindingMode.TwoWay, propertyChanged: BtnRightImg1SourcePropertyValueChanged);
 
 
+        public static readonly BindableProperty GridNavBarBackgroundProperty = BindableProperty.Create("NavBar_Background",
+           typeof(string), typeof(CustomNavBar), "", BindingMode.TwoWay, propertyChanged: GridNavBarBackgroundPropertyValueChanged);
+
+
         public static readonly BindableProperty CommandLeftImageProperty = BindableProperty.Create(nameof(Command_LeftImage),
             typeof(ICommand),
             typeof(CustomNavBar),
@@ -123,6 +127,11 @@ namespace WeatherApplication.TryView
             get { return (string)GetValue(BtnRightImg2SourceProperty); }
             set { SetValue(BtnRightImg2SourceProperty, value); }
         }
+        public string NavBar_Background
+        {
+            get { return (string)GetValue(GridNavBarBackgroundProperty); }
+            set { SetValue(GridNavBarBackgroundProperty, value); }
+        }
 
         public static void LabelTitleTextValueChanged(BindableObject bindable, object oldValue, object newValue)
         {
@@ -147,6 +156,10 @@ namespace WeatherApplication.TryView
         public static void BtnRightImg2SourcePropertyValueChanged(BindableObject bindable, object oldValue, object newValue)
         {
             (bindable as CustomNavBar).Btn_RightImg2.Source = Convert.ToString(newValue);
+        }
+        public static void GridNavBarBackgroundPropertyValueChanged(BindableObject bindable, object oldValue, object newValue)
+        {
+            (bindable as CustomNavBar).NavBar.BackgroundColor = (Color)newValue;
         }
 
     }

@@ -7,19 +7,23 @@
              x:Class="WeatherApplication.TryView.CustomNavBar">
   <ContentView.Content>
         
-            <Grid x:Name="NavBar" HorizontalOptions="Fill" Padding="4">
+            <Grid x:Name="NavBar" HorizontalOptions="Fill" BackgroundColor="YellowGreen" Padding="4">
                 <Grid.ColumnDefinitions >
                     <ColumnDefinition Width="*"/>
-                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="6*"/>
                 <ColumnDefinition Width="*"/>
             </Grid.ColumnDefinitions>
             <Grid.RowDefinitions>
                 <RowDefinition Height="35"/>
             </Grid.RowDefinitions>
-            <ImageButton x:Name="Btn_LeftImg" BackgroundColor="Transparent" Grid.Column="0" Grid.Row="0" Command="{Binding Command_LeftImage}" CommandParameter="{Binding CommandParameter_LeftImage}" HorizontalOptions="Start" HeightRequest="25" WidthRequest="25" />
-                <Label x:Name="Lbl_Title" FontSize="Medium" HorizontalOptions="Center" VerticalOptions="Center" Grid.Column="1" Grid.Row="0"/>
-            <ImageButton x:Name="Btn_RightImg2" BackgroundColor="Transparent" HorizontalOptions="Center" Command="{Binding Command_RightImage2}" CommandParameter="{Binding CommandParameter_RightImage2}" Grid.Column="2" Grid.Row="0" HeightRequest="25" WidthRequest="25" />
-            <ImageButton x:Name="Btn_RightImg1" BackgroundColor="Transparent" HorizontalOptions="End" Command="{Binding Command_RightImage1}" CommandParameter="{Binding CommandParameter_RightImage1}" Grid.Column="2" Grid.Row="0" HeightRequest="25" WidthRequest="25" />
+            <StackLayout Orientation="Horizontal" Grid.Column="0" Grid.Row="0">
+                <ImageButton  x:Name="Btn_LeftImg" BackgroundColor="Transparent"    HorizontalOptions="Start" HeightRequest="25" WidthRequest="25" />
+            <Label x:Name="Lbl_LeftTitle" IsVisible="False" FontSize="Medium" HorizontalOptions="Start" VerticalOptions="Center" />
+            </StackLayout>    
+
+            <Label x:Name="Lbl_Title" FontSize="Medium" HorizontalOptions="Center" VerticalOptions="Center" Grid.Column="1" Grid.Row="0"/>
+            <ImageButton x:Name="Btn_RightImg2" BackgroundColor="Transparent" HorizontalOptions="Center " CommandParameter="{Binding CommandParameter_RightImage2}" Grid.Column="2" Grid.Row="0" HeightRequest="25" WidthRequest="25" />
+            <ImageButton x:Name="Btn_RightImg1" BackgroundColor="Transparent" HorizontalOptions="End"     Grid.Column="2" Grid.Row="0" HeightRequest="25" WidthRequest="25" />
             </Grid>
    
     </ContentView.Content>

@@ -13,6 +13,11 @@ namespace WeatherApplication.TryView
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class CustomNavBar : ContentView
     {
+       public enum Enum_Title_PositionOption
+        {
+            Left,
+            Center
+        }
         public static readonly BindableProperty LabelTitleTextProperty = BindableProperty.Create("Title_Text",
            typeof(string), typeof(CustomNavBar), "", BindingMode.TwoWay, propertyChanged: LabelTitleTextValueChanged);
 
@@ -200,15 +205,15 @@ namespace WeatherApplication.TryView
             get { return (string)GetValue(BtnRightImg2SourceProperty); }
             set { SetValue(BtnRightImg2SourceProperty, value); }
         }
-        public LayoutOptions Title_HorizontalOption
+        public Enum_Title_PositionOption Title_Position
         {
             get 
             { 
-                return (LayoutOptions)GetValue(BtnRightImg2SourceProperty); 
+                return (Enum_Title_PositionOption)GetValue(BtnRightImg2SourceProperty); 
             }
             set { 
                 SetValue(BtnRightImg2SourceProperty, value);
-                if (value.Alignment.ToString() == "Start")
+                if (value.ToString() == "Left")
                 {
                     Lbl_LeftTitle.IsVisible = true;
                     Lbl_Title.IsVisible = false;

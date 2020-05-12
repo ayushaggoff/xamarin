@@ -10,7 +10,7 @@ using Xamarin.Forms.Xaml;
 namespace WeatherApplication.TryView
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class CircleLayoutActivityLoader : ContentPage
+    public partial class CircleLayoutActivityLoader : ContentView
     {
         public CircleLayoutActivityLoader()
         {

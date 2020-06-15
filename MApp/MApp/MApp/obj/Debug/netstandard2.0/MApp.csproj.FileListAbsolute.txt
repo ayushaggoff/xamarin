@@ -1,0 +1,28 @@
+C:\Users\ayusha\source\repos\MApp\MApp\MApp\bin\Debug\netstandard2.0\MApp.deps.json
+C:\Users\ayusha\source\repos\MApp\MApp\MApp\bin\Debug\netstandard2.0\MApp.dll
+C:\Users\ayusha\source\repos\MApp\MApp\MApp\bin\Debug\netstandard2.0\ref\MApp.dll
+C:\Users\ayusha\source\repos\MApp\MApp\MApp\bin\Debug\netstandard2.0\MApp.pdb
+C:\Users\ayusha\source\repos\MApp\MApp\MApp\obj\Debug\netstandard2.0\MApp.csprojAssemblyReference.cache
+C:\Users\ayusha\source\repos\MApp\MApp\MApp\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\ayusha\source\repos\MApp\MApp\MApp\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\ayusha\source\repos\MApp\MApp\MApp\obj\Debug\netstandard2.0\MApp.csproj.CoreCompileInputs.cache
+C:\Users\ayusha\source\repos\MApp\MApp\MApp\obj\Debug\netstandard2.0\MApp.AssemblyInfoInputs.cache
+C:\Users\ayusha\source\repos\MApp\MApp\MApp\obj\Debug\netstandard2.0\MApp.AssemblyInfo.cs
+C:\Users\ayusha\source\repos\MApp\MApp\MApp\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\ayusha\source\repos\MApp\MApp\MApp\obj\Debug\netstandard2.0\MApp.dll
+C:\Users\ayusha\source\repos\MApp\MApp\MApp\obj\Debug\netstandard2.0\ref\MApp.dll
+C:\Users\ayusha\source\repos\MApp\MApp\MApp\obj\Debug\netstandard2.0\MApp.pdb
+C:\Users\ayusha\Documents\New folder\Xamarin\MApp\MApp\MApp\obj\Debug\netstandard2.0\MApp.csprojAssemblyReference.cache
+C:\Users\ayusha\Documents\New folder\Xamarin\MApp\MApp\MApp\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\ayusha\Documents\New folder\Xamarin\MApp\MApp\MApp\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\ayusha\Documents\New folder\Xamarin\MApp\MApp\MApp\obj\Debug\netstandard2.0\MApp.AssemblyInfoInputs.cache
+C:\Users\ayusha\Documents\New folder\Xamarin\MApp\MApp\MApp\obj\Debug\netstandard2.0\MApp.AssemblyInfo.cs
+C:\Users\ayusha\Documents\New folder\Xamarin\MApp\MApp\MApp\obj\Debug\netstandard2.0\MApp.dll
+C:\Users\ayusha\Documents\New folder\Xamarin\MApp\MApp\MApp\obj\Debug\netstandard2.0\ref\MApp.dll
+C:\Users\ayusha\Documents\New folder\Xamarin\MApp\MApp\MApp\obj\Debug\netstandard2.0\MApp.pdb
+C:\Users\ayusha\Documents\New folder\Xamarin\MApp\MApp\MApp\bin\Debug\netstandard2.0\MApp.deps.json
+C:\Users\ayusha\Documents\New folder\Xamarin\MApp\MApp\MApp\bin\Debug\netstandard2.0\MApp.dll
+C:\Users\ayusha\Documents\New folder\Xamarin\MApp\MApp\MApp\bin\Debug\netstandard2.0\ref\MApp.dll
+C:\Users\ayusha\Documents\New folder\Xamarin\MApp\MApp\MApp\bin\Debug\netstandard2.0\MApp.pdb
+C:\Users\ayusha\Documents\New folder\Xamarin\MApp\MApp\MApp\obj\Debug\netstandard2.0\MApp.csproj.CoreCompileInputs.cache
+C:\Users\ayusha\Documents\New folder\Xamarin\MApp\MApp\MApp\obj\Debug\netstandard2.0\XamlC.stamp

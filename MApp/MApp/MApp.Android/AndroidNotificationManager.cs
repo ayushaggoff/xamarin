@@ -50,6 +50,7 @@ namespace MApp.Droid
                 .SetContentIntent(pendingIntent)
                 .SetContentTitle(title)
                 .SetContentText(message)
+                .SetPriority(1)
                 .SetLargeIcon(BitmapFactory.DecodeResource(AndroidApp.Context.Resources, Resource.Drawable.abc_btn_radio_material))
                 .SetSmallIcon(Resource.Drawable.abc_btn_switch_to_on_mtrl_00001)
                 .SetDefaults((int)NotificationDefaults.Sound | (int)NotificationDefaults.Vibrate);
@@ -77,7 +78,7 @@ namespace MApp.Droid
             if (Build.VERSION.SdkInt >= BuildVersionCodes.O)
             {
                 var channelNameJava = new Java.Lang.String(channelName);
-                var channel = new NotificationChannel(channelId, channelNameJava, NotificationImportance.Default)
+                var channel = new NotificationChannel(channelId, channelNameJava, NotificationImportance.High)
                 {
                     Description = channelDescription
                 };
